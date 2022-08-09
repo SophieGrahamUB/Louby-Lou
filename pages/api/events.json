@@ -1,0 +1,77 @@
+{
+    "data":
+    [
+        {
+            "id":1,
+            "attributes":
+            {
+                "Name":"Astley Point",
+                "Date":"20/10/2022",
+                "Adult":7,
+                "Child":5,
+                "length":1,
+                "createdAt":"2022-07-04T17:47:23.099Z",
+                "updatedAt":"2022-07-14T12:41:06.430Z",
+                "publishedAt":"2022-07-04T20:44:24.128Z",
+                "Location":"ABC 123",
+                "time":"17:00:00.000",
+                "eventImageURL": "/images/events/lbl_selfie.jpg",
+                "eventDescription":"This is an example description taken from Strapi"
+            }
+        },
+        {
+            "id":2,
+            "attributes":
+            {
+                "Name":"Billy's Bar",
+                "Date":"25/10/2022",
+                "Adult":10,
+                "Child":2,
+                "length":2,
+                "eventImageURL": "/images/events/lbl_selfie.jpg",
+                "createdAt":"2022-07-04T17:48:42.313Z",
+                "updatedAt":"2022-07-14T12:41:13.869Z",
+                "publishedAt":"2022-07-04T17:51:25.145Z",
+                "Location":"M11 4ED",
+                "time":"19:37:00.000",
+                "eventDescription":"This is an example description taken from Strapi"
+            }
+        },
+        {
+            "id":3,
+            "attributes":
+            {
+                "Name":"The Delph",
+                "Date":"21/10/2022",
+                "Adult":12,
+                "Child":15,
+                "length":1,
+                "eventImageURL": "/images/events/lbl_selfie.jpg",
+                "createdAt":"2022-07-04T17:49:17.996Z",
+                "updatedAt":"2022-07-14T12:41:35.280Z",
+                "publishedAt":"2022-07-04T17:51:28.905Z",
+                "Location":"OL16 3LN",
+                "time":"14:42:00.000",
+                "eventDescription":"This is an example description taken from Strapi"
+            }
+        },
+        {
+            "id":4,
+            "attributes":
+            {
+                "Name":"Media City",
+                "Date":"14/11/2022",
+                "Adult":2,
+                "Child":4,
+                "length":2,
+                "eventImageURL": "/images/events/lbl_selfie.jpg",
+                "createdAt":"2022-07-04T17:49:41.218Z",
+                "updatedAt":"2022-07-14T12:41:20.422Z",
+                "publishedAt":"2022-07-04T17:51:27.117Z",
+                "Location":"M46 0SJ",
+                "time":"17:06:00.000",
+                "eventDescription":"This is an example description taken from Strapi"
+            }
+        }
+    ]
+}

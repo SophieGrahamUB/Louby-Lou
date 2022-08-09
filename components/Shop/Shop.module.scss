@@ -1,0 +1,10 @@
+@import "../../styles/global/variables";
+@import "../../styles/global/mixins";
+
+.shopContainer {
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,15 @@
+{
+    "data":
+    {
+        "id":1,
+        "attributes":
+        {
+            "LeaveBlank":"About Me",
+            "aboutMeDetails":"This is a section where you put something about yourself, make it short and snappy but don't leave too many details out. Focus on being a mum and a professional at what you do! ",
+            "createdAt":"2022-07-12T15:24:13.104Z",
+            "updatedAt":"2022-07-12T15:24:14.749Z",
+            "publishedAt":"2022-07-12T15:24:14.748Z",
+            "aboutImageURL": "/images/about/lucy_about_me.jpeg"
+        }
+    }
+}

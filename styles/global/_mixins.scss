@@ -1,0 +1,14 @@
+@mixin image-left {
+  border: 0 61px 61px 0 !important ;
+}
+
+@mixin image-right {
+  border: 61px 0 0 61px;
+}
+
+@mixin card-border {
+  display: flex;
+  justify-content: space-between;
+  min-height: 300px;
+  width: 75%;
+}

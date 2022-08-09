@@ -1,0 +1,33 @@
+@import "../../styles/global/variables";
+@import "../../styles/global/mixins";
+
+.partnersContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  & > h1 {
+    font-family: $title-font;
+    font-size: 90px;
+    margin-top: 148px;
+    margin-bottom: 40px;
+  }
+}
+
+.logosContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  & > img {
+    align-self: center;
+    filter: grayscale(0%);
+  }
+}
+
+.logo {
+  width: 150px;
+}

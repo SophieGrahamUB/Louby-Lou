@@ -1,0 +1,267 @@
+@import "../../styles/global/variables";
+@import "../../styles/global/mixins";
+
+.eventsWrapper {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: normal;
+  align-items: center;
+  transition: 0.5s;
+
+  @media only screen and (min-width: $tablet) {
+    flex-flow: row wrap;
+    width: 700px;
+    margin: 150px auto 0;
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+.buttonWrapper {
+  @media only screen and (min-width: $mobile) {
+    width: 50%;
+  }
+  width: 100%;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  display: flex;
+}
+
+.eventButton {
+  cursor: pointer;
+  margin-top: 31px;
+  transition: 0.2s;
+  background-color: #828282;
+  border: none;
+  width: 293.29px;
+  height: 125.09px;
+  border-radius: 38px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  & > h1 {
+    font-family: $title-font;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    color: white;
+    pointer-events: none;
+  }
+  & > p {
+    font-family: $body-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    pointer-events: none;
+  }
+}
+
+.eventButton:focus {
+  transform: scaleX(105%);
+  transform-origin: center;
+  @media only screen and (min-width: $mobile) {
+    transform-origin: center;
+    transform: scaleX(115%);
+  }
+  @media only screen and (min-width: $tablet) {
+    transform-origin: left;
+    transform: scaleX(115%);
+  }
+  background-color: $pink-accent;
+  transition: 0.2s;
+  & > h1 {
+    transform: scaleX(85%);
+  }
+  & > p {
+    transform: scaleX(85%);
+  }
+}
+
+.eventButton:hover:not(:focus) {
+  background-color: #acacac;
+}
+
+.detailsWrapper {
+  @media only screen and (min-width: $tablet) {
+    width: 40%;
+    margin-left: 40px;
+  }
+  @media only screen and (min-width: $mobile) {
+    width: 40%;
+  }
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  & > h1 {
+    @media only screen and (min-width: $tablet) {
+      text-align: left;
+    }
+    text-align: center;
+    font-family: $title-font;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 94px;
+    white-space: nowrap;
+  }
+  & > button {
+    width: 228px;
+    height: 60px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 40px auto;
+    border-radius: 10px;
+    background-color: $pink-accent;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+
+.detailsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @media only screen and (min-width: $tablet) {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.detailsTags,
+.details {
+  & > p {
+    white-space: nowrap;
+    margin-top: 24px;
+    font-family: $body-font;
+    font-size: 20px;
+  }
+}
+
+.detailsTags {
+  & > p {
+    font-weight: 700;
+  }
+}
+
+.details {
+  & > p {
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+.lineAccent {
+  @media only screen and (min-width: $tablet) {
+    margin: 50px 0 0 0;
+  }
+  margin: auto;
+  width: 81px;
+  height: 0px;
+  border: 2.5px solid $pink-accent;
+  border-radius: 20px;
+  background-color: $pink-accent;
+  margin-top: 50px;
+}
+
+.counterWrapper {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: center;
+
+  & > p {
+    font-family: $body-font;
+    margin-bottom: 20px;
+    margin-top: 36px;
+    font-weight: 700;
+  }
+}
+.total {
+  font-family: $title-font;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.counterContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  & > p {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: $body-font;
+  }
+  & > button {
+    background-color: $pink-accent;
+    width: 20px;
+    height: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
+
+.basketContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 100%;
+  & > h1 {
+    font-family: $title-font;
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  & > button {
+    width: 228px;
+    height: 60px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 40px auto;
+    border-radius: 10px;
+    background-color: $pink-accent;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  &_basketItems {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px 0 10px 0;
+
+    & > p,
+    h1 {
+      font-family: $body-font;
+      margin-right: 20px;
+    }
+    & > h1 {
+      font-weight: 700;
+    }
+    & > button {
+      background-color: red;
+      color: white;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+}
