@@ -41,6 +41,8 @@ const Basket = () => {
             id="Layer_1"
             x="50%"
             y="50%"
+            width="100px"
+            height="100px"
             viewBox="0 0 180 180 "
             preserveAspectRatio="xMidYMin"
           >
