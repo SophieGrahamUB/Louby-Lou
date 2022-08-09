@@ -5,6 +5,7 @@ const Hero = ({ src }) => {
   return (
     <div className={styles.heroContainer}>
       <video
+        playsInline
         className={styles.hero}
         muted
         loop
