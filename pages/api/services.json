@@ -6,7 +6,7 @@
             "attributes":
                 {
                     "serviceName":"Parties",
-                    "serviceShortDetails":"This is the short details for Parties, this will be a brief synopsis for those just taking a glance.",
+                    "serviceShortDetails":"Let's make the birthday child's special day one to remember! Louby Lou's mission is to make the birthday child the star of the show, helping Louby Lou throughout the performance, whether it's magic, singing or games! With a choice of a 1 hour show or a 2 hour show, a gift is guaranteed!",
                     "serviceExpandedDetails":"This is where we will add more detail for Parties, for example what kind of shows, long shows, short shows, go into more details here. This is being taken from the CMS",
                     "serviceImageURL": "/images/services/Smile_with_Doll.jpeg"
                 }
@@ -17,7 +17,7 @@
             "attributes":
                 {
                     "serviceName":"Giggles on Wheels",
-                    "serviceShortDetails":"This is a short summary for giggles on wheels, just for the user to glance over to see if this is the service they want",
+                    "serviceShortDetails":"Let's not let covid get in the way! How about some Giggles on Wheels? 15 minutes of pure fun on your doorstep! Each visit being as unique as your little one! No matter the occasion, let's have a party!",
                     "serviceExpandedDetails":"This will be expanded details for the user to get more information on giggles on wheels, what it entails, how long the show is for, how many kids it's typically for and that range affects price.",
                     "serviceImageURL": "/images/services/Giggle_on_wheels.jpg"
                 }
@@ -27,7 +27,7 @@
             "attributes":
             {
                     "serviceName":"Weddings & Christenings",
-                    "serviceShortDetails":"This is a short summary of what type of show those who book for weddings / christenings will get, for a user to see at first glance",
+                    "serviceShortDetails":"For a little one, keeping entertained is an uphill battle, especially at large family events such as Weddings & Christenings. Louby Lou makes that uphill battle a waterslide of fun and excitement, alleviating the pressure of parenting for the big day!",
                     "serviceExpandedDetails":"This will be more in depth, pointing out the differences between wedding / christening. This is mainly for the user to understand the difference, and what kind of vibe the event is going for. Something fun for any age range!",
                     "serviceImageURL": "/images/services/Christening.jpg"
             }
@@ -37,7 +37,7 @@
             "attributes":
             {
                     "serviceName":"Hospitals & Special Needs",
-                    "serviceShortDetails":"This is a short description for the events for those at a hospital or those that will need special needs. This is mainly for the users first glance to see if this is what they want.",
+                    "serviceShortDetails":"Qualifying as a 'Clown Doctor' in 1999, Louby Lou has extensive knowledge and expertise in dealing with those who require a gentler touch! Working with charities such as 'A Smile for Orly' and 'Royal Manchester Children's Hospital'.",
                     "serviceExpandedDetails":"This is a more expanded section for special needs and or hospitals. You can really go in depth here to show that you've worked in hospitals before, and will be donating to a smaller charity like reubens retreat. ",
                     "serviceImageURL": "/images/services/Reubens_retreat.jpeg"
             }
@@ -47,7 +47,7 @@
             "attributes":
             {
                     "serviceName":"Schools",
-                    "serviceShortDetails":"This is the details for schools, this is where you will show the user that you do visits to schools and / or nurserys, just for the first glance.",
+                    "serviceShortDetails":"School is such a big part of a little one's life, from Preschool to High school! Why not make this experience magical with Louby Lou! With age adaptable shows, the magic will always flow!",
                     "serviceExpandedDetails":"In here you will explain that there's a difference between the two, and that you can cater for a certain age range. Maybe explaining that even the teachers can enjoy the show! ",
                     "serviceImageURL": "/images/services/Selfie.jpg"
             }
@@ -57,7 +57,7 @@
             "attributes":
             {
                     "serviceName":"Corporate",
-                    "serviceShortDetails":"This will be a details section explaining that even adults need entertaining. Your main focus here is to let people know that you can get serious if you want to.",
+                    "serviceShortDetails":"From the big stage to the small gatherings, Louby Lou can do it all. Working for large organisations such as McVities & Kelloggs, Louby Lou has gathered quite an impressive repertoire for any corporate occasion.",
                     "serviceExpandedDetails":"This will be a more detailed action plan for a corportate event. This being either a big venue or a small office, either one works. Explain that you can bring a smile to even the grumpiest of employees.",
                     "serviceImageURL": "/images/services/blow_kiss.jpeg"
             }
