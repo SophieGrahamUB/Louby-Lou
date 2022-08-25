@@ -41,7 +41,7 @@ const EventsPage = () => {
           <Card
             key={item.attributes.Name}
             title={item.attributes.Name}
-            desc={`${item.attributes.eventDescription} ${item.attributes.Date} ${item.attributes.Location}`}
+            desc={`${item.attributes.eventDescription}`}
             left={isOdd(idx) ? false : true}
             src={`${item.attributes.eventImageURL}`}
           />

@@ -17,7 +17,7 @@
             "attributes":
                 {
                     "serviceName":"Giggles on Wheels",
-                    "serviceShortDetails":"Let's not let covid get in the way! How about some Giggles on Wheels? 15 minutes of pure fun on your doorstep! Each visit being as unique as your little one! No matter the occasion, let's have a party!",
+                    "serviceShortDetails":"Looking for something a little more bitesized? Do big parties not tickle your fancy? How about some Giggles on Wheels? 20 minutes of pure fun on your doorstep! Each visit being as unique as your little one! No matter the occasion, let's have some fun!",
                     "serviceExpandedDetails":"This will be expanded details for the user to get more information on giggles on wheels, what it entails, how long the show is for, how many kids it's typically for and that range affects price.",
                     "serviceImageURL": "/images/services/Giggle_on_wheels.jpg"
                 }
@@ -27,7 +27,7 @@
             "attributes":
             {
                     "serviceName":"Weddings & Christenings",
-                    "serviceShortDetails":"For a little one, keeping entertained is an uphill battle, especially at large family events such as Weddings & Christenings. Louby Lou makes that uphill battle a waterslide of fun and excitement, alleviating the pressure of parenting for the big day!",
+                    "serviceShortDetails":"For a little one, keeping entertained can be a difficult task, especially at large family events! Louby Lou makes that uphill challenge a waterslide of fun and excitement, alleviating the pressure of parenting for the big day!",
                     "serviceExpandedDetails":"This will be more in depth, pointing out the differences between wedding / christening. This is mainly for the user to understand the difference, and what kind of vibe the event is going for. Something fun for any age range!",
                     "serviceImageURL": "/images/services/Christening.jpg"
             }
@@ -37,7 +37,7 @@
             "attributes":
             {
                     "serviceName":"Hospitals & Special Needs",
-                    "serviceShortDetails":"Qualifying as a 'Clown Doctor' in 1999, Louby Lou has extensive knowledge and expertise in dealing with those who require a gentler touch! Working with charities such as 'A Smile for Orly' and 'Royal Manchester Children's Hospital'.",
+                    "serviceShortDetails":"Qualifying as a 'Clown Doctor' in 1999, Louby Lou has extensive knowledge and expertise in dealing with those who require a gentler touch! Working with charities such as 'Medequip4kids' and 'Royal Manchester Children's Hospital'.",
                     "serviceExpandedDetails":"This is a more expanded section for special needs and or hospitals. You can really go in depth here to show that you've worked in hospitals before, and will be donating to a smaller charity like reubens retreat. ",
                     "serviceImageURL": "/images/services/Reubens_retreat.jpeg"
             }
@@ -57,7 +57,7 @@
             "attributes":
             {
                     "serviceName":"Corporate",
-                    "serviceShortDetails":"From the big stage to the small gatherings, Louby Lou can do it all. Working for large organisations such as McVities & Kelloggs, Louby Lou has gathered quite an impressive repertoire for any corporate occasion.",
+                    "serviceShortDetails":"From the big stage in The Trafford Centre to the small office gatherings, Louby Lou can do it all. Working for large organisations such as McVities & Kelloggs, Louby Lou has gathered quite an impressive repertoire for any corporate occasion.",
                     "serviceExpandedDetails":"This will be a more detailed action plan for a corportate event. This being either a big venue or a small office, either one works. Explain that you can bring a smile to even the grumpiest of employees.",
                     "serviceImageURL": "/images/services/blow_kiss.jpeg"
             }

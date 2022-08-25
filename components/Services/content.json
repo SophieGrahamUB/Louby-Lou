@@ -1,30 +1,26 @@
 [{
     "title": "Parties",
-    "description": "this is an example of a description for parties",
-    "expanded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "left": true,
-    "img": "Reubens_retreat"
-    
+    "description": "Choice of one or two hours of interactive fun."
 },
 {
     "title": "Corporate",
-    "description": "this is an example of a description for parties",
-    "expanded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "left": false,
-    "img": "blow_kiss"
+    "description": "Fun and frolics for youngsters, ideal for family days and conferences."
 },
 {
     "title": "Weddings & Christenings",
-    "description": "this is an example of a description for parties",
-    "expanded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "left": true,
-    "img": "Christening"
+    "description": "Keep everyone happy all day long with tailored entertainment."
 },
 {
     "title": "Giggles on Wheels",
-    "description": "this is an example of a description for parties",
-    "expanded": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "left": false,
-    "img": "Giggle_on_wheels"
+    "description": "Twenty minutes of delight on your doorstep."
+},
+{
+    "title": "Hospitals & Special Needs",
+    "description": "Smiles galore as prescribed by everyone’s favourite clown doctor."
+},
+{
+    "title": "Schools",
+    "description": "Age-appropriate entertainment with guaranteed chuckles."
 }
+
 ]
