@@ -27,11 +27,12 @@ const Services = () => {
     <div>
       <Navbar button={true} title={"Services"} altText={"What can I do for you?"} />
       <Scroller />
-      <Hero />
+      <Hero src="/videos/charlotte_dawson.webm" type="webm" />
 
       {servicesAPI &&
         servicesAPI[0]?.data.map((item, idx) => (
           <Card
+            data={item}
             key={item.attributes.serviceName}
             title={item.attributes.serviceName}
             desc={item.attributes.serviceShortDetails}

@@ -7,11 +7,9 @@
             {
                 "productName":"Louby Lou Doll",
                 "productDescription":"Get your very own Louby Lou Doll!",
-                "productPrice":15,
-                "productImageURL": "/images/shop/louby_lou_doll.jpg",
-                "createdAt":"2022-07-08T10:17:27.665Z",
-                "updatedAt":"2022-07-08T10:18:08.504Z",
-                "publishedAt":"2022-07-08T10:18:08.503Z"
+                "productPrice":10,
+                "productImageURL": "/images/shop/louby_lou_doll.jpg"
+
             }
         },
         {
@@ -20,11 +18,9 @@
             {
                 "productName":"Roger the Rabbit Doll",
                 "productDescription":"Get your very own Roger the Rabbit Doll!",
-                "productPrice":15,
-                "productImageURL": "/images/shop/roger_rabbit_doll.jpg",
-                "createdAt":"2022-07-08T10:18:02.138Z",
-                "updatedAt":"2022-07-08T10:18:11.435Z",
-                "publishedAt":"2022-07-08T10:18:11.434Z"
+                "productPrice":10,
+                "productImageURL": "/images/shop/roger_rabbit_doll.jpg"
+
             }
         }
     ]

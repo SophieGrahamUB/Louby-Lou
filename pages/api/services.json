@@ -7,8 +7,15 @@
                 {
                     "serviceName":"Parties",
                     "serviceShortDetails":"Let's make the birthday child's special day one to remember! Louby Lou's mission is to make the birthday child the star of the show, helping Louby Lou throughout the performance, whether it's magic, singing or games! With a choice of a 1 hour show or a 2 hour show, a gift is guaranteed!",
-                    "serviceExpandedDetails":"This is where we will add more detail for Parties, for example what kind of shows, long shows, short shows, go into more details here. This is being taken from the CMS",
-                    "serviceImageURL": "/images/services/Smile_with_Doll.jpeg"
+                    "serviceExpandedDetails":"Looking for a flexible, fun and fantastical party for your little one? Look no further! Whether you're partying for an hour or two, louby lou has got you! So from the get go, my main goal is to ensure the birthday child is the star of the show, helping with magic, singing and games! And to top it off, a beautiful birthday surprise of their very own Louby Lou Doll! Let's not forget about the other little party goers, which get a few prizes throughout the show!",
+                    "serviceImageURL": "/images/services/parties_hero.jpg",
+                    "serviceImagesExpanded": [
+                        {
+                            "contentImageFirstURL": "/images/services/parties_hero.jpg",
+                            "contentVideoURL": "/videos/charlotte_dawson.webm",
+                            "contentImageSecondURL": "/images/services/Smile_with_Doll.jpeg"
+                        }
+                    ]
                 }
         },
 
@@ -18,8 +25,15 @@
                 {
                     "serviceName":"Giggles on Wheels",
                     "serviceShortDetails":"Looking for something a little more bitesized? Do big parties not tickle your fancy? How about some Giggles on Wheels? 20 minutes of pure fun on your doorstep! Each visit being as unique as your little one! No matter the occasion, let's have some fun!",
-                    "serviceExpandedDetails":"This will be expanded details for the user to get more information on giggles on wheels, what it entails, how long the show is for, how many kids it's typically for and that range affects price.",
-                    "serviceImageURL": "/images/services/Giggle_on_wheels.jpg"
+                    "serviceExpandedDetails":"Where did the idea for Giggles on Wheels come from? Well, during covid, hosting events and parties were almost impossible! I thought to myself, why not bring the party to you? And low and behold, Giggles on Wheels was born! Suitable for any special occasion, from birthdays to small gatherings! This service really is for any age! Not only is this service for personalised visits! Why not bring some fun to your street with a very special Louby Lou street party!",
+                    "serviceImageURL": "/images/services/Giggle_on_wheels.jpg",
+                    "serviceImagesExpanded": [
+                        {
+                            "contentImageFirstURL": "/images/services/Giggle_on_wheels.jpg",
+                            "contentVideoURL": "/videos/giggles_on_wheels_fix.webm",
+                            "contentImageSecondURL": "/images/services/Giggle_on_wheels_new.jpeg"
+                        }
+                    ]
                 }
         },
         {
@@ -28,8 +42,14 @@
             {
                     "serviceName":"Weddings & Christenings",
                     "serviceShortDetails":"For a little one, keeping entertained can be a difficult task, especially at large family events! Louby Lou makes that uphill challenge a waterslide of fun and excitement, alleviating the pressure of parenting for the big day!",
-                    "serviceExpandedDetails":"This will be more in depth, pointing out the differences between wedding / christening. This is mainly for the user to understand the difference, and what kind of vibe the event is going for. Something fun for any age range!",
-                    "serviceImageURL": "/images/services/Christening.jpg"
+                    "serviceExpandedDetails":"Wedding days come with their own pressures and can be long days for young children so why not invite Louby Lou to keep them entertained? This will give you and your guests a chance to relax and make the most of this special day in the knowledge your children are safe and having lots of fun! For weddings, focusing on the beautiful words spoken during speeches can be quite hard when you're parenting to the max! Louby Lou suggests the most popular time for her services would be during said speech, where the little ones will be entertained in a seperate suite for your peace of mind!",
+                    "serviceImageURL": "/images/services/Christening.jpg",
+                    "serviceImagesExpanded": [
+                        {
+                            "contentImageFirstURL": "/images/services/louby_lou_wedding_1.jpg",
+                            "contentImageSecondURL": "/images/services/louby_lou_wedding_2.jpg"
+                        }
+                    ]
             }
         },
         {
@@ -38,8 +58,14 @@
             {
                     "serviceName":"Hospitals & Special Needs",
                     "serviceShortDetails":"Qualifying as a 'Clown Doctor' in 1999, Louby Lou has extensive knowledge and expertise in dealing with those who require a gentler touch! Working with charities such as 'Medequip4kids' and 'Royal Manchester Children's Hospital'.",
-                    "serviceExpandedDetails":"This is a more expanded section for special needs and or hospitals. You can really go in depth here to show that you've worked in hospitals before, and will be donating to a smaller charity like reubens retreat. ",
-                    "serviceImageURL": "/images/services/Reubens_retreat.jpeg"
+                    "serviceExpandedDetails":"I qualified as a “Clown Doctor” in 1999 having spent time training in Switzerland for the Theodora Children’s Trust and working with sick children in Great Ormond Street and Guy’s Hospital. Since then I have entertained weekly in many hospitals across the Country. My main hospital is the Royal  Manchester Children’s Hospital which I visit twice a weekly, bringing fun and laughter to the sick children and their parents.  I do monthly visits to Stepping Hill & Bolton hospital on behalf of the MedEquip4kids Charity. Also provide lots of special events at Reubens retreat, which are sponsored by local businesses! ",
+                    "serviceImageURL": "/images/services/Reubens_retreat.jpeg",
+                    "serviceImagesExpanded": [
+                        {
+                            "contentImageFirstURL": "/images/services/louby_lou_hospital_1.jpg",
+                            "contentImageSecondURL": "/images/services/louby_lou_hospital_2.jpg"
+                        }
+                    ]
             }
         },
         {
@@ -48,8 +74,14 @@
             {
                     "serviceName":"Schools",
                     "serviceShortDetails":"School is such a big part of a little one's life, from Preschool to High school! Why not make this experience magical with Louby Lou! With age adaptable shows, the magic will always flow!",
-                    "serviceExpandedDetails":"In here you will explain that there's a difference between the two, and that you can cater for a certain age range. Maybe explaining that even the teachers can enjoy the show! ",
-                    "serviceImageURL": "/images/services/Selfie.jpg"
+                    "serviceExpandedDetails":"Louby Lou has entertained in the majority of the” Sure Start”  Children Centres in the North West as she has been recognised as an entertainer who can adapt her show to the age and needs of the audience. She has worked in a number of nurseries entertaining children as young as 2 years old by having plenty of interaction with the toddlers using sensitive characters, action songs and her puppet “Roger the Rabbit”. From 7 to 70, no matter your age, rest assured Louby Lou will entertain your socks off!",
+                    "serviceImageURL": "/images/services/Selfie.jpg",
+                    "serviceImagesExpanded": [
+                        {
+                            "contentImageFirstURL": "/images/services/louby_lou_school_1.jpg",
+                            "contentImageSecondURL": "/images/services/selfie.jpg"
+                        }
+                    ]
             }
         },
         {
@@ -58,8 +90,15 @@
             {
                     "serviceName":"Corporate",
                     "serviceShortDetails":"From the big stage in The Trafford Centre to the small office gatherings, Louby Lou can do it all. Working for large organisations such as McVities & Kelloggs, Louby Lou has gathered quite an impressive repertoire for any corporate occasion.",
-                    "serviceExpandedDetails":"This will be a more detailed action plan for a corportate event. This being either a big venue or a small office, either one works. Explain that you can bring a smile to even the grumpiest of employees.",
-                    "serviceImageURL": "/images/services/blow_kiss.jpeg"
+                    "serviceExpandedDetails":"Louby Lou has worked for a number of large organisations such as McVities and Kelloggs. During these events Louby Lou is equally at home taking her clown show to these events to entertain children at family days, or performing comedy, magic and balloon modelling through “mix and mingle” or “meet and greet” at the more formal Corporate Event.",
+                    "serviceImageURL": "/images/services/blow_kiss.jpeg",
+                    "serviceImagesExpanded": [
+                        {
+                            "contentImageFirstURL": "/images/services/louby_lou_corp_1.jpg",
+                            "contentVideoURL": "/videos/trafford_centre_corp.webm",
+                            "contentImageSecondURL": "/images/services/louby_lou_corp_2.jpg"
+                        }
+                    ]
             }
         }
         ]

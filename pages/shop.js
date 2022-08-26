@@ -11,7 +11,7 @@ const shop = () => {
     <div>
       <Navbar title={"Shop"} altText={"Buy some giggles!"} button={true}></Navbar>
       <Scroller />
-      <Hero />
+      <Hero src="/videos/Pink_n_purple_video.mp4" type="mp4" />
       <Shop />
       <Partners />
       <Contact />

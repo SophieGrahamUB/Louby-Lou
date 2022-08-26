@@ -1,7 +1,12 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import styles from "./Card.module.scss";
+import { Pagination, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
 
-const Card = ({ title, desc, src, left, expanded, button }) => {
+const Card = ({ title, desc, src, left, expanded, button, data }) => {
   const [infoToggle, setInfoToggle] = useState(false);
 
   return (
@@ -31,9 +36,76 @@ const Card = ({ title, desc, src, left, expanded, button }) => {
         <div className={styles.moreInfo}>
           <h1>{title}</h1>
           <p>{expanded}</p>
-          <div />
+          <h1>Media:</h1>
+          {data?.attributes.serviceImagesExpanded &&
+          data.attributes.serviceImagesExpanded[0]?.contentImageFirstURL !== undefined ? (
+            <Swiper
+              className={styles.swiperContainer}
+              modules={[Navigation, Pagination]}
+              spaceBetween={1}
+              observer={true}
+              observeParents={true}
+              parallax={true}
+              centeredSlides={true}
+              slidesPerView={"auto"}
+              navigation={true}
+              pagination={{
+                clickable: true,
+                draggable: true,
+                autoplay: true,
+                grabCursor: true,
+              }}
+            >
+              {data?.attributes.serviceImagesExpanded &&
+                data?.attributes.serviceImagesExpanded.map((item, idx) => (
+                  <SwiperSlide key={idx} className={styles.swiperSlide}>
+                    <Image
+                      className={styles.expandedImage}
+                      width={"500px"}
+                      height={"500px"}
+                      objectFit={"cover"}
+                      alt={data?.attributes.serviceName}
+                      src={`${item.contentImageFirstURL}`}
+                    ></Image>
+                  </SwiperSlide>
+                ))}
+              {data?.attributes.serviceImagesExpanded &&
+              data.attributes.serviceImagesExpanded[0]?.contentVideoURL === undefined
+                ? null
+                : data?.attributes.serviceImagesExpanded &&
+                  data?.attributes.serviceImagesExpanded.map((item, idx) => (
+                    <SwiperSlide key={idx}>
+                      <video
+                        playsInline
+                        className={styles.video}
+                        controls
+                        muted
+                        loop
+                        autoPlay
+                      >
+                        <source src={`${item.contentVideoURL}`} type="video/webm" />
+                      </video>
+                    </SwiperSlide>
+                  ))}
+              {data?.attributes.serviceImagesExpanded &&
+                data?.attributes.serviceImagesExpanded.map((item, idx) => (
+                  <SwiperSlide key={idx} className={styles.swiperSlide}>
+                    <Image
+                      className={styles.expandedImage}
+                      width={"500px"}
+                      height={"500px"}
+                      objectFit={"cover"}
+                      alt={data?.attributes.serviceName}
+                      src={`${item.contentImageSecondURL}`}
+                    ></Image>
+                  </SwiperSlide>
+                ))}
+            </Swiper>
+          ) : (
+            <></>
+          )}
+          <span />
         </div>
-        <img />
       </div>
     </section>
   );
