@@ -17,21 +17,6 @@
             }
         },
         {
-            "id":2,
-            "attributes":
-            {
-                "Name":"Thyme Deli",
-                "Date":"29/08/2022",
-                "Adult":0,
-                "Child":8,
-                "length":1.5,
-                "eventImageURL": "/images/events/Thyme_Deli.jpeg",
-                "Location":"BL6 7AA",
-                "time":"11:00:00.000",
-                "eventDescription":"Bank Holiday fun and brunch! Food AND giggles? What's not to enjoy?"
-            }
-        },
-        {
             "id":3,
             "attributes":
             {
