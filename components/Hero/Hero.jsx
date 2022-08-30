@@ -5,7 +5,14 @@ const Hero = ({ src, type }) => {
   if (type === "mp4") {
     return (
       <div className={styles.heroContainer}>
-        <video className={styles.hero} muted loop autoPlay playsInline>
+        <video
+          className={styles.hero}
+          muted
+          loop
+          autoPlay
+          playsInline
+          disablePictureInPicture
+        >
           <source src={src} type="video/mp4" />
         </video>
       </div>
@@ -13,7 +20,14 @@ const Hero = ({ src, type }) => {
   } else {
     return (
       <div className={styles.heroContainer}>
-        <video className={styles.hero} muted loop autoPlay playsInline>
+        <video
+          className={styles.hero}
+          muted
+          loop
+          autoPlay
+          playsInline
+          disablePictureInPicture
+        >
           <source src={src} type="video/webm" />
         </video>
       </div>
