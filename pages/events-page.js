@@ -33,7 +33,7 @@ const EventsPage = () => {
         button={false}
       ></Navbar>
       <Scroller />
-      <Hero src="/videos/trafford_centre_corp.webm" type="webm" />
+      <Hero src="/videos/trafford_centre_corp.webm" type="mp4" />
       <Title title={"Upcoming Events:"} />
       {eventsAPI.length > 0 ? (
         eventsAPI &&
