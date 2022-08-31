@@ -37,7 +37,8 @@
   }
 }
 .content {
-  & > p {
+  & > p,
+  a {
     margin-top: 20px;
     text-align: center;
     font-family: $body-font;
