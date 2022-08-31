@@ -12,7 +12,7 @@
                     "serviceImagesExpanded": [
                         {
                             "contentImageFirstURL": "/images/services/parties_hero.jpg",
-                            "contentVideoURL": "/videos/charlotte_dawson.webm",
+                            "contentVideoURL": "/videos/charlotte_dawson_mp4.mp4",
                             "contentImageSecondURL": "/images/services/Smile_with_Doll.jpeg"
                         }
                     ]
@@ -30,7 +30,7 @@
                     "serviceImagesExpanded": [
                         {
                             "contentImageFirstURL": "/images/services/Giggle_on_wheels.jpg",
-                            "contentVideoURL": "/videos/giggles_on_wheels_fix.webm",
+                            "contentVideoURL": "/videos/giggles_on_wheels_fix_mp4.mp4",
                             "contentImageSecondURL": "/images/services/Giggle_on_wheels_new.jpeg"
                         }
                     ]
@@ -95,7 +95,7 @@
                     "serviceImagesExpanded": [
                         {
                             "contentImageFirstURL": "/images/services/louby_lou_corp_1.jpg",
-                            "contentVideoURL": "/videos/trafford_centre_corp.webm",
+                            "contentVideoURL": "/videos/trafford_centre_corp_mp4.mp4",
                             "contentImageSecondURL": "/images/services/louby_lou_corp_2.jpg"
                         }
                     ]
