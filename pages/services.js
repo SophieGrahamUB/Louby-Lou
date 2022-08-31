@@ -27,7 +27,7 @@ const Services = () => {
     <div>
       <Navbar button={true} title={"Services"} altText={"What can I do for you?"} />
       <Scroller />
-      <Hero src="/videos/charlotte_dawson.webm" type="webm" />
+      <Hero src="/videos/charlotte_dawson_mp4.mp4" type="mp4" />
 
       {servicesAPI &&
         servicesAPI[0]?.data.map((item, idx) => (
