@@ -7,6 +7,7 @@ import Scroller from "../components/Scroller/Scroller";
 import React, { useEffect, useState } from "react";
 import aboutJSON from "./api/about.json";
 import Partners from "../components/Partners/Partners";
+import Head from "next/head";
 
 export default function Home() {
   const [aboutMeAPI, setAboutMeAPI] = useState([]);
@@ -22,6 +23,9 @@ export default function Home() {
 
   return (
     <div>
+      <Head>
+        <title>Louby Lou - Home 💜</title>
+      </Head>
       <Navbar
         button={true}
         title={"Louby Lou"}
