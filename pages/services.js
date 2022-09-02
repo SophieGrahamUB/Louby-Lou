@@ -6,6 +6,7 @@ import Hero from "../components/Hero/Hero";
 import Scroller from "../components/Scroller/Scroller";
 import Partners from "../components/Partners/Partners";
 import servicesJSON from "./api/services.json";
+import Head from "next/head";
 
 const Services = () => {
   const isOdd = (num) => {
@@ -25,6 +26,9 @@ const Services = () => {
 
   return (
     <div>
+      <Head>
+        <title>Louby Lou - Services 💜</title>
+      </Head>
       <Navbar button={true} title={"Services"} altText={"What can I do for you?"} />
       <Scroller />
       <Hero src="/videos/charlotte_dawson_mp4.mp4" type="mp4" />

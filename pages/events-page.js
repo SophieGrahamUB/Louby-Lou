@@ -8,6 +8,7 @@ import Card from "../components/Card/Card";
 import eventsJSON from "./api/events.json";
 import Title from "../components/Title";
 import Partners from "../components/Partners/Partners";
+import Head from "next/head";
 
 const EventsPage = () => {
   const [eventsAPI, setEventsAPI] = useState([]);
@@ -27,6 +28,9 @@ const EventsPage = () => {
 
   return (
     <div>
+      <Head>
+        <title>Louby Lou - Events 💜</title>
+      </Head>
       <Navbar
         title={"Events"}
         altText={"Let's book some Giggles"}
