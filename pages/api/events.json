@@ -2,21 +2,6 @@
     "data":
     [
         {
-            "id":1,
-            "attributes":
-            {
-                "Name":"The Delph",
-                "Date":"31/08/2022",
-                "Adult":0,
-                "Child":8,
-                "length":1.5,
-                "Location":"M28 2NL",
-                "time":"10:00:00.000",
-                "eventImageURL": "/images/events/The_Delph.jpeg",
-                "eventDescription":"Entertainment, music and magic for all ages with drinks available at the bar!"
-            }
-        },
-        {
             "id":3,
             "attributes":
             {
@@ -29,6 +14,21 @@
                 "Location":"M29 7SG",
                 "time":"09:30:00.000",
                 "eventDescription":"Fancy a giggle? Why not enjoy a few chuckles and chortles at The Point, Astley! A beautifully modern establishment with plenty of refreshments and food!"
+            }
+        },
+        {
+            "id":4,
+            "attributes":
+            {
+                "Name":"The Delph",
+                "Date":"14/09/2022",
+                "Adult":0,
+                "Child":8,
+                "length":1.5,
+                "Location":"M28 2NL",
+                "time":"10:00:00.000",
+                "eventImageURL": "/images/events/the_delph_14-08-22.jpeg",
+                "eventDescription":"Entertainment, music and magic for all ages with drinks available at the bar!"
             }
         }
     ]
