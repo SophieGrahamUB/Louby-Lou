@@ -9,6 +9,12 @@ const Basket = () => {
   const [toggle, setToggle] = useState(false);
   const [toggleMenu, setToggleMenu] = useState(false);
 
+  if (typeof window !== "undefined") {
+    if (window.location.href.indexOf("success") > -1) {
+      window.sessionStorage.setItem("Cart", JSON.stringify([]));
+    }
+  }
+
   useEffect(() => {
     if (contents?.length > 0) {
       window.sessionStorage.setItem("Cart", JSON.stringify(contents));
