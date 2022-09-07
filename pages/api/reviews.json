@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "attributes": {
+                "name": "Evans Yates",
+                "review": "Wow! Wow! Wow! What an experience it was for the children (and adults)! Louby Lou was amazing! Her unique show combined a trip to Ibiza with the sax and snow. Every child had huge smiles on their faces and were mesmerised throughout. Worth every penny. The comments I received after my daughter’s christening about Louby Lou were all so positive and guest commented on how the show was different from the typical children’s entertainer show. We can’t wait to book her again.",
+                "rating": 5
+            }
+        },
+        {
+            "id": 2,
+            "attributes": {
+                "name": "Jean Nicholson",
+                "review": "Loubylou came to our event on Saturday to entertain our children She kept all of them entertained and included throughout her time with us nothing was too much for her everyone enjoyed themselves l would definitely recommend Loubylou for your event 🥰👏👏👏",
+                "rating": 5
+            }
+        },
+        {
+            "id": 3,
+            "attributes": {
+                "name": "Aimee Seymour",
+                "review": "Absolutely fantastic!! We booked Louby Lou for a 2 hour show for my daughters 5th birthday, all the children loved her from start to finish and the parents thought she was great too! Everyone has since commented on how brilliant Louby Lou was and how much their child loved it - everyone had a ball! I would 100% recommend Louby Lou as she did everything so brilliantly which made things so easy for us to enjoy our daughter’s day!",
+                "rating": 5
+            }
+        },
+        {
+            "id": 4,
+            "attributes": {
+                "name": "Grace Brogan",
+                "review": "Thank you so very much Louby Lou for making my daughters 7th birthday party so special. The children & parents absolutely loved you, everyone had so much fun!🥳 The children have said it was the best party they have ever been to, they haven't stopped talking about you! You are amazing!!! ♥️♥️ xxx",
+                "rating": 5
+            }
+        },
+        {
+            "id": 5,
+            "attributes": {
+                "name": "Emma Millington",
+                "review": "Thank you so much Louby Lou for a wonderful Valentines Disco at The Point, Astley. The children had a wonderful time, lots of fun was had. I was very impressed and thought the experience was great value for money. I'll be sure to look out for more shows. Thanks again!! ❤❤❤",
+                "rating": 5
+            }
+        }
+    ]
+}

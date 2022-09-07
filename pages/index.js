@@ -8,6 +8,7 @@ import React, { useEffect, useState } from "react";
 import aboutJSON from "./api/about.json";
 import Partners from "../components/Partners/Partners";
 import Head from "next/head";
+import Reviews from "../components/Reviews";
 
 export default function Home() {
   const [aboutMeAPI, setAboutMeAPI] = useState([]);
@@ -52,6 +53,7 @@ export default function Home() {
       />
       <Services />
       <Partners />
+      <Reviews />
       <Contact />
     </div>
   );
