@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
         <div className={styles.content}>
           <p>
-            Contact: <a href="mailto:lucy@loubylou.co.uk">lucy@loubylou.co.uk</a>
+            Contact: <a href="mailto:lucy.wilkinson1@me.com">lucy.wilkinson1@me.com</a>
           </p>
           <a
             href={
