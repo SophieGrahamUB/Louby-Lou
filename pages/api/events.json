@@ -2,22 +2,7 @@
     "data":
     [
         {
-            "id":3,
-            "attributes":
-            {
-                "Name":"The Point",
-                "Date":"06/09/2022",
-                "Adult":0,
-                "Child":8,
-                "length":1.5,
-                "eventImageURL": "/images/events/The_Point_Astley.jpeg",
-                "Location":"M29 7SG",
-                "time":"09:30:00.000",
-                "eventDescription":"Fancy a giggle? Why not enjoy a few chuckles and chortles at The Point, Astley! A beautifully modern establishment with plenty of refreshments and food!"
-            }
-        },
-        {
-            "id":4,
+            "id":1,
             "attributes":
             {
                 "Name":"The Delph",
@@ -29,6 +14,21 @@
                 "time":"10:00:00.000",
                 "eventImageURL": "/images/events/the_delph_14-08-22.jpeg",
                 "eventDescription":"Entertainment, music and magic for all ages with drinks available at the bar!"
+            }
+        },
+        {
+            "id":2,
+            "attributes":
+            {
+                "Name":"Thyme Deli",
+                "Date":"20/09/2022",
+                "Adult":0,
+                "Child":8,
+                "length":1.5,
+                "Location":"BL6 7AA",
+                "time":"10:00:00.000",
+                "eventImageURL": "/images/events/thyme_deli_20-09-22.jpeg",
+                "eventDescription":"Fun and Giggles for mum and the little one(s)! Enjoy a magical Louby Lou session with drinks available at the bar! Get ready for the laugh of your life!"
             }
         }
     ]
