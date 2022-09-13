@@ -75,14 +75,7 @@ const Card = ({ title, desc, src, left, expanded, button, data }) => {
                 : data?.attributes.serviceImagesExpanded &&
                   data?.attributes.serviceImagesExpanded.map((item, idx) => (
                     <SwiperSlide key={idx}>
-                      <video
-                        playsInline
-                        className={styles.video}
-                        controls
-                        muted
-                        loop
-                        autoPlay
-                      >
+                      <video playsInline className={styles.video} controls>
                         <source src={`${item.contentVideoURL}`} type="video/webm" />
                       </video>
                     </SwiperSlide>

@@ -11,6 +11,7 @@ const Contact = () => {
     emailjs.sendForm("query_email", "test_email", form.current, "rPVlmRtn45wWuAQVP").then(
       (result) => {
         alert("Email sent! Thank you for your query! We'll get back to you ASAP!");
+        window.location.reload();
       },
       (error) => {
         alert(

@@ -63,6 +63,7 @@
                     "serviceImagesExpanded": [
                         {
                             "contentImageFirstURL": "/images/services/louby_lou_hospital_1.jpg",
+                            "contentVideoURL": "/videos/louby_lou_promo_2.mp4",
                             "contentImageSecondURL": "/images/services/louby_lou_hospital_2.jpg"
                         }
                     ]

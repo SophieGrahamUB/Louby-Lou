@@ -35,6 +35,7 @@ const Footer = () => {
           <p>
             Contact: <a href="mailto:lucy@loubylou.co.uk">lucy@loubylou.co.uk</a>
           </p>
+          <p>Tel: 07779013806</p>
           <a
             href={
               "https://app.enzuzo.com/policies/tos/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJDdXN0b21lcklEIjoxMTU3NiwiQ3VzdG9tZXJOYW1lIjoiY3VzdC11STFEVTE4cyIsIkN1c3RvbWVyTG9nb1VSTCI6IiIsIlJvbGVzIjpbInJlZmVycmFsIl0sIlByb2R1Y3QiOiJlbnRlcnByaXNlIiwiaXNzIjoiRW56dXpvIEluYy4iLCJuYmYiOjE2NTcwODI5Mzh9.qi-TmCteHm9P8yG2UGwHHAZ3qZ2P0bWqtDOFI7DYbB4"
