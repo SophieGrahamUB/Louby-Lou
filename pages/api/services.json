@@ -80,6 +80,7 @@
                     "serviceImagesExpanded": [
                         {
                             "contentImageFirstURL": "/images/services/louby_lou_school_1.jpg",
+                            "contentVideoURL": "/videos/pop_up_party.mp4",
                             "contentImageSecondURL": "/images/services/selfie.jpg"
                         }
                     ]

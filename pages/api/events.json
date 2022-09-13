@@ -30,6 +30,21 @@
                 "eventImageURL": "/images/events/thyme_deli_20-09-22.jpeg",
                 "eventDescription":"Fun and Giggles for mum and the little one(s)! Enjoy a magical Louby Lou session with drinks available at the bar! Get ready for the laugh of your life!"
             }
+        },
+        {
+            "id":3,
+            "attributes":
+            {
+                "Name":"The Point",
+                "Date":"04/10/2022",
+                "Adult":0,
+                "Child":8,
+                "length":1.5,
+                "Location":"M29 7SG",
+                "time":"09:30:00.000",
+                "eventImageURL": "/images/events/the_point_04-10-22.jpeg",
+                "eventDescription":"Fun and Giggles for mum and the little one(s)! Enjoy a magical Louby Lou session with drinks available at the bar! Get ready for the laugh of your life!"
+            }
         }
     ]
 }
