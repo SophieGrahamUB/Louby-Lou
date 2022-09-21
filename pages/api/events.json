@@ -2,22 +2,7 @@
     "data":
     [
         {
-            "id":2,
-            "attributes":
-            {
-                "Name":"Thyme Deli",
-                "Date":"20/09/2022",
-                "Adult":0,
-                "Child":8,
-                "length":1.5,
-                "Location":"BL6 7AA",
-                "time":"10:00:00.000",
-                "eventImageURL": "/images/events/thyme_deli_20-09-22.jpeg",
-                "eventDescription":"Fun and Giggles for mum and the little one(s)! Enjoy a magical Louby Lou session with drinks available at the bar! Get ready for the laugh of your life!"
-            }
-        },
-        {
-            "id":3,
+            "id":1,
             "attributes":
             {
                 "Name":"The Point",
@@ -29,6 +14,21 @@
                 "time":"09:30:00.000",
                 "eventImageURL": "/images/events/the_point_04-10-22.jpeg",
                 "eventDescription":"Fun and Giggles for mum and the little one(s)! Enjoy a magical Louby Lou session with drinks available at the bar! Get ready for the laugh of your life!"
+            }
+        },
+        {
+            "id":2,
+            "attributes":
+            {
+                "Name":"Culcheth Club",
+                "Date":"07/10/2022",
+                "Adult":0,
+                "Child":10,
+                "length":2.5,
+                "Location":"WA3 4LY",
+                "time":"18:30:00.000",
+                "eventImageURL": "/images/events/culcheth_07-10-22.jpeg",
+                "eventDescription":"How about some fun family evening entertainment? Let's get this place brimming with energy! Expect some bingo, singing, dancing, prizes and a little dash of the unexpected! Under 1's come free! There's no such thing as being too old for a louby lou show, from 0-100, giggles are guaranteed!"
             }
         }
     ]
