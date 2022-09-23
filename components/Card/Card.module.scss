@@ -63,17 +63,25 @@
     @media only screen and (min-width: $tablet) {
       width: 50%;
       justify-content: center;
-      // padding-right: 10px;
+      padding-right: 10px;
       text-align: start;
       padding: 0 20px;
       margin-bottom: 15px;
     }
+
     @media only screen and (min-width: $desktop) {
       max-width: 530px;
       margin: 0 auto;
       margin-bottom: 0;
-      margin-left: 338px;
+      margin-left: 5%;
     }
+    @media only screen and (min-width: $laptopL) {
+      max-width: 530px;
+      margin: 0 auto;
+      margin-bottom: 0;
+      margin-left: 15%;
+    }
+
     & > span,
     & > p {
       font-weight: 400;
@@ -144,7 +152,10 @@
       }
     }
     @media only screen and (min-width: $desktop) {
-      margin-left: 190px;
+      margin-left: 5%;
+    }
+    @media only screen and (min-width: $laptopL) {
+      margin-left: 15%;
     }
   }
 

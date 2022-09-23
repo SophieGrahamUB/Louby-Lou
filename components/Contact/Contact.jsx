@@ -29,11 +29,24 @@ const Contact = () => {
       <div className={styles.formContainer}>
         <form ref={form} className={styles.form} onSubmit={sendEmail}>
           <label htmlFor="name">Name:</label>
-          <input type="text" id="name" name="user_name" placeholder="Name"></input>
+          <input
+            type="text"
+            id="name"
+            name="user_name"
+            placeholder="Name"
+            required
+          ></input>
           <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="user_email" placeholder="Email"></input>
+          <input
+            type="email"
+            id="email"
+            name="user_email"
+            placeholder="Email"
+            required
+          ></input>
           <label htmlFor="mobile">Mobile:</label>
           <input
+            required
             type="mobile"
             id="mobile"
             name="user_mobile"
@@ -41,6 +54,7 @@ const Contact = () => {
           ></input>
           <label htmlFor="location">Location:</label>
           <input
+            required
             type="location"
             id="location"
             name="user_location"
@@ -61,7 +75,7 @@ const Contact = () => {
             <option value="email">Email</option>
           </select>
           <label htmlFor="query">Query:</label>
-          <textarea name="message" id="query"></textarea>
+          <textarea name="message" id="query" required></textarea>
           <button type="submit">Submit</button>
         </form>
       </div>

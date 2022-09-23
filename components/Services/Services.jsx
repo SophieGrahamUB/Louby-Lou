@@ -1,5 +1,5 @@
 import { React } from "react";
-import { Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/dist/client/link";
 
@@ -14,10 +14,11 @@ const Services = () => {
       <h1>Services:</h1>
       <Swiper
         className={styles.contentContainer}
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         spaceBetween={20}
         centeredSlides={true}
         slidesPerView={1}
+        navigation={true}
         pagination={{
           clickable: true,
           draggable: true,

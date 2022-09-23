@@ -1,5 +1,5 @@
 import React from "react";
-import { Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import content from "../../pages/api/reviews.json";
 
@@ -13,10 +13,11 @@ const Reviews = () => {
       <h1>Reviews:</h1>
       <Swiper
         className={styles.contentContainer}
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         spaceBetween={20}
         centeredSlides={true}
         slidesPerView={1}
+        navigation={true}
         pagination={{
           clickable: true,
           draggable: true,

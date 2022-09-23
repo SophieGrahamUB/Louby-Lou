@@ -30,6 +30,51 @@
                 "eventImageURL": "/images/events/culcheth_07-10-22.jpeg",
                 "eventDescription":"How about some fun family evening entertainment? Let's get this place brimming with energy! Expect some bingo, singing, dancing, prizes and a little dash of the unexpected! Under 1's come free! There's no such thing as being too old for a louby lou show, from 0-100, giggles are guaranteed!"
             }
+        },
+        {
+            "id":3,
+            "attributes":
+            {
+                "Name":"Thyme Deli",
+                "Date":"21/10/2022",
+                "Adult":0,
+                "Child":10,
+                "length":1.5,
+                "Location":"BL6 7AA",
+                "time":"11:00:00.000",
+                "eventImageURL": "/images/events/spooky_thyme_deli_21-10-22.jpeg",
+                "eventDescription":"The spooky season is upon us! Join us for some Halloween fun at Thyme Deli! Get your spooky season outfits on and let's have a party!"
+            }
+        },
+        {
+            "id":4,
+            "attributes":
+            {
+                "Name":"The Delph",
+                "Date":"26/10/2022",
+                "Adult":0,
+                "Child":10,
+                "length":1.5,
+                "Location":"M28 2NL",
+                "time":"10:00:00.000",
+                "eventImageURL": "/images/events/spooky_the_delph_26-10-22.jpeg",
+                "eventDescription":"Trick or Treat! Let's celebrate this spooky season with a Halloween themed Mums n' Tots!"
+            }
+        },
+        {
+            "id":5,
+            "attributes":
+            {
+                "Name":"The Point",
+                "Date":"28/10/2022",
+                "Adult":0,
+                "Child":10,
+                "length":1.5,
+                "Location":"M29 7SG",
+                "time":"17:00:00.000",
+                "eventImageURL": "/images/events/spooky_the_point_28-10-22.jpeg",
+                "eventDescription":"It's the season to get spooky! Join us for some Halloween fun at The Point, Astley! Get your spooky season outfits on and let's have a party!"
+            }
         }
     ]
 }
