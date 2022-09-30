@@ -75,6 +75,21 @@
                 "eventImageURL": "/images/events/spooky_the_point_28-10-22.jpeg",
                 "eventDescription":"It's the season to get spooky! Join us for some Halloween fun at The Point, Astley! Get your spooky season outfits on and let's have a party!"
             }
+        },
+        {
+            "id":6,
+            "attributes":
+            {
+                "Name":"Billy's Bar",
+                "Date":"29/10/2022",
+                "Adult":0,
+                "Child":10,
+                "length":1.5,
+                "Location":"WN7 2NP",
+                "time":"17:00:00.000",
+                "eventImageURL": "/images/events/billys_bar_29-10-22.jpeg",
+                "eventDescription":"Are you ready for Louby Lou's exciting Spooktacular? Let's have some spooky giggles and fun at Billy's Bar (Manchester Road Cafe & Sandwich Bar)! Food, drinks and snacks available at the bar!"
+            }
         }
     ]
 }
