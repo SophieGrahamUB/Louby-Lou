@@ -18,6 +18,22 @@ const EventsPage = () => {
     setEventsAPI([...eventsAPI, data]);
   };
 
+  //   {
+  //     "id":3,
+  //     "attributes":
+  //     {
+  //         "Name":"The Delph",
+  //         "Date":"31/10/2022",
+  //         "Adult":0,
+  //         "Child":10,
+  //         "length":1.5,
+  //         "Location":"M28 2NL",
+  //         "time":"10:00:00.000",
+  //         "eventImageURL": "/images/events/spooky_the_delph_26-10-22.jpeg",
+  //         "eventDescription":"Trick or Treat! Let's celebrate this spooky season with a Halloween themed Mums n' Tots!"
+  //     }
+  // },
+
   useEffect(() => {
     fetchData();
   }, []);
