@@ -74,6 +74,7 @@ const Basket = () => {
                     <button
                       id={item?.id}
                       onClick={(e) => {
+                        console.log("Items:", contents);
                         lastItemCheck();
                         setToggle((prevToggle) => !prevToggle);
                         setContents(contents.filter((data) => data.id != e.target.id));

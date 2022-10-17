@@ -96,7 +96,7 @@ const Events = () => {
               ? setContents([
                   ...contents,
                   {
-                    productName: details.Name,
+                    productName: `${details.Name} on ${details.Date}`,
                     children: child,
                     adults: adult,
                     total: total,
