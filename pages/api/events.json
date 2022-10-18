@@ -5,21 +5,6 @@
             "id":1,
             "attributes":
             {
-                "Name":"Thyme Deli",
-                "Date":"21/10/2022",
-                "Adult":0,
-                "Child":10,
-                "length":1.5,
-                "Location":"BL6 7AA",
-                "time":"11:00:00.000",
-                "eventImageURL": "/images/events/spooky_thyme_deli_21-10-22.jpeg",
-                "eventDescription":"The spooky season is upon us! Join us for some Halloween fun at Thyme Deli! Get your spooky season outfits on and let's have a party!"
-            }
-        },
-        {
-            "id":2,
-            "attributes":
-            {
                 "Name":"Billy's Bar",
                 "Date":"29/10/2022",
                 "Adult":0,
@@ -32,7 +17,7 @@
             }
         },
         {
-            "id":3,
+            "id":2,
             "attributes":
             {
                 "Name":"The Delph",
@@ -44,6 +29,21 @@
                 "time":"10:00:00.000",
                 "eventImageURL": "/images/events/the_delph_31-10-22.jpeg",
                 "eventDescription":"Let's get our Spook on! Louby Lou's Spooktacular comes to The Delph on Halloween day! I can't wait to share some spooky giggles and fun! Don't miss out this halloween as tickets are selling fast!"
+            }
+        },
+        {
+            "id":3,
+            "attributes":
+            {
+                "Name":"The Point",
+                "Date":"01/11/2022",
+                "Adult":0,
+                "Child":8,
+                "length":1.5,
+                "Location":"M29 7SG",
+                "time":"09:30:00.000",
+                "eventImageURL": "/images/events/the_point_01-11-22.jpg",
+                "eventDescription":"Calling all Mums n Tots! Fancy a little morning laughter? With music, games, magic and giggles, Louby Lou will make your morning shine bright! Enjoy a wonderful atmosphere at the beautiful Astley Point!"
             }
         }
     ]
