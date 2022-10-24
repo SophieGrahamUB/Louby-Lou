@@ -6,10 +6,14 @@ export default async function handler(req, res) {
     let fixData = reqData.replace(/\\/g, "");
     let moreFixData = fixData.substring(1).slice(0, -1);
     let parseData = JSON.parse(moreFixData);
+    let mapDesc = parseData.map((item) => item.name).join(", ");
 
     try {
       const session = await stripe.checkout.sessions.create({
         billing_address_collection: "auto",
+        payment_intent_data: {
+          description: `${mapDesc}`,
+        },
         shipping_address_collection: {
           allowed_countries: ["GB"],
         },
