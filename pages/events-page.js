@@ -66,7 +66,7 @@ const EventsPage = () => {
       <Scroller />
       <Hero src="/videos/trafford_centre_corp_mp4.mp4" type="mp4" />
       <Title title={"Upcoming Events:"} />
-      {eventsAPI.length > 0 ? (
+      {eventsAPI[0]?.data.length > 0 ? (
         eventsAPI &&
         eventsAPI[0]?.data.map((item, idx) => (
           <Card
@@ -80,8 +80,13 @@ const EventsPage = () => {
       ) : (
         <Title title={"Aw no there's no up coming events! Check again later!"} />
       )}
-      <Title title={"Book your events:"} />
-      <Events />
+      {eventsAPI[0]?.data.length > 0 ? (
+        <>
+          <Title title={"Book your events:"} />
+          <Events />
+        </>
+      ) : null}
+
       <Partners />
       <Contact />
     </div>
