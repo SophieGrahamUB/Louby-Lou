@@ -19,7 +19,7 @@ const Checkout = ({ basketData, children, className }) => {
         description:
           item.adults === undefined
             ? item.productName
-            : `${item.adults}x Adults, ${item.children}x Children`,
+            : `${item.adults}x Adults, ${item.children}x Children (${item.names})`,
       }));
     setLine_Items(destructuredBasket);
   }, [basketData]);

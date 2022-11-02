@@ -14,6 +14,7 @@ const Events = () => {
   const [events, setEvents] = useState([]);
   const [details, setDetails] = useState("");
   const [child, setChild] = useState(0);
+  const [name, setName] = useState([]);
   const [adult, setAdult] = useState(0);
   const [total, setTotal] = useState(0);
   const [basket, setBasket] = useState([]);
@@ -33,6 +34,17 @@ const Events = () => {
     let x = child * details.Child + adult * details.Adult;
     setTotal(x);
   }, [child, adult]);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setName(
+      Array(child)
+        .fill("")
+        .map((item, idx) => e.target[idx].value)
+    );
+  };
+
+  console.log(name);
 
   return (
     <div className={styles.eventsWrapper}>
@@ -90,6 +102,20 @@ const Events = () => {
             <button onClick={() => setAdult(adult + 1)}>+</button>
           </div>
         </div>
+        <form onSubmit={handleSubmit}>
+          {Array(child)
+            .fill("")
+            .map((item, idx) => (
+              <input
+                required
+                name={`name${idx}`}
+                type="text"
+                key={idx}
+                placeholder="Child's Name & age"
+              ></input>
+            ))}
+          {child >= 1 ? <button type="submit">Confirm Names</button> : null}
+        </form>
         <button
           onClick={() => {
             child + adult > 0
@@ -101,6 +127,7 @@ const Events = () => {
                     adults: adult,
                     total: total,
                     id: Math.floor(Math.random() * 10000),
+                    names: name.join(" "),
                   },
                 ]) + setToggle((prevToggle) => !prevToggle)
               : alert("Please add either a child or adult!");
