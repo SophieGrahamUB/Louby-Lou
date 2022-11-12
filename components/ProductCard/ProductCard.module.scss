@@ -60,19 +60,17 @@
   justify-content: space-around;
   align-items: center;
   padding-top: 20px;
+}
 
-  & > :nth-child(2) {
-    & > button {
-      margin-bottom: 20px;
-      margin-top: 20px;
-      background-color: $pink-accent;
-      width: 100px;
-      height: 20px;
-      outline: none;
-      border: none;
-      color: white;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-  }
+.addToCart {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: $pink-accent;
+  width: 100px;
+  height: 20px;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
 }

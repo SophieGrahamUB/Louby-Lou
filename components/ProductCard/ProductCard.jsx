@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./ProductCard.module.scss";
 import { useBasket } from "../Basket/BasketManager";
 
-const ProductCard = ({ image, title, desc, price, keySet }) => {
+const ProductCard = ({ image, title, desc, price, keySet, merch, sizing }) => {
   const [count, setCount] = useState(0);
 
   const { contents, setContents } = useBasket();
@@ -24,7 +24,6 @@ const ProductCard = ({ image, title, desc, price, keySet }) => {
 
   const addToBasket = () => {
     if (count > 0) {
-      console.log("+1 to basket");
       setContents([
         ...contents,
         {
@@ -70,8 +69,21 @@ const ProductCard = ({ image, title, desc, price, keySet }) => {
               +
             </button>
           </div>
+          {merch === true ? (
+            <>
+              <select id="merch">
+                {sizing.map((item, idx) => (
+                  <option key={idx} value={item}>
+                    {item}
+                  </option>
+                ))}
+              </select>
+            </>
+          ) : null}
           <div>
-            <button onClick={() => addToBasket()}>add to cart</button>
+            <button className={styles.addToCart} onClick={() => addToBasket()}>
+              add to cart
+            </button>
           </div>
         </div>
       </div>
@@ -80,3 +92,17 @@ const ProductCard = ({ image, title, desc, price, keySet }) => {
 };
 
 export default ProductCard;
+
+// ,
+//         {
+//             "id":3,
+//             "attributes":
+//             {
+//                 "productName":"Merch test item 1",
+//                 "productDescription":"test description for merch",
+//                 "productPrice":20,
+//                 "productImageURL": "/images/shop/roger_rabbit_doll.jpg",
+//                 "merch": true,
+//                 "sizing": ["XS", "S", "M", "L", "XL"]
+//             }
+//         }

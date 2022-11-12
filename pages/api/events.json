@@ -15,6 +15,51 @@
           "eventImageURL": "/images/events/the_delph_16-11-22.jpg",
           "eventDescription":"It's time for this month's Mum's n Tots! Enjoy a morning of giggles, music, games and magic at the beautiful Delph Restaurant & Bar!"
       }
+    },
+    {
+      "id":2,
+      "attributes":
+      {
+          "Name":"The Barlow",
+          "Date":"25/11/2022",
+          "Adult":0,
+          "Child":15,
+          "length":1.5,
+          "Location":"BL7 0AP",
+          "time":"10:00:00.000",
+          "eventImageURL": "/images/events/the_barlow_25-11-22.jpg",
+          "eventDescription":"Come along to The Barlow for fun & games with Louby Lou & recieve an advent calander from Santa himself! Just in time for the 1st of December! Let's start that festive feeling!"
+      }
+    },
+    {
+      "id":3,
+      "attributes":
+      {
+          "Name":"The Delph",
+          "Date":"30/11/2022",
+          "Adult":0,
+          "Child":15,
+          "length":1.5,
+          "Location":"M28 2NL",
+          "time":"10:00:00.000",
+          "eventImageURL": "/images/events/the_delph_30-11-22.jpg",
+          "eventDescription":"Come along to The Delph for fun & games with Louby Lou & recieve an advent calander from Santa himself! Just in time for the 1st of December! Let's start that festive feeling!"
+      }
+    },
+    {
+      "id":4,
+      "attributes":
+      {
+          "Name":"The Point",
+          "Date":"30/11/2022",
+          "Adult":0,
+          "Child":15,
+          "length":1.5,
+          "Location":"M29 7SG",
+          "time":"17:00:00.000",
+          "eventImageURL": "/images/events/the_point_30-11-22.jpg",
+          "eventDescription":"Come along to The Point Astley for fun & games with Louby Lou & recieve an advent calander from Santa himself! Just in time for the 1st of December! Let's start that festive feeling!"
+      }
     }
         
     ]

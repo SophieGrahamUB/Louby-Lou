@@ -26,6 +26,8 @@ const Shop = () => {
               desc={item.attributes.productDescription}
               image={`${item.attributes.productImageURL}`}
               price={item.attributes.productPrice}
+              merch={item.attributes.merch}
+              sizing={item.attributes.sizing}
             />
           </div>
         ))}
