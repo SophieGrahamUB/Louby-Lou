@@ -7,7 +7,7 @@
             {
                 "productName":"Louby Lou Doll",
                 "productDescription":"Get your very own Louby Lou Doll!",
-                "productPrice":15,
+                "productPrice":19,
                 "productImageURL": "/images/shop/louby_lou_doll.jpg"
 
             }
@@ -18,7 +18,7 @@
             {
                 "productName":"Roger the Rabbit Doll",
                 "productDescription":"Get your very own Roger the Rabbit Doll!",
-                "productPrice":15,
+                "productPrice":19,
                 "productImageURL": "/images/shop/roger_rabbit_doll.jpg"
 
             }
