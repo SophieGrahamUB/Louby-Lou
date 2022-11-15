@@ -21,6 +21,7 @@ const Shop = () => {
         shopAPI[0]?.data.map((item) => (
           <div key={item.attributes.productName}>
             <ProductCard
+              style={item.attributes.productStyle}
               keySet={item.attributes.productName}
               title={item.attributes.productName}
               desc={item.attributes.productDescription}

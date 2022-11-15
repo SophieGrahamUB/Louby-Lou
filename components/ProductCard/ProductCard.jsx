@@ -2,12 +2,14 @@ import React, { useState, useEffect } from "react";
 import styles from "./ProductCard.module.scss";
 import { useBasket } from "../Basket/BasketManager";
 
-const ProductCard = ({ image, title, desc, price, keySet, merch, sizing }) => {
+const ProductCard = ({ image, title, desc, price, keySet, merch, sizing, style }) => {
   const [count, setCount] = useState(0);
 
   const { contents, setContents } = useBasket();
 
   const [toggle, setToggle] = useState(false);
+
+  const [size, setSize] = useState("");
 
   const [countPrice, setCountPrice] = useState(0);
 
@@ -27,7 +29,7 @@ const ProductCard = ({ image, title, desc, price, keySet, merch, sizing }) => {
       setContents([
         ...contents,
         {
-          productName: title,
+          productName: `${title} ${style} ${size === "" ? "" : `(${size})`}`,
           total: countPrice,
           ammount: count,
           id: Math.floor(Math.random() * 10000),
@@ -71,7 +73,15 @@ const ProductCard = ({ image, title, desc, price, keySet, merch, sizing }) => {
           </div>
           {merch === true ? (
             <>
-              <select id="merch">
+              <select
+                className={styles.sizeSelect}
+                value={size}
+                onChange={(e) => {
+                  setSize(e.target.value);
+                  console.log(size);
+                }}
+                id="merch"
+              >
                 {sizing.map((item, idx) => (
                   <option key={idx} value={item}>
                     {item}
@@ -92,17 +102,3 @@ const ProductCard = ({ image, title, desc, price, keySet, merch, sizing }) => {
 };
 
 export default ProductCard;
-
-// ,
-//         {
-//             "id":3,
-//             "attributes":
-//             {
-//                 "productName":"Merch test item 1",
-//                 "productDescription":"test description for merch",
-//                 "productPrice":20,
-//                 "productImageURL": "/images/shop/roger_rabbit_doll.jpg",
-//                 "merch": true,
-//                 "sizing": ["XS", "S", "M", "L", "XL"]
-//             }
-//         }

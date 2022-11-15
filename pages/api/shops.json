@@ -22,6 +22,162 @@
                 "productImageURL": "/images/shop/roger_rabbit_doll.jpg"
 
             }
+        },
+        {
+            "id":3,
+            "attributes":
+            {
+                "productName":"Hey Yeah Hoodie",
+                "productStyle": "(White, dark logo)",
+                "productDescription":"'Hey Yeah' child size hoodie in white, with dark logo!",
+                "productPrice":25,
+                "productImageURL": "/images/shop/hey_yeah_hoodie_white_dark.png",
+                "merch": true,
+                "sizing": ["XS", "S", "M", "L", "XL"]
+            }
+        },
+        {
+            "id":4,
+            "attributes":
+            {
+                "productName":"Hey Yeah Hoodie",
+                "productStyle": "(Black, dark logo)",
+                "productDescription":"'Hey Yeah' child size hoodie in black, with dark logo!",
+                "productPrice":25,
+                "productImageURL": "/images/shop/hey_yeah_hoodie_black_dark.png",
+                "merch": true,
+                "sizing": ["XS", "S", "M", "L", "XL"]
+            }
+        },
+        {
+            "id":5,
+            "attributes":
+            {
+                "productName":"Hey Yeah Hoodie",
+                "productStyle": "(Black, light logo)",
+                "productDescription":"'Hey Yeah' child size hoodie in black, with light logo!",
+                "productPrice":25,
+                "productImageURL": "/images/shop/hey_yeah_hoodie_black_light.png",
+                "merch": true,
+                "sizing": ["XS", "S", "M", "L", "XL"]
+            }
+        },
+        {
+            "id":6,
+            "attributes":
+            {
+                "productName":"Hey Yeah Hoodie",
+                "productStyle": "(White, light logo)",
+                "productDescription":"'Hey Yeah' child size hoodie in white, with light logo!",
+                "productPrice":25,
+                "productImageURL": "/images/shop/hey_yeah_hoodie_white_light.png",
+                "merch": true,
+                "sizing": ["XS", "S", "M", "L", "XL"]
+            }
+        },
+        {
+            "id":7,
+            "attributes":
+            {
+                "productName":"Hey Yeah Shirt",
+                "productStyle": "(Black, dark logo)",
+                "productDescription":"'Hey Yeah' toddler size shirt in black, with dark logo!",
+                "productPrice":19,
+                "productImageURL": "/images/shop/hey_yeah_shirt_black_dark.png",
+                "merch": true,
+                "sizing": ["XS", "S", "M", "L", "XL"]
+            }
+        },
+        {
+            "id":8,
+            "attributes":
+            {
+                "productName":"Hey Yeah Shirt",
+                "productStyle": "(Black, light logo)",
+                "productDescription":"'Hey Yeah' toddler size shirt in black, with light logo!",
+                "productPrice":19,
+                "productImageURL": "/images/shop/hey_yeah_shirt_black_light.png",
+                "merch": true,
+                "sizing": ["XS", "S", "M", "L", "XL"]
+            }
+        },
+        {
+            "id":9,
+            "attributes":
+            {
+                "productName":"Hey Yeah Shirt",
+                "productStyle": "(White, dark logo)",
+                "productDescription":"'Hey Yeah' child size shirt in white, with dark logo!",
+                "productPrice":19,
+                "productImageURL": "/images/shop/hey_yeah_shirt_child_white_dark.png",
+                "merch": true,
+                "sizing": ["XS", "S", "M", "L", "XL"]
+            }
+        },
+        {
+            "id":10,
+            "attributes":
+            {
+                "productName":"Hey Yeah Shirt",
+                "productStyle": "(White, light logo)",
+                "productDescription":"'Hey Yeah' child size shirt in white, with light logo!",
+                "productPrice":19,
+                "productImageURL": "/images/shop/hey_yeah_shirt_child_white_light.png",
+                "merch": true,
+                "sizing": ["XS", "S", "M", "L", "XL"]
+            }
+        },
+        {
+            "id":11,
+            "attributes":
+            {
+                "productName":"Hey Yeah Shirt",
+                "productStyle": "(Black, dark logo)",
+                "productDescription":"'Hey Yeah' child size shirt in black, with dark logo!",
+                "productPrice":19,
+                "productImageURL": "/images/shop/hey_yeah_shirt_child_black_dark.png",
+                "merch": true,
+                "sizing": ["XS", "S", "M", "L", "XL"]
+            }
+        },
+        {
+            "id":12,
+            "attributes":
+            {
+                "productName":"Hey Yeah Shirt",
+                "productStyle": "(Black, light logo)",
+                "productDescription":"'Hey Yeah' child size shirt in black, with light logo!",
+                "productPrice":19,
+                "productImageURL": "/images/shop/hey_yeah_shirt_child_black_light.png",
+                "merch": true,
+                "sizing": ["XS", "S", "M", "L", "XL"]
+            }
+        },
+        {
+            "id":13,
+            "attributes":
+            {
+                "productName":"Hey Yeah Varsity Hoodie",
+                "productStyle": "(Black, dark logo)",
+                "productDescription":"'Hey Yeah' child size 2 tone hoodie in black & purple, with dark logo!",
+                "productPrice":25,
+                "productImageURL": "/images/shop/hey_yeah_varsity_hoodie_dark.png",
+                "merch": true,
+                "sizing": ["XS", "S", "M", "L", "XL"]
+            }
+        },
+        {
+            "id":14,
+            "attributes":
+            {
+                "productName":"Hey Yeah Varsity Hoodie",
+                "productStyle": "(Black, light logo)",
+                "productDescription":"'Hey Yeah' child size 2 tone hoodie in black & yellow, with light logo!",
+                "productPrice":25,
+                "productImageURL": "/images/shop/hey_yeah_varsity_hoodie_light.png",
+                "merch": true,
+                "sizing": ["XS", "S", "M", "L", "XL"]
+            }
         }
     ]
 }
