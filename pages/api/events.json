@@ -47,21 +47,6 @@
       }
     },
     {
-      "id":4,
-      "attributes":
-      {
-          "Name":"Thyme Deli",
-          "Date":"30/11/2022",
-          "Adult":0,
-          "Child":15,
-          "length":1.5,
-          "Location":"M29 7SG",
-          "time":"17:00:00.000",
-          "eventImageURL": "/images/events/thyme_deli_30-11-22.jpg",
-          "eventDescription":"Come along to Thyme Deli for fun & games with Louby Lou & recieve an advent calander from Santa himself! Just in time for the 1st of December! Let's start that festive feeling!"
-      }
-    },
-    {
       "id":5,
       "attributes":
       {
