@@ -37,3 +37,16 @@ const Shop = () => {
 };
 
 export default Shop;
+
+// Roger Rabbit Doll JSON
+// {
+//   "id":2,
+//   "attributes":
+//   {
+//       "productName":"Roger the Rabbit Doll",
+//       "productDescription":"Get your very own Roger the Rabbit Doll!",
+//       "productPrice":19,
+//       "productImageURL": "/images/shop/roger_rabbit_doll.jpg"
+
+//   }
+// },
