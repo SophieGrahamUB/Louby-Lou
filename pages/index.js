@@ -18,49 +18,8 @@ export default function Home() {
     setAboutMeAPI([...aboutMeAPI, data]);
   };
 
-  const fetchLatLong = async () => {
-    await fetch("https://api.postcodes.io/postcodes/M460SJ", {
-      method: "GET",
-      headers: { "Content-Type": "application/json", origin: "*" },
-    })
-      .then((res) => {
-        return res.json();
-      })
-      .then((res) => {
-        console.log(
-          "Latitude:",
-          res.result.latitude,
-          "Longitude",
-          res.result.longitude,
-          "of postocde:",
-          res.result.postcode
-        );
-      });
-  };
-
-  const tomTomRoute = async () => {
-    await fetch(
-      "https://api.tomtom.com/routing/1/calculateRoute/53.494316,-2.461848:53.523484,-2.506179/json?routeType=fastest&traffic=true&travelMode=car&vehicleEngineType=combustion&key=nhM8DjfmR7GNhhW0xaLdwePPLTsfzKiW",
-      {
-        method: "GET",
-      }
-    )
-      .then((res) => {
-        return res.json();
-      })
-      .then((res) => {
-        console.log(
-          "Distance between postcodes:",
-          res.routes[0].summary.lengthInMeters,
-          "Meters"
-        );
-      });
-  };
-
   useEffect(() => {
     fetchData();
-    fetchLatLong();
-    tomTomRoute();
   }, []);
 
   return (

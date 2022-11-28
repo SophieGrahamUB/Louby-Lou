@@ -5,21 +5,6 @@
       "id":1,
       "attributes":
       {
-          "Name":"The Barlow",
-          "Date":"25/11/2022",
-          "Adult":0,
-          "Child":15,
-          "length":1.5,
-          "Location":"BL7 0AP",
-          "time":"10:00:00.000",
-          "eventImageURL": "/images/events/the_barlow_25-11-22.jpg",
-          "eventDescription":"Come along to The Barlow for fun & games with Louby Lou & recieve an advent calander from Santa himself! Just in time for the 1st of December! Let's start that festive feeling!"
-      }
-    },
-    {
-      "id":2,
-      "attributes":
-      {
           "Name":"The Delph",
           "Date":"30/11/2022",
           "Adult":0,
@@ -32,7 +17,7 @@
       }
     },
     {
-      "id":3,
+      "id":2,
       "attributes":
       {
           "Name":"The Point",
@@ -47,18 +32,18 @@
       }
     },
     {
-      "id":5,
+      "id":3,
       "attributes":
       {
-          "Name":"Thyme Deli",
-          "Date":"25/11/2022",
+          "Name":"The Point",
+          "Date":"06/12/2022",
           "Adult":0,
           "Child":15,
           "length":1.5,
           "Location":"M29 7SG",
-          "time":"17:00:00.000",
-          "eventImageURL": "/images/events/thyme_deli_25-11-22.jpg",
-          "eventDescription":"Come along to Thyme Deli for fun & games with Louby Lou & recieve an advent calander from Santa himself! Just in time for the 1st of December! Let's start that festive feeling!"
+          "time":"09:30:00.000",
+          "eventImageURL": "/images/events/the_point_06-12-22.jpg",
+          "eventDescription":"Come along to The Point Astley for fun & games with Louby Lou & recieve gifts and joy from Santa himself! Let's start that festive feeling!"
       }
     }
         
