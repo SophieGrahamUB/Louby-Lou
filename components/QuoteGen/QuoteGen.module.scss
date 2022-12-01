@@ -21,9 +21,17 @@
     font-family: $body-font;
     color: $pink-accent;
     font-size: 20px;
-
+    margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
+  }
+  & > span {
+    font-family: $body-font;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    display: block;
   }
 
   width: 70%;
