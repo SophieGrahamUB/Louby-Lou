@@ -18,6 +18,8 @@ const QuoteGen = () => {
       postCode: e.target.postCode.value,
       kids: e.target.kids.value,
       santa: e.target.santa.value,
+      mobile: e.target.mobile.value,
+      email: e.target.email.value,
     });
   };
 
@@ -104,6 +106,8 @@ const QuoteGen = () => {
         kids: formData.kids,
         postCode: formData.postCode,
         santa: formData.santa,
+        email: formData.email,
+        mobile: formData.mobile,
       });
       console.log("setting Quote");
     }
@@ -149,6 +153,10 @@ const QuoteGen = () => {
             <option value={true}> Yes </option>
             <option value={false}> No </option>
           </select>
+          <label>Mobile Number:</label>
+          <input required type="texy" id="mobile" name="mobile"></input>
+          <label>Email:</label>
+          <input required type="text" id="email" name="email"></input>
           <button type="submit">Get Quote!</button>
         </form>
       </div>
