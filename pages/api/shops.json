@@ -21,7 +21,7 @@
                 "productDescription":"'Hey Yeah' child size hoodie in white, with dark logo!",
                 "productPrice":25,
                 "productImageURL": "/images/shop/hey_yeah_hoodie_white_dark.png",
-                "merch": true,
+                "sizes": true,
                 "sizing": ["3-4", "5-6", "7-8", "9-11", "12-13"]
             }
         },
@@ -34,7 +34,7 @@
                 "productDescription":"'Hey Yeah' child size hoodie in black, with dark logo!",
                 "productPrice":25,
                 "productImageURL": "/images/shop/hey_yeah_hoodie_black_dark.png",
-                "merch": true,
+                "sizes": true,
                 "sizing": ["3-4", "5-6", "7-8", "9-11", "12-13"]            
             }
         },
@@ -47,7 +47,7 @@
                 "productDescription":"'Hey Yeah' child size hoodie in black, with light logo!",
                 "productPrice":25,
                 "productImageURL": "/images/shop/hey_yeah_hoodie_black_light.png",
-                "merch": true,
+                "sizes": true,
                 "sizing": ["3-4", "5-6", "7-8", "9-11", "12-13"]            
             }
         },
@@ -60,7 +60,7 @@
                 "productDescription":"'Hey Yeah' child size hoodie in white, with light logo!",
                 "productPrice":25,
                 "productImageURL": "/images/shop/hey_yeah_hoodie_white_light.png",
-                "merch": true,
+                "sizes": true,
                 "sizing": ["3-4", "5-6", "7-8", "9-11", "12-13"]            
             }
         },
@@ -73,7 +73,7 @@
                 "productDescription":"'Hey Yeah' toddler size shirt in black, with dark logo!",
                 "productPrice":19,
                 "productImageURL": "/images/shop/hey_yeah_shirt_black_dark.png",
-                "merch": true,
+                "sizes": true,
                 "sizing": ["3-4", "5-6", "7-8", "9-11", "12-13"]            
             }
         },
@@ -86,7 +86,7 @@
                 "productDescription":"'Hey Yeah' toddler size shirt in black, with light logo!",
                 "productPrice":19,
                 "productImageURL": "/images/shop/hey_yeah_shirt_black_light.png",
-                "merch": true,
+                "sizes": true,
                 "sizing": ["3-4", "5-6", "7-8", "9-11", "12-13"]            
             }
         },
@@ -99,7 +99,7 @@
                 "productDescription":"'Hey Yeah' child size shirt in white, with dark logo!",
                 "productPrice":19,
                 "productImageURL": "/images/shop/hey_yeah_shirt_child_white_dark.png",
-                "merch": true,
+                "sizes": true,
                 "sizing": ["3-4", "5-6", "7-8", "9-11", "12-13"]            
             }
         },
@@ -112,7 +112,7 @@
                 "productDescription":"'Hey Yeah' child size shirt in white, with light logo!",
                 "productPrice":19,
                 "productImageURL": "/images/shop/hey_yeah_shirt_child_white_light.png",
-                "merch": true,
+                "sizes": true,
                 "sizing": ["3-4", "5-6", "7-8", "9-11", "12-13"]            
             }
         },
@@ -125,7 +125,7 @@
                 "productDescription":"'Hey Yeah' child size shirt in black, with dark logo!",
                 "productPrice":19,
                 "productImageURL": "/images/shop/hey_yeah_shirt_child_black_dark.png",
-                "merch": true,
+                "sizes": true,
                 "sizing": ["3-4", "5-6", "7-8", "9-11", "12-13"]            
             }
         },
@@ -138,7 +138,7 @@
                 "productDescription":"'Hey Yeah' child size shirt in black, with light logo!",
                 "productPrice":19,
                 "productImageURL": "/images/shop/hey_yeah_shirt_child_black_light.png",
-                "merch": true,
+                "sizes": true,
                 "sizing": ["3-4", "5-6", "7-8", "9-11", "12-13"]            
             }
         },
@@ -151,7 +151,7 @@
                 "productDescription":"'Hey Yeah' child size 2 tone hoodie in black & purple, with dark logo!",
                 "productPrice":25,
                 "productImageURL": "/images/shop/hey_yeah_varsity_hoodie_dark.png",
-                "merch": true,
+                "sizes": true,
                 "sizing": ["3-4", "5-6", "7-8", "9-11", "12-13"]            
             }
         },
@@ -164,8 +164,104 @@
                 "productDescription":"'Hey Yeah' child size 2 tone hoodie in black & yellow, with light logo!",
                 "productPrice":25,
                 "productImageURL": "/images/shop/hey_yeah_varsity_hoodie_light.png",
-                "merch": true,
+                "sizes": true,
                 "sizing": ["3-4", "5-6", "7-8", "9-11", "12-13"]            
+            }
+        },
+        {
+            "id":15,
+            "attributes":
+            {
+                "productName":"Hey Yeah White Socks",
+                "productStyle": "(White, light logo)",
+                "productDescription":"'Hey Yeah' socks with light logo!",
+                "productPrice":20,
+                "productImageURL": "/images/shop/hey_yeah_socks_white_light.png",
+                "sizes": false      
+            }
+        },
+        {
+            "id":16,
+            "attributes":
+            {
+                "productName":"Hey Yeah White Socks",
+                "productStyle": "(White, dark logo)",
+                "productDescription":"'Hey Yeah' socks with dark logo!",
+                "productPrice":20,
+                "productImageURL": "/images/shop/hey_yeah_socks_white_dark.png",
+                "sizes": false      
+            }
+        },
+        {
+            "id":17,
+            "attributes":
+            {
+                "productName":"Hey Yeah Bucket Hat",
+                "productStyle": "(Black, dark logo)",
+                "productDescription":"'Hey Yeah' Bucket Hat with dark logo!",
+                "productPrice":25,
+                "productImageURL": "/images/shop/hey_yeah_bucket_hat_black_dark.png",
+                "sizes": false      
+            }
+        },
+        {
+            "id":17,
+            "attributes":
+            {
+                "productName":"Hey Yeah Bucket Hat",
+                "productStyle": "(Black, light logo)",
+                "productDescription":"'Hey Yeah' Bucket Hat with light logo!",
+                "productPrice":25,
+                "productImageURL": "/images/shop/hey_yeah_bucket_hat_black_light.png",
+                "sizes": false      
+            }
+        },
+        {
+            "id":18,
+            "attributes":
+            {
+                "productName":"Hey Yeah Gym Bag",
+                "productStyle": "(Black, light logo)",
+                "productDescription":"'Hey Yeah' Gym Bag (Made from recycled material!) with light logo!",
+                "productPrice":20,
+                "productImageURL": "/images/shop/hey_yeah_gymbag_black_light.png",
+                "sizes": false      
+            }
+        },
+        {
+            "id":19,
+            "attributes":
+            {
+                "productName":"Hey Yeah Gym Bag",
+                "productStyle": "(White, light logo)",
+                "productDescription":"'Hey Yeah' Gym Bag (Made from recycled material!) with light logo!",
+                "productPrice":20,
+                "productImageURL": "/images/shop/hey_yeah_gymbag_white_light.png",
+                "sizes": false      
+            }
+        },
+        {
+            "id":20,
+            "attributes":
+            {
+                "productName":"Hey Yeah Gym Bag",
+                "productStyle": "(Black, dark logo)",
+                "productDescription":"'Hey Yeah' Gym Bag (Made from recycled material!) with dark logo!",
+                "productPrice":20,
+                "productImageURL": "/images/shop/hey_yeah_gymbag_black_dark.png",
+                "sizes": false      
+            }
+        },
+        {
+            "id":21,
+            "attributes":
+            {
+                "productName":"Hey Yeah Gym Bag",
+                "productStyle": "(White, dark logo)",
+                "productDescription":"'Hey Yeah' Gym Bag (Made from recycled material!) with dark logo!",
+                "productPrice":20,
+                "productImageURL": "/images/shop/hey_yeah_gymbag_white_dark.png",
+                "sizes": false      
             }
         }
     ]

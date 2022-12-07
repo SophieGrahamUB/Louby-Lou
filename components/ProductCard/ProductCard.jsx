@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./ProductCard.module.scss";
 import { useBasket } from "../Basket/BasketManager";
 
-const ProductCard = ({ image, title, desc, price, keySet, merch, sizing, style }) => {
+const ProductCard = ({ image, title, desc, price, keySet, sizes, sizing, style }) => {
   const [count, setCount] = useState(0);
 
   const { contents, setContents } = useBasket();
@@ -71,7 +71,7 @@ const ProductCard = ({ image, title, desc, price, keySet, merch, sizing, style }
               +
             </button>
           </div>
-          {merch === true ? (
+          {sizes === true ? (
             <>
               <select
                 className={styles.sizeSelect}
