@@ -1,51 +1,46 @@
 {
-    "data":
-    [
+  "data": [
     {
-      "id":1,
-      "attributes":
-      {
-          "Name":"The Point",
-          "Date":"14/12/2022",
-          "Adult":0,
-          "Child":15,
-          "length":1.5,
-          "Location":"M29 7SG",
-          "time":"17:00:00.000",
-          "eventImageURL": "/images/events/the_point-14-12-22.jpg",
-          "eventDescription":"Come along to The Point Astley for fun & games with Louby Lou & recieve gifts and joy from Santa himself! Let's start that festive feeling!"
+      "id": 1,
+      "attributes": {
+        "Name": "The Point",
+        "Date": "14/12/2022",
+        "Adult": 0,
+        "Child": 15,
+        "length": 1.5,
+        "Location": "M29 7SG",
+        "time": "16:30:00.000",
+        "eventImageURL": "/images/events/the_point-14-12-22.jpg",
+        "eventDescription": "Come along to The Point Astley for fun & games with Louby Lou & recieve gifts and joy from Santa himself! Let's start that festive feeling!"
       }
     },
     {
-      "id":2,
-      "attributes":
-      {
-          "Name":"The Point",
-          "Date":"21/12/2022",
-          "Adult":0,
-          "Child":15,
-          "length":1.5,
-          "Location":"M29 7SG",
-          "time":"09:00:00.000",
-          "eventImageURL": "/images/events/the_point-21-12-22.jpg",
-          "eventDescription":"Come along to The Point Astley for fun & games with Louby Lou & recieve gifts and joy from Santa himself! Let's start that festive feeling!"
+      "id": 2,
+      "attributes": {
+        "Name": "The Point",
+        "Date": "21/12/2022",
+        "Adult": 0,
+        "Child": 15,
+        "length": 1.5,
+        "Location": "M29 7SG",
+        "time": "09:00:00.000",
+        "eventImageURL": "/images/events/the_point-21-12-22.jpg",
+        "eventDescription": "Come along to The Point Astley for fun & games with Louby Lou & recieve gifts and joy from Santa himself! Let's start that festive feeling!"
       }
     },
     {
-      "id":3,
-      "attributes":
-      {
-          "Name":"The Delph",
-          "Date":"23/12/2022",
-          "Adult":0,
-          "Child":15,
-          "length":1.5,
-          "Location":"M28 2NL",
-          "time":"10:00:00.000",
-          "eventImageURL": "/images/events/the_delph-23-12-22.jpg",
-          "eventDescription":"Come along to The Delph for fun & games with Louby Lou & recieve gifts and joy from Santa himself! Let's start that festive feeling!"
+      "id": 3,
+      "attributes": {
+        "Name": "The Delph",
+        "Date": "23/12/2022",
+        "Adult": 0,
+        "Child": 15,
+        "length": 1.5,
+        "Location": "M28 2NL",
+        "time": "10:00:00.000",
+        "eventImageURL": "/images/events/the_delph-23-12-22.jpg",
+        "eventDescription": "Come along to The Delph for fun & games with Louby Lou & recieve gifts and joy from Santa himself! Let's start that festive feeling!"
       }
     }
-        
-    ]
+  ]
 }
