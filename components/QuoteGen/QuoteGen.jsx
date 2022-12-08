@@ -95,9 +95,14 @@ const QuoteGen = () => {
       let litresNeeded = distanceReduce / prices.milesPerLitre;
       let getFuelNeeded = litresNeeded * prices.fuelPrice;
       let calcReturn = getFuelNeeded * 2;
-      let childData = formData?.kids === null ? 0 : formData?.kids * prices.pricePerChild;
+      let childData =
+        formData?.kids === null ? 0 : formData?.kids * prices.pricePerChild;
       let santaBool =
-        formData?.santa === null ? 0 : formData?.santa === "true" ? prices.santaPrice : 0;
+        formData?.santa === null
+          ? 0
+          : formData?.santa === "true"
+          ? prices.santaPrice
+          : 0;
       let finalCalc =
         childData + santaBool + prices.basePrice + calcReturn + calcTravelCost;
       setQuote({
@@ -115,16 +120,18 @@ const QuoteGen = () => {
 
   useEffect(() => {
     if (quote.quote) {
-      emailjs.send("query_email", "quote_email", quote, "rPVlmRtn45wWuAQVP").then(
-        (result) => {
-          alert("Quote Sent!");
-        },
-        (error) => {
-          alert(
-            `Uh oh! Something went wrong! Try again later (error code for nerds: ${error.text})`
-          );
-        }
-      );
+      emailjs
+        .send("query_email", "quote_email", quote, "rPVlmRtn45wWuAQVP")
+        .then(
+          (result) => {
+            alert("Quote Sent!");
+          },
+          (error) => {
+            alert(
+              `Uh oh! Something went wrong! Try again later (error code for nerds: ${error.text})`
+            );
+          }
+        );
     } else {
       console.log("Quote does not exist so not firing");
     }
@@ -134,12 +141,18 @@ const QuoteGen = () => {
     <div className={styles.container}>
       <div className={styles.formContainer}>
         <h1>Giggles on wheels quote generator</h1>
+        <span className={styles.info}>
+          {
+            "Here's what your littles one(s) will get from a santa doorstop visit! 💜 20 minutes of laughter and joy, this includes a snow machine, Santa, the Louby Lou Dance, saxaphone shennanigans, photos and a request to father christmas himself! Comes with an exciting louby lou gift and treats! 🎊 Let's keep the magic alive this Christmas with some fun & festive times! "
+          }
+        </span>
         {Number.isInteger(quote.quote) === true ? (
           <>
             <p>{`Quote: £${quote.quote}`}</p>
             <p>{`Reference Number: ${quote.quoteRef}`}</p>
             <span>
-              Please quote this reference number in any queries to secure this price!
+              Please quote this reference number in any queries to secure this
+              price!
             </span>
           </>
         ) : null}

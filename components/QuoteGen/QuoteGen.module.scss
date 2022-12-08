@@ -9,6 +9,10 @@
   flex-direction: column;
 }
 
+.info {
+  padding-bottom: 30px;
+}
+
 .formContainer {
   & > h1 {
     font-family: $title-font;
@@ -25,7 +29,8 @@
     font-weight: bold;
     text-align: center;
   }
-  & > span {
+  & > span,
+  .info {
     font-family: $body-font;
     color: black;
     font-size: 12px;
