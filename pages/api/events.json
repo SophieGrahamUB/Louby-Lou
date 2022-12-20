@@ -31,20 +31,6 @@
     {
       "id": 3,
       "attributes": {
-        "Name": "The Barlow",
-        "Date": "19/12/2022",
-        "Adult": 0,
-        "Child": 17.5,
-        "length": 1.5,
-        "Location": "BL7 0AP",
-        "time": "16:00:00.000",
-        "eventImageURL": "/images/events/the_barlow-19-12-22.jpg",
-        "eventDescription": "Come along to The Barlow to enjoy a cozy hot chocolate in your very own Louby Lou Mug! (It's yours to keep too!) The weather outside may be frightful, but the fun and games will be delightful!"
-      }
-    },
-    {
-      "id": 4,
-      "attributes": {
         "Name": "Ascend",
         "Date": "30/12/2022",
         "Adult": 0,
