@@ -58,7 +58,9 @@ const Events = () => {
               value={index}
               className={styles.eventButton}
               onClick={(e) => {
-                setDetails(events && events[0]?.data[e.target.value].attributes);
+                setDetails(
+                  events && events[0]?.data[e.target.value].attributes
+                );
                 setChild(0);
                 setAdult(0);
               }}
@@ -91,13 +93,17 @@ const Events = () => {
         <div className={styles.counterWrapper}>
           <p>Children</p>
           <div className={styles.counterContainer}>
-            <button onClick={() => (child === 0 ? null : setChild(child - 1))}>-</button>
+            <button onClick={() => (child === 0 ? null : setChild(child - 1))}>
+              -
+            </button>
             <p>{child}</p>
             <button onClick={() => setChild(child + 1)}>+</button>
           </div>
           <p>Adults</p>
           <div className={styles.counterContainer}>
-            <button onClick={() => (adult === 0 ? null : setAdult(adult - 1))}>-</button>
+            <button onClick={() => (adult === 0 ? null : setAdult(adult - 1))}>
+              -
+            </button>
             <p>{adult}</p>
             <button onClick={() => setAdult(adult + 1)}>+</button>
           </div>
@@ -141,3 +147,50 @@ const Events = () => {
 };
 
 export default Events;
+
+// {
+//   "data": [
+//     {
+//       "id": 1,
+//       "attributes": {
+//         "Name": "The Point",
+//         "Date": "21/12/2022",
+//         "Adult": 0,
+//         "Child": 15,
+//         "length": 1.5,
+//         "Location": "M29 7SG",
+//         "time": "09:00:00.000",
+//         "eventImageURL": "/images/events/the_point-21-12-22.jpg",
+//         "eventDescription": "Come along to The Point Astley for fun & games with Louby Lou & recieve gifts and joy from Santa himself! Let's start that festive feeling!"
+//       }
+//     },
+//     {
+//       "id": 2,
+//       "attributes": {
+//         "Name": "The Delph",
+//         "Date": "23/12/2022",
+//         "Adult": 0,
+//         "Child": 15,
+//         "length": 1.5,
+//         "Location": "M28 2NL",
+//         "time": "10:00:00.000",
+//         "eventImageURL": "/images/events/the_delph-23-12-22.jpg",
+//         "eventDescription": "Come along to The Delph for fun & games with Louby Lou & recieve gifts and joy from Santa himself! Let's start that festive feeling!"
+//       }
+//     },
+//     {
+//       "id": 3,
+//       "attributes": {
+//         "Name": "Ascend",
+//         "Date": "30/12/2022",
+//         "Adult": 0,
+//         "Child": 15,
+//         "length": 1.5,
+//         "Location": "WN7 4DU",
+//         "time": "10:00:00.000",
+//         "eventImageURL": "/images/events/ascend-30-12-22.jpg",
+//         "eventDescription": "It's time for a pre new year party at Ascend Hot Yoga! Fancy a boogy in your new christmas get up? Louby Lou has got you covered! With a super fun Funky disco glowstick party!"
+//       }
+//     }
+//   ]
+// }
