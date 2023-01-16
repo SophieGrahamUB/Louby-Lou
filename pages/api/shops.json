@@ -251,6 +251,18 @@
         "productImageURL": "/images/shop/hey_yeah_gymbag_white_dark.png",
         "sizes": false
       }
+    },
+    {
+      "id": 22,
+      "attributes": {
+        "productName": "Hey Yeah Adult Hoodie",
+        "productStyle": "(Black, dark logo)",
+        "productDescription": "'Hey Yeah' Hoodie with dark logo!",
+        "productPrice": 30,
+        "productImageURL": "/images/shop/hey_yeah_adult_hoodie_black_dark.png",
+        "sizes": true,
+        "sizing": ["XS", "S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL"]
+      }
     }
   ]
 }
