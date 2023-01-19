@@ -1,21 +1,7 @@
 {
   "data": [
     {
-      "id": 3,
-      "attributes": {
-        "Name": "The Delph",
-        "Date": "18/01/2023",
-        "Adult": 0,
-        "Child": 10,
-        "length": 1.5,
-        "Location": "M28 2NL",
-        "time": "10:00:00.000",
-        "eventImageURL": "/images/events/the_delph-18-01-23.jpg",
-        "eventDescription": "Let's kickstart this new year with some boogy and giggles! Let's give this morning some sunshine with a mums n' tots group at The Delph!"
-      }
-    },
-    {
-      "id": 3,
+      "id": 1,
       "attributes": {
         "Name": "The Delph",
         "Date": "26/01/2023",
@@ -26,6 +12,20 @@
         "time": "16:30:00.000",
         "eventImageURL": "/images/events/the_delph-26-01-23.jpg",
         "eventDescription": "Oh the weather outside is still frightful! Let's get warm, cozy and full of giggles with a fun filled Hot Chocolate Mug Party! If you already have a Louby Lou mug feel free to bring it along! If not, don't fret! Louby Lou Mugs will be sold at the door for only £5!"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "Name": "Self. Westhoughton",
+        "Date": "29/01/2023",
+        "Adult": 0,
+        "Child": 8,
+        "length": 1.5,
+        "Location": "BL5 3AA",
+        "time": "10:00:00.000",
+        "eventImageURL": "/images/events/self-29-01-23.jpg",
+        "eventDescription": "Let's have some cozy sunday fun! Don't let this weather get you down! It's time to turn that frown upside down and have a little boogy! With music, magic and more! Come down to Self Westhoughton only £8 per child!"
       }
     }
   ]
