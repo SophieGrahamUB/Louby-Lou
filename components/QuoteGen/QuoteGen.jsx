@@ -17,7 +17,7 @@ const QuoteGen = () => {
     setFormData({
       postCode: e.target.postCode.value,
       kids: e.target.kids.value,
-      santa: e.target.santa.value,
+      // santa: e.target.santa.value,
       mobile: e.target.mobile.value,
       email: e.target.email.value,
     });
@@ -143,7 +143,7 @@ const QuoteGen = () => {
         <h1>Giggles on wheels quote generator</h1>
         <span className={styles.info}>
           {
-            "Here's what your littles one(s) will get from a santa doorstop visit! 💜 20 minutes of laughter and joy, this includes a snow machine, Santa, the Louby Lou Dance, saxaphone shennanigans, photos and a request to father christmas himself! Comes with an exciting louby lou gift and treats! 🎊 Let's keep the magic alive this Christmas with some fun & festive times! "
+            "Here's what your littles one(s) will get from a doorstop visit! 💜 20 minutes of laughter and joy, this includes the Louby Lou Dance, saxaphone shennanigans, photos and an abundance of giggles! Comes with an exciting louby lou gift and treats! 🎊"
           }
         </span>
         {Number.isInteger(quote.quote) === true ? (
@@ -161,11 +161,11 @@ const QuoteGen = () => {
           <input required type="text" id="postCode" name="postCode"></input>
           <label>Number of Kids:</label>
           <input required type="number" id="kids" name="kids"></input>
-          <label>Santa?</label>
+          {/* <label>Santa?</label>
           <select id="santa" name="santa">
             <option value={true}> Yes </option>
             <option value={false}> No </option>
-          </select>
+          </select> */}
           <label>Mobile Number:</label>
           <input required type="texy" id="mobile" name="mobile"></input>
           <label>Email:</label>

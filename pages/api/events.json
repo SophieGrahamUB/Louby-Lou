@@ -27,6 +27,34 @@
         "eventImageURL": "/images/events/self-29-01-23.jpg",
         "eventDescription": "Let's have some cozy sunday fun! Don't let this weather get you down! It's time to turn that frown upside down and have a little boogy! With music, magic and more! Come down to Self Westhoughton only £8 per child!"
       }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "Name": "The Point",
+        "Date": "07/02/2023",
+        "Adult": 0,
+        "Child": 8,
+        "length": 1.5,
+        "Location": "M29 7SG",
+        "time": "09:30:00.000",
+        "eventImageURL": "/images/events/the_point-07-02-23.jpg",
+        "eventDescription": "Calling all mums n' tots! It's the start of the month! You know what that means? It's time to party!"
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "Name": "The Point",
+        "Date": "15/02/2023",
+        "Adult": 0,
+        "Child": 10,
+        "length": 1.5,
+        "Location": "M29 7SG",
+        "time": "17:00:00.000",
+        "eventImageURL": "/images/events/the_point-15-02-23.jpg",
+        "eventDescription": "Let's party this Valentines day with a Louby Lou valentines disco special! Only £10 per child! All ages are welcome! Let's have a boogy full of excitement, love and joy!"
+      }
     }
   ]
 }
