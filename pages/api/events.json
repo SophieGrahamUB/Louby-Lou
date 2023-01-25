@@ -1,20 +1,6 @@
 {
   "data": [
     {
-      "id": 1,
-      "attributes": {
-        "Name": "The Delph",
-        "Date": "26/01/2023",
-        "Adult": 0,
-        "Child": 10,
-        "length": 1.5,
-        "Location": "M28 2NL",
-        "time": "16:30:00.000",
-        "eventImageURL": "/images/events/the_delph-26-01-23.jpg",
-        "eventDescription": "Oh the weather outside is still frightful! Let's get warm, cozy and full of giggles with a fun filled Hot Chocolate Mug Party! If you already have a Louby Lou mug feel free to bring it along! If not, don't fret! Louby Lou Mugs will be sold at the door for only £5!"
-      }
-    },
-    {
       "id": 2,
       "attributes": {
         "Name": "Self.",
