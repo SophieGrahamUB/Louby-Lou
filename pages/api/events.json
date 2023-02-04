@@ -1,34 +1,6 @@
 {
   "data": [
     {
-      "id": 1,
-      "attributes": {
-        "Name": "The Mill",
-        "Date": "17/02/2023",
-        "Adult": 0,
-        "Child": 10,
-        "length": 2.5,
-        "Location": "M46 0DP",
-        "time": "18:00:00.000",
-        "eventImageURL": "/images/events/the_mill-17-02-23.jpg",
-        "eventDescription": "Looking for some evening family fun? Look no further! Bingo, games, prizes and more! No matter your age, let's all enjoy some wholesome giggles at The Mill, Atherton!"
-      }
-    },
-    {
-      "id": 2,
-      "attributes": {
-        "Name": "The Point",
-        "Date": "07/02/2023",
-        "Adult": 0,
-        "Child": 8,
-        "length": 1.5,
-        "Location": "M29 7SG",
-        "time": "09:30:00.000",
-        "eventImageURL": "/images/events/the_point-07-02-23.jpg",
-        "eventDescription": "Calling all mums n' tots! It's the start of the month! You know what that means? It's time to party!"
-      }
-    },
-    {
       "id": 3,
       "attributes": {
         "Name": "The Point",
