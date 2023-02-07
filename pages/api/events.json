@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": 3,
+      "id": 1,
       "attributes": {
         "Name": "The Point",
         "Date": "15/02/2023",
@@ -12,6 +12,20 @@
         "time": "17:00:00.000",
         "eventImageURL": "/images/events/the_point-15-02-23.jpg",
         "eventDescription": "Let's party this Valentines day with a Louby Lou valentines disco special! Only £10 per child! All ages are welcome! Let's have a boogy full of excitement, love and joy!"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "Name": "Self.",
+        "Date": "23/02/2023",
+        "Adult": 0,
+        "Child": 8,
+        "length": 1.5,
+        "Location": "BL5 3AA",
+        "time": "10:00:00.000",
+        "eventImageURL": "/images/events/self-23-02-23.jpg",
+        "eventDescription": "Half term giggles are only around the corner! School can be stressful for the little ones, let's take this time to help ease that stress and have a little bit of fun! With Music, Magic & More, expect some classic Louby Lou fun at Self Westhoughton!"
       }
     }
   ]
