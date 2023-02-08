@@ -3,6 +3,20 @@
     {
       "id": 1,
       "attributes": {
+        "Name": "Amore.",
+        "Date": "12/02/2023",
+        "Adult": 0,
+        "Child": 10,
+        "length": 1.5,
+        "Location": "BL5 3JT",
+        "time": "10:00:00.000",
+        "eventImageURL": "/images/events/amore-12-02-23.jpg",
+        "eventDescription": "Let's party this Valentines day with a Louby Lou valentines disco special! Only £10 per child! All ages are welcome! Let's have a boogy full of excitement, love and joy!"
+      }
+    },
+    {
+      "id": 1,
+      "attributes": {
         "Name": "The Point",
         "Date": "15/02/2023",
         "Adult": 0,
