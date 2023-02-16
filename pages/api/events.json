@@ -1,34 +1,6 @@
 {
   "data": [
     {
-      "id": 2,
-      "attributes": {
-        "Name": "The Point",
-        "Date": "15/02/2023",
-        "Adult": 0,
-        "Child": 10,
-        "length": 1.5,
-        "Location": "M29 7SG",
-        "time": "17:00:00.000",
-        "eventImageURL": "/images/events/the_point-15-02-23.jpg",
-        "eventDescription": "Let's party this Valentines day with a Louby Lou valentines disco special! Only £10 per child! All ages are welcome! Let's have a boogy full of excitement, love and joy!"
-      }
-    },
-    {
-      "id": 3,
-      "attributes": {
-        "Name": "The Delph",
-        "Date": "15/02/2023",
-        "Adult": 0,
-        "Child": 10,
-        "length": 1.5,
-        "Location": "M28 2NL",
-        "time": "10:00:00.000",
-        "eventImageURL": "/images/events/the_delph-15-02-23.jpg",
-        "eventDescription": "Let's party this Valentines day with a Louby Lou valentines disco special! Only £10 per child! All ages are welcome! Let's have a boogy full of excitement, love and joy!"
-      }
-    },
-    {
       "id": 4,
       "attributes": {
         "Name": "Self.",
