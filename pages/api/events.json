@@ -27,6 +27,20 @@
         "eventImageURL": "/images/events/the_moortop-24-02-23.jpg",
         "eventDescription": "Half term giggles are Here! School can be stressful for the little ones, let's take this time to help ease that stress and have a little bit of fun! With Music, Magic & More, expect some classic Louby Lou fun at The Moortop, Stockport!"
       }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "Name": "The Daten",
+        "Date": "06/03/2023",
+        "Adult": 0,
+        "Child": 8,
+        "length": 1.5,
+        "Location": "WA3 5SH",
+        "time": "09:30:00.000",
+        "eventImageURL": "/images/events/the_daten-06-03-23.jpg",
+        "eventDescription": "Calling all mums! Fancy a vibrant morning on monday the 6th? Let's have a party with you and your little ones at The Daten, Culcheth! I'm so excited to party in this beautiful new venue!"
+      }
     }
   ]
 }
