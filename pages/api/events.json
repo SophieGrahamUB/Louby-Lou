@@ -3,29 +3,29 @@
     {
       "id": 1,
       "attributes": {
-        "Name": "The Point",
-        "Date": "07/03/2023",
+        "Name": "The Daten",
+        "Date": "20/03/2023",
         "Adult": 0,
         "Child": 8,
         "length": 1.5,
-        "Location": "M29 7SG",
+        "Location": "WA3 5SH",
         "time": "09:30:00.000",
-        "eventImageURL": "/images/events/the_point-07-03-23.jpg",
-        "eventDescription": "Calling all mums! Fancy a vibrant morning on tuesday the 7th? Let's have a party with you and your little ones at The Point, Astley! I'm so excited to kick off this new month with some mums n' tots giggles!"
+        "eventImageURL": "/images/events/the_daten-20-03-23.jpg",
+        "eventDescription": "I'm excited to announce that I'm returning to The Daten Culcheth for more Mums N' Tots fun.  Get prepared to boogie, giggle, and bond with your little one, while giving them the opportunity to socialise and make memories💗"
       }
     },
     {
       "id": 2,
       "attributes": {
         "Name": "The Daten",
-        "Date": "06/03/2023",
+        "Date": "27/03/2023",
         "Adult": 0,
         "Child": 8,
         "length": 1.5,
         "Location": "WA3 5SH",
         "time": "09:30:00.000",
-        "eventImageURL": "/images/events/the_daten-06-03-23.jpg",
-        "eventDescription": "Calling all mums! Fancy a vibrant morning on monday the 6th? Let's have a party with you and your little ones at The Daten, Culcheth! I'm so excited to party in this beautiful new venue!"
+        "eventImageURL": "/images/events/the_daten-20-03-23.jpg",
+        "eventDescription": "I'm excited to announce that I'm returning to The Daten Culcheth for more Mums N' Tots fun.  Get prepared to boogie, giggle, and bond with your little one, while giving them the opportunity to socialise and make memories💗"
       }
     }
   ]
