@@ -27,20 +27,6 @@
         "eventImageURL": "/images/events/the_daten-20-03-23.jpg",
         "eventDescription": "I'm excited to announce that I'm returning to The Daten Culcheth for more Mums N' Tots fun.  Get prepared to boogie, giggle, and bond with your little one, while giving them the opportunity to socialise and make memories💗"
       }
-    },
-    {
-      "id": 3,
-      "attributes": {
-        "Name": "The Point",
-        "Date": "06/04/2023",
-        "Adult": 0,
-        "Child": 10,
-        "length": 1.5,
-        "Location": "M29 7SG",
-        "time": "17:00:00.000",
-        "eventImageURL": "/images/events/the_point-06-04-23.jpg",
-        "eventDescription": "Calling all families, you’re invited to an Easter Disco at The Point! 👨‍👩‍👧‍👦🥳  Join us on Thursday 6th April at 5pm to create lasting memories filled with music, laughter, chocolates & more🍫🐰   For parents, prosecco will be available for you to enjoy while you watch your little ones have the time of their lives and you’re welcome to get involved 🪄   Don’t miss out on this unforgettable family night and book your spot now! Let’s make this Easter a special one "
-      }
     }
   ]
 }
