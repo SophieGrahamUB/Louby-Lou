@@ -27,6 +27,20 @@
         "eventImageURL": "/images/events/the_daten-20-03-23.jpg",
         "eventDescription": "I'm excited to announce that I'm returning to The Daten Culcheth for more Mums N' Tots fun.  Get prepared to boogie, giggle, and bond with your little one, while giving them the opportunity to socialise and make memories💗"
       }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "Name": "The Moortop",
+        "Date": "08/04/2023",
+        "Adult": 0,
+        "Child": 10,
+        "length": 1.5,
+        "Location": "SK4 4DU",
+        "time": "12:00:00.000",
+        "eventImageURL": "/images/events/the_moortop-08-04-23.jpg",
+        "eventDescription": "Who's ready for some Easter Saturday fun with Louby Lou AND The Easter Bunny?🔥 Food & Drink is available to enjoy at the venue during or after the show!  join me to spread some giggles & make memories this Easter with music, prizes, chocolates & more!!🥳"
+      }
     }
   ]
 }
