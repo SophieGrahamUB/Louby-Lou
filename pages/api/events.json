@@ -3,15 +3,15 @@
     {
       "id": 1,
       "attributes": {
-        "Name": "The Daten",
-        "Date": "27/03/2023",
+        "Name": "Tilwalds",
+        "Date": "14/04/2023",
         "Adult": 0,
-        "Child": 8,
-        "length": 1.5,
-        "Location": "WA3 5SH",
-        "time": "09:30:00.000",
-        "eventImageURL": "/images/events/the_daten-20-03-23.jpg",
-        "eventDescription": "I'm excited to announce that I'm returning to The Daten Culcheth for more Mums N' Tots fun.  Get prepared to boogie, giggle, and bond with your little one, while giving them the opportunity to socialise and make memories💗"
+        "Child": 10,
+        "length": 3,
+        "Location": "M29 8FJ",
+        "time": "18:00:00.000",
+        "eventImageURL": "/images/events/tilwalds-14-04-23.jpg",
+        "eventDescription": "Feeling like a boogy with your little one? How about a fun family disco? We've got you covered! Come join Louby Lou for some fantastical and fun game, magic and everything in between sprinkled with bountiful boogy! Get your dancing shoes on and come on down to Tilwalds in Tyldesley!"
       }
     },
     {
@@ -40,6 +40,20 @@
         "time": "10:00:00.000",
         "eventImageURL": "/images/events/the_delph-12-04-23.jpg",
         "eventDescription": "Get ready for some exciting school holiday fun! You’re invited to join Louby Lou from 10am on Wednesday 12th April at The Delph at our fantastic Magic Word Party, where we’ll be creating unforgettable memories and partying like there’s no tomorrow. Tickets include entry and a FREE magic word bracelet or mug."
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "Name": "The Barlow",
+        "Date": "11/04/2023",
+        "Adult": 0,
+        "Child": 10,
+        "length": 1.5,
+        "Location": "BL7 0AP",
+        "time": "16:00:00.000",
+        "eventImageURL": "/images/events/the_barlow-11-04-23.jpg",
+        "eventDescription": "Join us for a thrilling Louby Lou Glow Stick Disco! Experience the upbeat tunes of Ibiza-style music, dance, participate in games and much more! 🥳 You even might win a few prizes too...👀 All ages & parents are welcome to participate in the fun-filled event.🥰"
       }
     }
   ]
