@@ -69,20 +69,6 @@
         "eventImageURL": "/images/events/the_daten-11-04-23.jpg",
         "eventDescription": "HALF TERM GIGGLES FOR ALL AGES 🧡 Join us on Tuesday 11th April from 11am at The Daten, bring your friends & family and let's dance!🥳 Food will be available at the cafe to purchase during or after the show, let's all come together and make each other smile"
       }
-    },
-    {
-      "id": 5,
-      "attributes": {
-        "Name": "Partridge",
-        "Date": "03/04/2023",
-        "Adult": 5,
-        "Child": 15,
-        "length": 2,
-        "Location": "WA3 4AQ",
-        "time": "17:00:00.000",
-        "eventImageURL": "/images/events/partridge-03-04-23.jpg",
-        "eventDescription": "Kick off the school holidays with our fun for all party, out by gorgeous nature! 🌸 Calling children of any age and parents too, join us for laughter & joy with Louby Lou, you don't want to miss out on this exclusive event🌸 includes food and drink and £5 per adult which includes a mini bottle of prosecco!"
-      }
     }
   ]
 }
