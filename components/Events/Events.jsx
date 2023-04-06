@@ -124,7 +124,7 @@ const Events = () => {
         </form>
         <button
           onClick={() => {
-            child + adult > 0
+            child && adult > 0
               ? setContents([
                   ...contents,
                   {
