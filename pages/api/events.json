@@ -27,34 +27,6 @@
         "eventImageURL": "/images/events/the_delph-12-04-23.jpg",
         "eventDescription": "Get ready for some exciting school holiday fun! You’re invited to join Louby Lou from 10am on Wednesday 12th April at The Delph at our fantastic Magic Word Party, where we’ll be creating unforgettable memories and partying like there’s no tomorrow. Tickets include entry and a FREE magic word bracelet or mug."
       }
-    },
-    {
-      "id": 3,
-      "attributes": {
-        "Name": "The Barlow",
-        "Date": "11/04/2023",
-        "Adult": 0,
-        "Child": 10,
-        "length": 1.5,
-        "Location": "BL7 0AP",
-        "time": "16:00:00.000",
-        "eventImageURL": "/images/events/the_barlow-11-04-23.jpg",
-        "eventDescription": "Join us for a thrilling Louby Lou Glow Stick Disco! Experience the upbeat tunes of Ibiza-style music, dance, participate in games and much more! 🥳 You even might win a few prizes too...👀 All ages & parents are welcome to participate in the fun-filled event.🥰"
-      }
-    },
-    {
-      "id": 4,
-      "attributes": {
-        "Name": "The Daten",
-        "Date": "11/04/2023",
-        "Adult": 0,
-        "Child": 10,
-        "length": 1.5,
-        "Location": "WA3 5SH",
-        "time": "11:00:00.000",
-        "eventImageURL": "/images/events/the_daten-11-04-23.jpg",
-        "eventDescription": "HALF TERM GIGGLES FOR ALL AGES 🧡 Join us on Tuesday 11th April from 11am at The Daten, bring your friends & family and let's dance!🥳 Food will be available at the cafe to purchase during or after the show, let's all come together and make each other smile"
-      }
     }
   ]
 }
