@@ -13,20 +13,6 @@
         "eventImageURL": "/images/events/tilwalds-13-04-23.jpg",
         "eventDescription": "Feeling like a boogy with your little one? How about a fun family disco? We've got you covered! Come join Louby Lou for some fantastical and fun game, magic and everything in between sprinkled with bountiful boogy! Get your dancing shoes on and come on down to Tilwalds in Tyldesley!"
       }
-    },
-    {
-      "id": 2,
-      "attributes": {
-        "Name": "The Delph",
-        "Date": "12/04/2023",
-        "Adult": 0,
-        "Child": 15,
-        "length": 1.5,
-        "Location": "M28 2NL",
-        "time": "10:00:00.000",
-        "eventImageURL": "/images/events/the_delph-12-04-23.jpg",
-        "eventDescription": "Get ready for some exciting school holiday fun! You’re invited to join Louby Lou from 10am on Wednesday 12th April at The Delph at our fantastic Magic Word Party, where we’ll be creating unforgettable memories and partying like there’s no tomorrow. Tickets include entry and a FREE magic word bracelet or mug."
-      }
     }
   ]
 }
