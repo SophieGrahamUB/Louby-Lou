@@ -3,15 +3,15 @@
     {
       "id": 1,
       "attributes": {
-        "Name": "Tilwalds",
-        "Date": "13/04/2023",
+        "Name": "The Delph",
+        "Date": "21/04/2023",
         "Adult": 0,
         "Child": 10,
-        "length": 3,
-        "Location": "M29 8FJ",
-        "time": "18:00:00.000",
-        "eventImageURL": "/images/events/tilwalds-13-04-23.jpg",
-        "eventDescription": "Feeling like a boogy with your little one? How about a fun family disco? We've got you covered! Come join Louby Lou for some fantastical and fun game, magic and everything in between sprinkled with bountiful boogy! Get your dancing shoes on and come on down to Tilwalds in Tyldesley!"
+        "length": 1.5,
+        "Location": "M28 2NL",
+        "time": "10:00:00.000",
+        "eventImageURL": "/images/events/the_delph-21-04-23.jpg",
+        "eventDescription": "IT'S TIME FOR TOTS AT THE DELPH💛 Join us for a morning filled with enjoyable activities, allowing your little one to engage, dance and build confidence whilst you have  an opportunity to connect with other parents/guardians. 🥳 Let's make some memories 😊 "
       }
     }
   ]
