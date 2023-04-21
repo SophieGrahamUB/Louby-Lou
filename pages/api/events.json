@@ -13,6 +13,20 @@
         "eventImageURL": "/images/events/the_delph-21-04-23.jpg",
         "eventDescription": "IT'S TIME FOR TOTS AT THE DELPH💛 Join us for a morning filled with enjoyable activities, allowing your little one to engage, dance and build confidence whilst you have  an opportunity to connect with other parents/guardians. 🥳 Let's make some memories 😊 "
       }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "Name": "The Daten",
+        "Date": "03/05/2023",
+        "Adult": 0,
+        "Child": 8,
+        "length": 1.5,
+        "Location": "WA3 5SH",
+        "time": "10:00:00.000",
+        "eventImageURL": "/images/events/the_daten-03-05-23.jpg",
+        "eventDescription": "IT'S TIME FOR TOTS AT THE DELPH💛 Join us for a morning filled with enjoyable activities, allowing your little one to engage, dance and build confidence whilst you have  an opportunity to connect with other parents/guardians. 🥳 Let's make some memories 😊 "
+      }
     }
   ]
 }
