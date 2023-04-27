@@ -16,10 +16,12 @@ const EventsPage = () => {
   const fetchData = async () => {
     const data = eventsJSON;
     setEventsAPI([...eventsAPI, data]);
+    console.log("data fetched");
   };
 
   useEffect(() => {
     fetchData();
+    console.log("useeffect fired");
   }, []);
 
   const isOdd = (num) => {
@@ -50,7 +52,7 @@ const EventsPage = () => {
       <Scroller />
       <Hero src="/videos/trafford_centre_corp_mp4.mp4" type="mp4" />
       <Title title={"Upcoming Events:"} />
-      {eventsAPI[0]?.data.length > 0 ? (
+      {eventsAPI && eventsAPI[0]?.data.length > 0 ? (
         eventsAPI &&
         eventsAPI[0]?.data.map((item, idx) => (
           <Card
