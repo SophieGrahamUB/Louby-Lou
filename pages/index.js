@@ -53,7 +53,7 @@ export default function Home() {
       />
       <Services />
       <Partners />
-      <Reviews />
+      {/* <Reviews /> */}
       <Contact />
     </div>
   );
