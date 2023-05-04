@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { useBasket } from "../Basket/BasketManager";
 import styles from "./Events.module.scss";
 import eventsJSON from "../../pages/api/events.json";
 import Checkout from "../Checkout/Checkout";

@@ -2,7 +2,6 @@ import Navbar from "../components/Navbar";
 import Card from "../components/Card/Card";
 import Contact from "../components/Contact/Contact";
 import Hero from "../components/Hero/Hero";
-import Services from "../components/Services";
 import Scroller from "../components/Scroller/Scroller";
 import React, { useEffect, useState } from "react";
 import aboutJSON from "./api/about.json";
