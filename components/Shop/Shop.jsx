@@ -11,8 +11,27 @@ const Shop = () => {
     setShopAPI([...shopAPI, data]);
   };
 
+  const fetchShopifyData = () => {
+    fetch(
+      "https://16b34b.myshopify.com/admin/api/2023-04/products/8281235423508.json",
+      {
+        method: "GET",
+        mode: "no-cors",
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          Accept: "application/json",
+          "Content-Type": "application/json",
+          "X-Shopify-Access-Token": "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",
+        },
+      }
+    )
+      .then((res) => res.text())
+      .then((text) => console.log(text));
+  };
+
   useEffect(() => {
     fetchData();
+    fetchShopifyData();
   }, []);
 
   return (
@@ -37,16 +56,3 @@ const Shop = () => {
 };
 
 export default Shop;
-
-// Roger Rabbit Doll JSON
-// {
-//   "id":2,
-//   "attributes":
-//   {
-//       "productName":"Roger the Rabbit Doll",
-//       "productDescription":"Get your very own Roger the Rabbit Doll!",
-//       "productPrice":19,
-//       "productImageURL": "/images/shop/roger_rabbit_doll.jpg"
-
-//   }
-// },

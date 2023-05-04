@@ -2,15 +2,9 @@ import React, { useEffect, useState } from "react";
 import { useBasket } from "../Basket/BasketManager";
 import styles from "./Events.module.scss";
 import eventsJSON from "../../pages/api/events.json";
+import Checkout from "../Checkout/Checkout";
 
 const Events = () => {
-  const fetchData = async () => {
-    const data = eventsJSON;
-    setEvents([...events, data]);
-  };
-
-  const { contents, setContents } = useBasket();
-
   const [events, setEvents] = useState([]);
   const [details, setDetails] = useState("");
   const [child, setChild] = useState(0);
@@ -18,22 +12,32 @@ const Events = () => {
   const [adult, setAdult] = useState(0);
   const [total, setTotal] = useState(0);
   const [basket, setBasket] = useState([]);
-  const [toggle, setToggle] = useState(false);
+
+  const data = eventsJSON;
 
   useEffect(() => {
-    if (contents?.length > 0) {
-      window.sessionStorage.setItem("Cart", JSON.stringify(contents));
-    }
-  }, [toggle]);
-
-  useEffect(() => {
-    fetchData();
-  }, [basket]);
+    setEvents([...events, data]);
+  }, []);
 
   useEffect(() => {
     let x = child * details.Child + adult * details.Adult;
     setTotal(x);
   }, [child, adult]);
+
+  useEffect(() => {
+    name.length > 0
+      ? setBasket([
+          {
+            productName: `${details.Name} on ${details.Date}`,
+            children: child,
+            adults: adult,
+            total: total,
+            id: Math.floor(Math.random() * 10000),
+            names: name.join(" "),
+          },
+        ])
+      : null;
+  }, [name]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -122,25 +126,14 @@ const Events = () => {
             ))}
           {child >= 1 ? <button type="submit">Confirm Names</button> : null}
         </form>
-        <button
-          onClick={() => {
-            child && adult > 0
-              ? setContents([
-                  ...contents,
-                  {
-                    productName: `${details.Name} on ${details.Date}`,
-                    children: child,
-                    adults: adult,
-                    total: total,
-                    id: Math.floor(Math.random() * 10000),
-                    names: name.join(" "),
-                  },
-                ]) + setToggle((prevToggle) => !prevToggle)
-              : alert("Please add either a child or adult!");
-          }}
+        <Checkout
+          className={
+            basket && basket?.length > 0 ? styles.checkout : styles.displayNone
+          }
+          basketData={basket}
         >
-          Add to basket
-        </button>
+          Purchase Tickets
+        </Checkout>
       </div>
     </div>
   );
