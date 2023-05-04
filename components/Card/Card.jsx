@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import styles from "./Card.module.scss";
-import { Pagination, Navigation } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
 
 const Card = ({ title, desc, src, left, expanded, button, data }) => {
   const [infoToggle, setInfoToggle] = useState(false);
@@ -31,13 +27,19 @@ const Card = ({ title, desc, src, left, expanded, button, data }) => {
         <div className={styles.card_underline} />
       </div>
 
-      <div className={infoToggle === true ? styles.moreInfoContainer : styles.noDisplay}>
-        <button onClick={() => setInfoToggle((prevCheck) => !prevCheck)}>x</button>
+      <div
+        className={
+          infoToggle === true ? styles.moreInfoContainer : styles.noDisplay
+        }
+      >
+        <button onClick={() => setInfoToggle((prevCheck) => !prevCheck)}>
+          x
+        </button>
         <div className={styles.moreInfo}>
           <h1>{title}</h1>
           <p>{expanded}</p>
           <h1>Media:</h1>
-          {data?.attributes.serviceImagesExpanded &&
+          {/* {data?.attributes.serviceImagesExpanded &&
           data.attributes.serviceImagesExpanded[0]?.contentImageFirstURL !== undefined ? (
             <Swiper
               className={styles.swiperContainer}
@@ -79,8 +81,8 @@ const Card = ({ title, desc, src, left, expanded, button, data }) => {
                         <source src={`${item.contentVideoURL}`} type="video/webm" />
                       </video>
                     </SwiperSlide>
-                  ))}
-              {data?.attributes.serviceImagesExpanded &&
+                  ))} */}
+          {/* {data?.attributes.serviceImagesExpanded &&
                 data?.attributes.serviceImagesExpanded.map((item, idx) => (
                   <SwiperSlide key={idx} className={styles.swiperSlide}>
                     <Image
@@ -96,7 +98,7 @@ const Card = ({ title, desc, src, left, expanded, button, data }) => {
             </Swiper>
           ) : (
             <></>
-          )}
+          )} */}
           <span />
         </div>
       </div>

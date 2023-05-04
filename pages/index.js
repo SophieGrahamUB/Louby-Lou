@@ -50,7 +50,7 @@ export default function Home() {
         src={`${aboutMeAPI[0]?.data.attributes.aboutImageURL}`}
         left={true}
       />
-      <Services />
+      {/* <Services /> */}
       <Partners />
       {/* <Reviews /> */}
       <Contact />
