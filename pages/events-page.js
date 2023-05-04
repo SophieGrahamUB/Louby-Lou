@@ -13,15 +13,10 @@ import Head from "next/head";
 const EventsPage = () => {
   const [eventsAPI, setEventsAPI] = useState([]);
 
-  const fetchData = async () => {
-    const data = eventsJSON;
-    setEventsAPI([...eventsAPI, data]);
-    console.log("data fetched");
-  };
+  const data = eventsJSON;
 
   useEffect(() => {
-    fetchData();
-    console.log("useeffect fired");
+    setEventsAPI([...eventsAPI, data]);
   }, []);
 
   const isOdd = (num) => {
