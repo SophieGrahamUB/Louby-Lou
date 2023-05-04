@@ -13,7 +13,7 @@ const Navbar = ({ title, altText, button }) => {
     <nav className={styles.container}>
       <ul>
         <li className={button ? styles.button : styles.nodisplay}>
-          <Link href="/events-page/" prefetch>
+          <Link href="/events-page/">
             <a>
               <button>Book Tickets</button>
             </a>
