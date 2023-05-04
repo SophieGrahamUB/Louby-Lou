@@ -59,9 +59,7 @@ const EventsPage = () => {
           />
         ))
       ) : (
-        <Title
-          title={"If there's no events here, try refreshing your browser!"}
-        />
+        <Title title={"Loading events..."} />
       )}
       {eventsAPI[0]?.data.length > 0 ? (
         <>
