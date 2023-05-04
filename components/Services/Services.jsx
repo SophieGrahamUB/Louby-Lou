@@ -30,9 +30,7 @@ const Services = () => {
           <SwiperSlide key={card.title} className={styles.content}>
             <h1>{card.title}</h1> <p>{card.description}</p>
             <Link href="/services">
-              <a>
-                <button>More Details</button>
-              </a>
+              <button>More Details</button>
             </Link>
           </SwiperSlide>
         ))}

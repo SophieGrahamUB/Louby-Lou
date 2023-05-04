@@ -14,9 +14,7 @@ const Navbar = ({ title, altText, button }) => {
       <ul>
         <li className={button ? styles.button : styles.nodisplay}>
           <Link href="/events-page/">
-            <a>
-              <button>Book Tickets</button>
-            </a>
+            <button>Book Tickets</button>
           </Link>
         </li>
         <li className={styles.titleContainer}>
@@ -44,10 +42,8 @@ const Navbar = ({ title, altText, button }) => {
       >
         {links.map((item) => (
           <Link key={item.link} href={item.link}>
-            <a>
-              <p>{item.name}</p>
-              <div />
-            </a>
+            <p>{item.name}</p>
+            <div />
           </Link>
         ))}
       </div>
