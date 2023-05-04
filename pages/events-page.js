@@ -59,7 +59,11 @@ const EventsPage = () => {
           />
         ))
       ) : (
-        <Title title={"Loading events..."} />
+        <Title
+          title={
+            "Loading events... (Your connection may be quite slow! Please allow around 30 seconds!)"
+          }
+        />
       )}
       {eventsAPI[0]?.data.length > 0 ? (
         <>
