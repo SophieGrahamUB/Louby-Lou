@@ -61,7 +61,7 @@ const EventsPage = () => {
       ) : (
         <Title
           title={
-            "Loading events... (Your connection may be quite slow! Please allow around 30 seconds!)"
+            "Loading events... (Your connection may be slow! Please allow around 30 seconds!)"
           }
         />
       )}
