@@ -10,31 +10,67 @@ const graphQLClient = new GraphQLClient(endpoint, {
   },
 });
 
-export async function getProducts() {
-  const getAllProductsQuery = gql`
-    {
-      products(first: 10) {
-        edges {
-          node {
-            id
-            title
-            handle
-            priceRange {
-              minVariantPrice {
-                amount
-              }
-            }
-            featuredImage {
-              altText
-              url
+export const getProduct = async (id) => {
+  const productQuery = gql`
+    query getProduct($id: ID!) {
+      product(id: $id) {
+        id
+        handle
+        title
+        description
+        priceRange {
+          minVariantPrice {
+            amount
+            currencyCode
+          }
+        }
+        featuredImage {
+          url
+          altText
+        }
+        variants(first: 10) {
+          edges {
+            node {
+              id
             }
           }
         }
       }
     }
   `;
+  const variables = {
+    id,
+  };
   try {
-    return await graphQLClient.request(getAllProductsQuery);
+    const data = await queryShopify(productQuery, variables);
+    return data.product;
+  } catch (error) {
+    throw new Error(error);
+  }
+};
+
+export async function addToCart(itemId, quantity) {
+  const createCartMutation = gql`
+    mutation createCart($cartInput: CartInput) {
+      cartCreate(input: $cartInput) {
+        cart {
+          id
+        }
+      }
+    }
+  `;
+  const variables = {
+    cartInput: {
+      lines: [
+        {
+          quantity: parseInt(quantity),
+          merchandiseId: itemId,
+        },
+      ],
+    },
+  };
+  try {
+    return await graphQLClient.request(createCartMutation, variables);
   } catch (error) {
     throw new Error(error);
   }
