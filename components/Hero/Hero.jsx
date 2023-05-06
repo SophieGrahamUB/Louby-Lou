@@ -28,6 +28,7 @@ const Hero = ({ src, type }) => {
           playsInline
           disablePictureInPicture
           fetchpriority="low"
+          preload="metadata"
         >
           <source src={src} type="video/webm" />
         </video>

@@ -11,13 +11,10 @@ import Head from "next/head";
 export default function Home() {
   const [aboutMeAPI, setAboutMeAPI] = useState([]);
 
-  const fetchData = () => {
-    const data = aboutJSON;
-    setAboutMeAPI([...aboutMeAPI, data]);
-  };
+  const data = aboutJSON;
 
   useEffect(() => {
-    fetchData();
+    setAboutMeAPI([...aboutMeAPI, data]);
   }, []);
 
   return (
