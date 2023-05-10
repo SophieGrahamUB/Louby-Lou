@@ -13,7 +13,7 @@ const gigglesOnWheelsQuotes = () => {
       <div>
         <Head>
           <title>Louby Lou - Quote Generator 💜</title>
-          <meta charset="UTF-8" />
+          <meta charSet="UTF-8" />
           <meta
             name="description"
             content="Louby Lou's very own wonderful website! Find events, merch, services and enquire for your own Louby Lou show!"
