@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Hero.module.scss";
 
-const Hero = ({ src, type }) => {
+const Hero = ({ src, type, poster }) => {
   const [IOS, setIOS] = useState(false);
 
   useEffect(() => {
@@ -40,6 +40,7 @@ const Hero = ({ src, type }) => {
         autoPlay
         playsInline
         disablePictureInPicture
+        poster={poster}
       >
         <source
           src={IOS === true ? null : src}

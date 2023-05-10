@@ -39,7 +39,11 @@ export default function Home() {
         altText={"Making smiles for miles since 1995"}
       />
       <Scroller />
-      <Hero src="/videos/Pink_n_purple_video.webm" type="webm" />
+      <Hero
+        src="/videos/Pink_n_purple_video.webm"
+        poster="/images/posters/Pink_n_purple_poster.jpg"
+        type="webm"
+      />
       <Card
         title={aboutMeAPI[0]?.data.attributes.LeaveBlank}
         desc={aboutMeAPI[0]?.data.attributes.aboutMeDetails}

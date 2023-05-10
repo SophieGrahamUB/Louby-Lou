@@ -45,7 +45,11 @@ const EventsPage = () => {
         button={false}
       ></Navbar>
       <Scroller />
-      <Hero src="/videos/trafford_centre_corp_mp4.mp4" type="mp4" />
+      <Hero
+        src="/videos/trafford_centre_corp_mp4.mp4"
+        type="mp4"
+        poster="/images/posters/trafford_centre_corp_poster.jpg"
+      />
       <Title title={"Upcoming Events:"} />
       {eventsAPI && eventsAPI[0]?.data.length > 0 ? (
         eventsAPI &&

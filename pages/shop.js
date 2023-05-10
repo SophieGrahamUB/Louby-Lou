@@ -30,7 +30,12 @@ const shop = () => {
         button={true}
       ></Navbar>
       <Scroller />
-      <Hero id={"Hero"} src={"/videos/Pink_n_purple_video.mp4"} type="mp4" />
+      <Hero
+        id={"Hero"}
+        src={"/videos/Pink_n_purple_video.mp4"}
+        type="mp4"
+        poster="/images/posters/Pink_n_purple_poster.jpg"
+      />
       <Shop />
       <Partners />
       <Contact />

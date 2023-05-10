@@ -40,9 +40,17 @@ const Services = () => {
         <meta name="author" content="Zorilla" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <Navbar button={true} title={"Services"} altText={"What can I do for you?"} />
+      <Navbar
+        button={true}
+        title={"Services"}
+        altText={"What can I do for you?"}
+      />
       <Scroller />
-      <Hero src="/videos/charlotte_dawson_mp4.mp4" type="mp4" />
+      <Hero
+        src="/videos/charlotte_dawson_mp4.mp4"
+        type="mp4"
+        poster="/images/posters/charlotte_dawson_poster.jpg"
+      />
 
       {servicesAPI &&
         servicesAPI[0]?.data.map((item, idx) => (

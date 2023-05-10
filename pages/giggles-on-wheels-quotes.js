@@ -34,7 +34,11 @@ const gigglesOnWheelsQuotes = () => {
           button={true}
         ></Navbar>
         <Scroller />
-        <Hero src="/videos/giggles_on_wheels_fix_mp4.mp4" type="mp4" />
+        <Hero
+          src="/videos/giggles_on_wheels_fix_mp4.mp4"
+          type="mp4"
+          poster="/images/posters/giggles_on_wheels_fix_poster.png"
+        />
         <QuoteGen />
         <Contact />
       </div>
