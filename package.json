@@ -19,6 +19,7 @@
     "react-dom": "^18.2.0",
     "sass": "^1.54.3",
     "scss": "^0.2.4",
+    "shopify-buy": "^2.19.0",
     "stripe": "^10.0.0"
   },
   "devDependencies": {

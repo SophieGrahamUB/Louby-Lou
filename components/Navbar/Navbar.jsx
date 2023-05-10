@@ -22,7 +22,7 @@ const Navbar = ({ title, altText, button }) => {
           <p> {altText}</p>
         </li>
         <li className={styles.menuContainer}>
-          <Basket />
+          {/* <Basket /> */}
           <button
             className={styles.menu}
             aria-label="Menu"

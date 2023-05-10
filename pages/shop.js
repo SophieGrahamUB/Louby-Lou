@@ -24,7 +24,11 @@ const shop = () => {
         <meta name="author" content="Zorilla" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <Navbar title={"Shop"} altText={"Buy some giggles!"} button={true}></Navbar>
+      <Navbar
+        title={"Shop"}
+        altText={"Buy some giggles!"}
+        button={true}
+      ></Navbar>
       <Scroller />
       <Hero src="/videos/Pink_n_purple_video.mp4" type="mp4" />
       <Shop />
