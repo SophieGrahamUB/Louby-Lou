@@ -6,8 +6,15 @@ import Contact from "../components/Contact/Contact";
 import Scroller from "../components/Scroller/Scroller";
 import Partners from "../components/Partners/Partners";
 import Head from "next/head";
+import links from "./api/links.json";
 
-const shop = () => {
+export const getStaticProps = async () => {
+  return {
+    props: { links },
+  };
+};
+
+const shop = ({ links }) => {
   return (
     <div>
       <Head>
@@ -28,6 +35,7 @@ const shop = () => {
         title={"Shop"}
         altText={"Buy some giggles!"}
         button={true}
+        links={links}
       ></Navbar>
       <Scroller />
       <Hero

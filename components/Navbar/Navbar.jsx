@@ -1,10 +1,8 @@
 import { React, useState, useRef } from "react";
-import Basket from "../Basket/Basket";
 import styles from "./Navbar.module.scss";
-import links from "./links.json";
 import Link from "next/link";
 
-const Navbar = ({ title, altText, button }) => {
+const Navbar = ({ title, altText, button, links }) => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   const navMenu = useRef(null);
@@ -22,7 +20,6 @@ const Navbar = ({ title, altText, button }) => {
           <p> {altText}</p>
         </li>
         <li className={styles.menuContainer}>
-          {/* <Basket /> */}
           <button
             className={styles.menu}
             aria-label="Menu"

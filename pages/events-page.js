@@ -5,18 +5,26 @@ import Events from "../components/Events/Events";
 import Contact from "../components/Contact/Contact";
 import Scroller from "../components/Scroller/Scroller";
 import Card from "../components/Card/Card";
-import eventsJSON from "./api/events.json";
+import events from "./api/events.json";
 import Title from "../components/Title";
 import Partners from "../components/Partners/Partners";
 import Head from "next/head";
+import links from "./api/links.json";
 
-const EventsPage = () => {
+export const getStaticProps = async () => {
+  return {
+    props: {
+      eventsJSON: events,
+      links: links,
+    },
+  };
+};
+
+const EventsPage = ({ eventsJSON, links }) => {
   const [eventsAPI, setEventsAPI] = useState([]);
 
-  const data = eventsJSON;
-
   useEffect(() => {
-    setEventsAPI([...eventsAPI, data]);
+    setEventsAPI([...eventsAPI, eventsJSON]);
   }, []);
 
   const isOdd = (num) => {
@@ -43,6 +51,7 @@ const EventsPage = () => {
         title={"Events"}
         altText={"Let's book some Giggles"}
         button={false}
+        links={links}
       ></Navbar>
       <Scroller />
       <Hero

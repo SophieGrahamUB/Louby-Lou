@@ -5,8 +5,15 @@ import Navbar from "../components/Navbar";
 import Scroller from "../components/Scroller/Scroller";
 import QuoteGen from "../components/QuoteGen";
 import Contact from "../components/Contact";
+import links from "./api/links.json";
 
-const gigglesOnWheelsQuotes = () => {
+export const getStaticProps = async () => {
+  return {
+    props: { links },
+  };
+};
+
+const gigglesOnWheelsQuotes = ({ links }) => {
   return (
     <div>
       {" "}
@@ -32,6 +39,7 @@ const gigglesOnWheelsQuotes = () => {
           title={"Quotes"}
           altText={"Get your quote today!"}
           button={true}
+          links={links}
         ></Navbar>
         <Scroller />
         <Hero

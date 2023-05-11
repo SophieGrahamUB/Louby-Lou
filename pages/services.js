@@ -7,8 +7,15 @@ import Scroller from "../components/Scroller/Scroller";
 import Partners from "../components/Partners/Partners";
 import servicesJSON from "./api/services.json";
 import Head from "next/head";
+import links from "./api/links.json";
 
-const Services = () => {
+export const getStaticProps = async () => {
+  return {
+    props: { links },
+  };
+};
+
+const Services = ({ links }) => {
   const isOdd = (num) => {
     return num % 2;
   };
@@ -44,6 +51,7 @@ const Services = () => {
         button={true}
         title={"Services"}
         altText={"What can I do for you?"}
+        links={links}
       />
       <Scroller />
       <Hero

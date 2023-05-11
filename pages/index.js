@@ -7,8 +7,15 @@ import React, { useEffect, useState } from "react";
 import aboutJSON from "./api/about.json";
 import Partners from "../components/Partners/Partners";
 import Head from "next/head";
+import links from "./api/links.json";
 
-export default function Home() {
+export const getStaticProps = async () => {
+  return {
+    props: { links },
+  };
+};
+
+export default function Home({ links }) {
   const [aboutMeAPI, setAboutMeAPI] = useState([]);
 
   const data = aboutJSON;
@@ -37,6 +44,7 @@ export default function Home() {
         button={true}
         title={"Louby Lou"}
         altText={"Making smiles for miles since 1995"}
+        links={links}
       />
       <Scroller />
       <Hero

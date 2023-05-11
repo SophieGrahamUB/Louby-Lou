@@ -9,7 +9,6 @@ const Hero = ({ src, type, poster }) => {
     let iOS = ua.match(/iPad/i) || ua.match(/iPhone/i);
     let iOSSafari = iOS && ua.match(/WebKit/i) && !ua.match(/CriOS/i);
 
-    console.log(iOSSafari);
     if (iOSSafari !== null) {
       setIOS(true);
     } else {
