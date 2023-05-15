@@ -7,6 +7,7 @@ import Scroller from "../components/Scroller/Scroller";
 import Partners from "../components/Partners/Partners";
 import Head from "next/head";
 import links from "./api/links.json";
+import Title from "../components/Title/Title";
 
 export const getStaticProps = async () => {
   return {
@@ -45,6 +46,11 @@ const shop = ({ links }) => {
         poster="/images/posters/Pink_n_purple_poster.jpg"
       />
       <Shop />
+      <Title
+        title={
+          "Some browsers may take longer to load than others, please remain patient!"
+        }
+      />
       <Partners />
       <Contact />
     </div>
