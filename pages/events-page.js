@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero/Hero";
 import Events from "../components/Events/Events";
@@ -10,6 +10,7 @@ import Title from "../components/Title";
 import Partners from "../components/Partners/Partners";
 import Head from "next/head";
 import links from "./api/links.json";
+import Placeholder from "../components/Placeholder";
 
 export const getStaticProps = async () => {
   return {
@@ -54,11 +55,21 @@ const EventsPage = ({ eventsJSON, links }) => {
         links={links}
       ></Navbar>
       <Scroller />
-      <Hero
-        src="/videos/trafford_centre_corp_mp4.mp4"
-        type="mp4"
-        poster="/images/posters/trafford_centre_corp_poster.jpg"
-      />
+      <Suspense
+        fallback={
+          <Placeholder
+            src={"/images/posters/trafford_centre_corp_poster.jpg"}
+          />
+        }
+      >
+        {" "}
+        <Hero
+          src="/videos/trafford_centre_corp_mp4.mp4"
+          type="mp4"
+          poster="/images/posters/trafford_centre_corp_poster.jpg"
+        />
+      </Suspense>
+
       <Title title={"Upcoming Events:"} />
       {eventsAPI && eventsAPI[0]?.data.length > 0 ? (
         eventsAPI &&
