@@ -38,6 +38,7 @@ const Hero = ({ src, type, poster }) => {
         autoPlay={IOS === true ? false : true}
         loop
         poster={poster}
+        preload={false}
       >
         <source
           src={IOS === true ? null : src}
