@@ -36,7 +36,6 @@ const Hero = ({ src, type, poster }) => {
         className={styles.hero}
         muted
         loop
-        autoPlay
         playsInline
         disablePictureInPicture
         poster={poster}
