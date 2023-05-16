@@ -37,8 +37,6 @@ const Hero = ({ src, type, poster }) => {
         muted
         autoPlay={IOS === true ? false : true}
         loop
-        playsInline
-        disablePictureInPicture
         poster={poster}
       >
         <source
