@@ -35,6 +35,7 @@ const Hero = ({ src, type, poster }) => {
       <video
         className={styles.hero}
         muted
+        autoPlay={IOS === true ? false : true}
         loop
         playsInline
         disablePictureInPicture
