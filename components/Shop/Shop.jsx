@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Shop.module.scss";
 
 const Shop = () => {
-  if (typeof window !== "undefined") {
+  useEffect(() => {
     console.log("Build Shop Fired");
     var scriptURL =
       "https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js";
@@ -223,7 +223,7 @@ const Shop = () => {
         });
       });
     }
-  }
+  }, []);
 
   return (
     <div className={styles.shopContainer}>
