@@ -1,20 +1,6 @@
 {
   "data": [
     {
-      "id": 2,
-      "attributes": {
-        "Name": "Tilwalds",
-        "Date": "12/05/2023",
-        "Adult": 0,
-        "Child": 8.5,
-        "length": 1.5,
-        "Location": "M29 8FJ",
-        "time": "18:30:00.000",
-        "eventImageURL": "/images/events/tilwalds-12-05-23.jpg",
-        "eventDescription": "Looking for some Friday Fun for you and the kids?⭐  Join us to party & play bingo at Tilwards on Friday the 12th of May and you won't be disappointed🔥💗  In true Louby Lou and Ibiza style, we'll be giving away some fun prizes, dancing, and spreading laughter all around🙌"
-      }
-    },
-    {
       "id": 3,
       "attributes": {
         "Name": "Ewe Bar",
@@ -26,20 +12,6 @@
         "time": "12:00:00.000",
         "eventImageURL": "/images/events/ewe-02-06-23.jpg",
         "eventDescription": "School Holiday Fun at Ewe Restaurant🥳  📅Friday 2nd June 🕛12pm - 1:30pm 👫ALL AGES WELCOME!  ⚡What to expect: A party of a lifetime with Music🎶Saxophone🎷Games🥳Magic🪄Treats🍭& MORE..."
-      }
-    },
-    {
-      "id": 4,
-      "attributes": {
-        "Name": "The Delph",
-        "Date": "10/05/2023",
-        "Adult": 0,
-        "Child": 8,
-        "length": 1.5,
-        "Location": "M28 2NL",
-        "time": "10:00:00.000",
-        "eventImageURL": "/images/events/the_delph-10-05-23.jpg",
-        "eventDescription": "IT'S TIME FOR TOTS AT THE DELPH💛 Join us for a morning filled with enjoyable activities, allowing your little one to engage, dance and build confidence whilst you have  an opportunity to connect with other parents/guardians. 🥳 Let's make some memories 😊 "
       }
     }
   ]
