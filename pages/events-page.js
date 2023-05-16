@@ -11,6 +11,13 @@ import Partners from "../components/Partners/Partners";
 import Head from "next/head";
 import links from "./api/links.json";
 import Placeholder from "../components/Placeholder";
+import dynamic from "next/dynamic";
+
+const DynamicHero = dynamic(() => import("../components/Hero/Hero"), {
+  loading: () => (
+    <Placeholder src={"/images/posters/trafford_centre_corp_poster.jpg"} />
+  ),
+});
 
 export const getStaticProps = async () => {
   return {
@@ -54,22 +61,12 @@ const EventsPage = ({ eventsJSON, links }) => {
         button={false}
         links={links}
       ></Navbar>
-      <Scroller />
-      <Suspense
-        fallback={
-          <Placeholder
-            src={"/images/posters/trafford_centre_corp_poster.jpg"}
-          />
-        }
-      >
-        {" "}
-        <Hero
-          src="/videos/trafford_centre_corp_mp4.mp4"
-          type="mp4"
-          poster="/images/posters/trafford_centre_corp_poster.jpg"
-        />
-      </Suspense>
-
+      <Scroller />{" "}
+      <DynamicHero
+        src="/videos/trafford_centre_corp_mp4.mp4"
+        type="mp4"
+        poster="/images/posters/trafford_centre_corp_poster.jpg"
+      />
       <Title title={"Upcoming Events:"} />
       {eventsAPI && eventsAPI[0]?.data.length > 0 ? (
         eventsAPI &&
@@ -95,7 +92,6 @@ const EventsPage = ({ eventsJSON, links }) => {
           <Events />
         </>
       ) : null}
-
       <Partners />
       <Contact />
     </div>

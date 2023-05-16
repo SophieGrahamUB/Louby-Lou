@@ -14,9 +14,7 @@ const Hero = ({ src, type, poster }) => {
     } else {
       null;
     }
-  }, []);
 
-  if (typeof window !== "undefined") {
     const heroVideo = document.querySelector("video");
 
     const requestVideo = new Request(src);
@@ -29,7 +27,8 @@ const Hero = ({ src, type, poster }) => {
           });
         })
       : null;
-  }
+  }, []);
+
   return (
     <div className={styles.heroContainer}>
       <video
