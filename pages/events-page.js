@@ -1,6 +1,5 @@
-import React, { useEffect, useState, Suspense } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero/Hero";
 import Events from "../components/Events/Events";
 import Contact from "../components/Contact/Contact";
 import Scroller from "../components/Scroller/Scroller";

@@ -41,6 +41,20 @@
         "eventImageURL": "/images/events/the_point-01-06-23.jpg",
         "eventDescription": "Looking for some Dancing and Disco Fun? Come join us at The Point, Astley! 🥳 👫ALL AGES WELCOME! ⚡What to expect: A party of a lifetime with Music 🎶 Saxophone 🎷 Games 🥳 Magic🪄Treats 🍭 & MORE..."
       }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "Name": "The Daten",
+        "Date": "29/05/2023",
+        "Adult": 0,
+        "Child": 5,
+        "length": 1.5,
+        "Location": "WA3 5SH",
+        "time": "11:00:00.000",
+        "eventImageURL": "/images/events/the_daten-29-05-23.jpg",
+        "eventDescription": "💫Exciting news!  I am BACK partying at The Daten on Bank Holiday Monday at 11am 🥳  Only £5 per child! Expect music, giggles, saxophone & more🔥🎷"
+      }
     }
   ]
 }
