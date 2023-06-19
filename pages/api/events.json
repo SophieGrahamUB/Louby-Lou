@@ -3,57 +3,15 @@
     {
       "id": 1,
       "attributes": {
-        "Name": "Ewe Bar",
-        "Date": "02/06/2023",
-        "Adult": 0,
-        "Child": 8,
-        "length": 1.5,
-        "Location": "BL5 3NB",
-        "time": "12:00:00.000",
-        "eventImageURL": "/images/events/ewe-02-06-23.jpg",
-        "eventDescription": "School Holiday Fun at Ewe Restaurant🥳  📅Friday 2nd June 🕛12pm - 1:30pm 👫ALL AGES WELCOME!  ⚡What to expect: A party of a lifetime with Music🎶Saxophone🎷Games🥳Magic🪄Treats🍭& MORE..."
-      }
-    },
-    {
-      "id": 2,
-      "attributes": {
         "Name": "The Delph",
-        "Date": "31/05/2023",
+        "Date": "21/06/2023",
         "Adult": 0,
         "Child": 8,
         "length": 1.5,
         "Location": "M28 2NL",
         "time": "10:00:00.000",
-        "eventImageURL": "/images/events/the_delph-31-05-23.jpg",
-        "eventDescription": "School Holiday Fun at The Delph! 🥳 👫ALL AGES WELCOME! ⚡What to expect: A party of a lifetime with Music 🎶 Saxophone 🎷 Games 🥳 Magic🪄Treats 🍭 & MORE..."
-      }
-    },
-    {
-      "id": 3,
-      "attributes": {
-        "Name": "The Point",
-        "Date": "01/06/2023",
-        "Adult": 0,
-        "Child": 8,
-        "length": 2,
-        "Location": "M29 7SG",
-        "time": "18:00:00.000",
-        "eventImageURL": "/images/events/the_point-01-06-23.jpg",
-        "eventDescription": "Looking for some Dancing and Disco Fun? Come join us at The Point, Astley! 🥳 👫ALL AGES WELCOME! ⚡What to expect: A party of a lifetime with Music 🎶 Saxophone 🎷 Games 🥳 Magic🪄Treats 🍭 & MORE..."
-      }
-    },
-    {
-      "id": 4,
-      "attributes": {
-        "Name": "The Daten",
-        "Date": "29/05/2023",
-        "Adult": 0,
-        "Child": 5,
-        "length": 1.5,
-        "Location": "WA3 5SH",
-        "time": "12:00:00.000",
-        "eventImageURL": "/images/events/the_daten-29-05-23.jpeg",
-        "eventDescription": "💫Exciting news!  I am BACK partying at The Daten on Bank Holiday Monday at 11am 🥳  Only £5 per child! Expect music, giggles, saxophone & more🔥🎷"
+        "eventImageURL": "/images/events/the_delph-21-06-23.jpg",
+        "eventDescription": "🎉 Join us for Louby Lou Parents & Tots at @the_delph_ ! 🎈 Experience the magic of the Louby Lou Show, enjoy music, games, and magic tricks. It's a perfect place for little ones to gain confidence and have a blast, while parents can connect with other parents. 💛"
       }
     }
   ]
