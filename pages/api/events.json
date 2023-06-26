@@ -4,14 +4,28 @@
       "id": 1,
       "attributes": {
         "Name": "The Delph",
-        "Date": "21/06/2023",
+        "Date": "05/07/2023",
         "Adult": 0,
         "Child": 8,
         "length": 1.5,
         "Location": "M28 2NL",
         "time": "10:00:00.000",
-        "eventImageURL": "/images/events/the_delph-21-06-23.jpg",
-        "eventDescription": "🎉 Join us for Louby Lou Parents & Tots at @the_delph_ ! 🎈 Experience the magic of the Louby Lou Show, enjoy music, games, and magic tricks. It's a perfect place for little ones to gain confidence and have a blast, while parents can connect with other parents. 💛"
+        "eventImageURL": "/images/events/the_delph-05-07-23.jpg",
+        "eventDescription": "Join us for Parents & Tots at The Delph Restaurant & Cocktail Bar! ✨   Mark your calendars for Wednesday 5th July, from 10am-11:30am. Bring your little ones for loads of giggles, magical snow, and Ibiza style saxophone tunes! 🎈🎷   Parents, get ready to have fun too!"
+      }
+    },
+    {
+      "id": 1,
+      "attributes": {
+        "Name": "The Point",
+        "Date": "20/07/2023",
+        "Adult": 0,
+        "Child": 8,
+        "length": 1.5,
+        "Location": "M29 7SG",
+        "time": "17:00:00.000",
+        "eventImageURL": "/images/events/the_point-20-07-23.jpg",
+        "eventDescription": "🎉 Kids Bingo is BACK and better than ever! 🎉   Join Louby Lou at @thepointastley on Thursday 20th July, for an unforgettable disco, bingo extravaganza with crazy prizes, music, and so much more!! 🎶   Bring your family and friends along, because we're about to create memories that will last a lifetime. 🪄🪄"
       }
     }
   ]
