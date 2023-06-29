@@ -1,0 +1,91 @@
+@import "../../styles/global/variables";
+
+.container {
+  transition: 0.5s;
+  z-index: 2;
+  position: fixed;
+  min-width: 100%;
+  max-height: 80px;
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  @media only screen and (min-width: $tablet) {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.logo {
+  margin-top: 10px;
+  max-width: 30%;
+  height: 100px;
+  object-fit: cover;
+  margin-left: 20px;
+  @media only screen and (min-width: $tablet) {
+    max-width: 10%;
+  }
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 0%;
+  display: none;
+
+  @media only screen and (min-width: $tablet) {
+    width: 60%;
+    display: flex;
+  }
+
+  @media only screen and (min-width: $laptopL) {
+    width: 50%;
+    display: flex;
+  }
+
+  > * {
+    :nth-child(1) {
+      color: $accent-dark;
+      display: none;
+      text-decoration: none;
+
+      @media only screen and (min-width: $tablet) {
+        display: block;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.button__Link__Container {
+  height: 80px;
+  width: 30%;
+  @media only screen and (min-width: $tablet) {
+    max-width: 10%;
+  }
+}
+
+.button {
+  height: 100%;
+  width: 100%;
+  background-color: $accent-light;
+  color: $background-dark;
+  font-size: $button-mobile;
+  border: none;
+  cursor: pointer;
+  @media only screen and (min-width: $tablet) {
+    max-width: 100%;
+    font-size: $button;
+  }
+}
+
+.button,
+.links {
+  font-family: $body-font;
+  font-weight: bold;
+}

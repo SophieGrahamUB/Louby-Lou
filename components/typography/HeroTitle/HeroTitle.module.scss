@@ -1,0 +1,71 @@
+@import "../../../styles/global/variables";
+
+.hero__Container {
+  z-index: 2;
+  position: absolute;
+  left: 3vw;
+  top: 35vh;
+
+  @media only screen and (min-width: $tablet) {
+    left: 12vw;
+    top: 45vh;
+  }
+}
+
+.title {
+  font-family: $body-font;
+  font-size: $title-large-mobile;
+  letter-spacing: -3px;
+  color: white;
+  margin: 0;
+  max-width: 90%;
+  line-height: 0.8;
+  text-transform: uppercase;
+
+  @media only screen and (min-width: $tablet) {
+    font-size: $title-large;
+  }
+}
+
+.button__Container {
+  margin-top: 10px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+
+  @media only screen and (min-width: $tablet) {
+    width: 40%;
+  }
+
+  :nth-child(1) {
+    width: 98%;
+  }
+
+  :nth-child(2) {
+    width: 50%;
+    :nth-child(1) {
+      height: 30px;
+      width: 100%;
+      background-color: $accent-dark;
+      cursor: pointer;
+
+      @media only screen and (min-width: $tablet) {
+        font-size: $button;
+        height: 60px;
+      }
+    }
+  }
+}
+
+.button__Container button {
+  outline: none;
+  border: none;
+  font-family: $body-font;
+  font-size: $button-mobile;
+  font-weight: bold;
+  color: $background-dark;
+
+  @media only screen and (min-width: $tablet) {
+    font-size: $button;
+  }
+}

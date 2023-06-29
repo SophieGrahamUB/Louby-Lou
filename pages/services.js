@@ -1,82 +1,115 @@
-import React, { useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
-import Card from "../components/Card/Card";
-import Contact from "../components/Contact/Contact";
-import Hero from "../components/Hero/Hero";
-import Scroller from "../components/Scroller/Scroller";
-import Partners from "../components/Partners/Partners";
-import servicesJSON from "./api/services.json";
+import Card from "@/components/Card/Card";
+import Companies from "@/components/Companies/Companies";
+import Decoration from "@/components/Decoration/Decoration";
+import Navigation from "@/components/Navigation/Navigation";
+import Socials from "@/components/Socials/Socials";
+import DividerTitle from "@/components/typography/DividerTitle/DividerTitle";
 import Head from "next/head";
-import links from "./api/links.json";
+import React from "react";
 
-export const getStaticProps = async () => {
-  return {
-    props: { links },
-  };
-};
-
-const Services = ({ links }) => {
-  const isOdd = (num) => {
-    return num % 2;
-  };
-
-  const [servicesAPI, setServicesAPI] = useState([]);
-
-  const fetchData = () => {
-    const data = servicesJSON;
-    setServicesAPI([...servicesAPI, data]);
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
+const services = () => {
+  function isInt(n) {
+    if (Number.isInteger(n) === true) {
+      return "left";
+    } else {
+      return "right";
+    }
+  }
+  let array = [
+    {
+      name: "Parties",
+      desc: [
+        "Let's make the birthday child's special day one to remember! Louby Lou's mission is to make the birthday child the star of the show, helping Louby Lou throughout the performance, whether it's magic, singing or games! With a choice of a 1 hour show or a 2 hour show, a gift is guaranteed!",
+      ],
+      image: "/images/pictures/services_parties_2.webp",
+      imageAlt:
+        "This is an image showing Louby Lou the female clown performing an interactive clown performance complete with comedy and magic for kids at a fun party event. She is dancing for the children in her clown attire.",
+    },
+    {
+      name: "Giggles on Wheels",
+      desc: [
+        "Looking for something a little more bitesized? Do big parties not tickle your fancy? How about some Giggles on Wheels?",
+        " 20 minutes of pure fun and giggles on your doorstep! Each visit being as unique as your little one! No matter the occasion, let's have some fun!",
+      ],
+      image: "/images/pictures/services_giggles_on_wheels.webp",
+      imageAlt:
+        "An image of Louby Lou’s transport van with a decal reading “Giggles on wheels; Louby Lou - North West #1 Children’s Entertainer - Garden gigs, giggles on wheels and any events”.",
+    },
+    {
+      name: "Weddings & Christenings",
+      desc: [
+        "For a little one, keeping entertained can be a difficult task, especially at large family events! Louby Lou makes that uphill challenge a waterslide of fun and excitement, alleviating the pressure of parenting for the big day!",
+      ],
+      image: "/images/pictures/services_wedding_christening2.webp",
+      imageAlt:
+        "An image portraying Louby Lou the Children’s Birthday Party Clown at an exclusive event dressed in her clown outfit delivering a performance on the saxophone to children and adults.",
+    },
+    {
+      name: "Hospitals & Additional Needs",
+      desc: [
+        "Qualifying as a 'Clown Doctor' in 1999, Louby Lou has extensive knowledge and expertise in dealing with those who require a gentler touch! Working with charities such as 'Medequip4kids' and 'Royal Manchester Children's Hospital'.",
+      ],
+      image: "/images/pictures/services_special_needs.webp",
+      imageAlt:
+        "This is an image of Louby Lou at a hospital smiling for a photo with a child patient in her clown attire.",
+    },
+    {
+      name: "Schools",
+      desc: [
+        "School is such a big part of a little one's life, from Preschool to High school! Why not make this experience magical with Louby Lou! With age adaptable shows, the magic will always flow!",
+      ],
+      image: "/images/pictures/services_schools.webp",
+      imageAlt:
+        "An image depicting Louby Lou the Children’s Entertainer at a show in her clown outfit giving a joyful saxophone performance atop a stage.",
+    },
+    {
+      name: "Corporate",
+      desc: [
+        "From the big stage in The Trafford Centre to the small office gatherings, Louby Lou can do it all. Working for large organisations such as McVities & Kelloggs, Louby Lou has gathered quite an impressive repertoire for any corporate occasion.",
+      ],
+      image: "/images/pictures/services_corporate.webp",
+      imageAlt:
+        "This is an image of Louby Lou the female clown atop a large stage giving an exclusive performance for a crowd of children who are raising their hands in the air.",
+    },
+  ];
   return (
-    <div>
+    <>
       <Head>
-        <title>Louby Lou - Services 💜</title>
-        <meta charSet="UTF-8" />
+        <title>Louby Lou - Children's Entertainer - Sevices</title>
         <meta
           name="description"
-          content="Louby Lou's very own wonderful website! Find events, merch, services and enquire for your own Louby Lou show!"
+          content={`What can Manchester, Lancashire, Cheshire and Merseyside's premium children's entertainer and clown for hire do for you? ${array.map(
+            (item) => `${item.name}, `
+          )}no matter the occasion, Louby Lou can party with you!`}
         />
-        <meta
-          name="keywords"
-          content="Clown, Manchester, Louby, Lou, Louby Lou, Entertainer, North West, Manchester, Greater Manchester"
-        />
-        <meta name="author" content="Zorilla" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar
-        button={true}
-        title={"Services"}
-        altText={"What can I do for you?"}
-        links={links}
-      />
-      <Scroller />
-      <Hero
-        src="/videos/charlotte_dawson_mp4.mp4"
-        type="mp4"
-        poster="/images/posters/charlotte_dawson_poster.jpg"
-      />
-
-      {servicesAPI &&
-        servicesAPI[0]?.data.map((item, idx) => (
+      <main>
+        <Navigation />
+        <DividerTitle
+          title={"What can Louby Lou do for you?"}
+          text={["There's always a little something for everyone!"]}
+          spacing={"large"}
+        />
+        <Decoration position={"right"} />
+        {array.map((item, idx) => (
           <Card
-            data={item}
-            key={item.attributes.serviceName}
-            title={item.attributes.serviceName}
-            desc={item.attributes.serviceShortDetails}
-            src={`${item.attributes.serviceImageURL}`}
-            button={true}
-            expanded={item.attributes.serviceExpandedDetails}
-            left={isOdd(idx) ? false : true}
+            title={item.name}
+            desc={item.desc}
+            pos={isInt(idx / 2)}
+            img={item.image}
+            button
+            buttonType={"enquire"}
+            key={idx}
+            imageAlt={item.imageAlt}
           />
         ))}
-      <Partners />
-      <Contact />
-    </div>
+        <Socials />
+        <Companies />
+      </main>
+    </>
   );
 };
 
-export default Services;
+export default services;

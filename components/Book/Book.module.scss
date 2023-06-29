@@ -1,0 +1,76 @@
+@import "../../styles/global/variables";
+
+.button {
+  height: 30px;
+  outline: none;
+  border: none;
+  font-family: $body-font;
+  font-size: $button-mobile;
+  font-weight: bold;
+  color: $background-dark;
+  min-width: 50px;
+  background-color: $accent-light;
+  margin-right: 5px;
+  cursor: pointer;
+
+  @media only screen and (min-width: $tablet) {
+    height: 60px;
+    min-width: 200px;
+    font-size: $button;
+  }
+}
+
+.noDisplay {
+  display: none;
+}
+
+.enquire__Dialog {
+  animation: animation 1s cubic-bezier(0.57, -0.4, 0.57, 1.91) forwards;
+  width: 80%;
+  height: 90%;
+  border: none;
+  border-radius: 8px;
+  background-color: $background-light;
+  @media only screen and (min-width: $tablet) {
+    width: 60%;
+  }
+}
+
+.enquire__Dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.8);
+  animation: fade 0.5s ease-in forwards;
+}
+
+@keyframes animation {
+  0% {
+    opacity: 0%;
+    margin-top: 200px;
+  }
+  100% {
+    opacity: 100%;
+    margin-top: 1.5%;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.enquire__Close {
+  background: none;
+  border: none;
+  font-family: $body-font;
+  color: $accent-dark;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 0px;
+  margin-left: 90%;
+  @media only screen and (min-width: $tablet) {
+    margin-left: 95%;
+  }
+}

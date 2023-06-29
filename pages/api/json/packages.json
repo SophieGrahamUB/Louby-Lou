@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Silly Silver",
+    "basePrice": "£330",
+    "priceRaw": 330,
+    "maxKids": 20,
+    "added": 10,
+    "options": [
+      "1 Hour",
+      "Louby Lou Dance & Interviews",
+      "Roger The Rabbit",
+      "Magic",
+      "Games",
+      "Dancing"
+    ],
+    "color": "#BDBDBD"
+  },
+  {
+    "name": "Golden Giggles",
+    "basePrice": "£380",
+    "priceRaw": 380,
+    "maxKids": 25,
+    "added": 10,
+    "options": [
+      "1.5 Hour(s)",
+      "Louby Lou Dance & Interviews",
+      "Roger The Rabbit",
+      "Magic",
+      "Games",
+      "Dancing",
+      "IBIZA",
+      "Snow Machine",
+      "Saxophone",
+      "Treats"
+    ],
+    "color": "#EFB94F"
+  },
+  {
+    "name": "Playful Platinum",
+    "basePrice": "£450",
+    "priceRaw": 450,
+    "maxKids": 30,
+    "added": 10,
+    "options": [
+      "2 Hour(s)",
+      "Louby Lou Dance & Interviews",
+      "Roger The Rabbit",
+      "Magic",
+      "Games",
+      "Dancing",
+      "IBIZA",
+      "Snow Machine",
+      "Saxophone",
+      "Treats",
+      "Glowsticks"
+    ],
+    "color": "#4690FF"
+  },
+  {
+    "name": "Crazy Custom",
+    "basePrice": "£450+",
+    "priceRaw": 450,
+    "maxKids": 40,
+    "added": 10,
+    "options": [
+      "Max 3 Hours",
+      "Louby Lou Dance & Interviews",
+      "Roger The Rabbit",
+      "Magic",
+      "Games",
+      "Dancing",
+      "IBIZA",
+      "Snow Machine",
+      "Saxophone",
+      "Treats",
+      "Glowsticks",
+      "+MORE"
+    ],
+    "color": "#CF21EC"
+  }
+]

@@ -1,0 +1,16 @@
+@import "../../styles/global/variables";
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  @media only screen and (min-width: $tablet) {
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+}

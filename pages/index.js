@@ -1,67 +1,105 @@
-import Navbar from "../components/Navbar";
-import Card from "../components/Card/Card";
-import Contact from "../components/Contact/Contact";
-import Hero from "../components/Hero/Hero";
-import Scroller from "../components/Scroller/Scroller";
-import React, { useEffect, useState } from "react";
-import aboutJSON from "./api/about.json";
-import Partners from "../components/Partners/Partners";
-import Head from "next/head";
-import links from "./api/links.json";
+import React from "react";
+import Hero from "@/components/Hero/Hero";
+import Navigation from "@/components/Navigation/Navigation";
+import About from "@/components/About/About";
+import DividerTitle from "@/components/typography/DividerTitle/DividerTitle";
+import Decoration from "@/components/Decoration/Decoration";
+import Card from "@/components/Card/Card";
+import Socials from "@/components/Socials/Socials";
+import homeData from "./api/json/home.json";
+import Companies from "@/components/Companies/Companies";
+import Reviews from "@/components/Reviews/Reviews";
+import { NextSeo } from "next-seo";
 
-export const getStaticProps = async () => {
+export async function getServerSideProps() {
+  const pageData = await homeData;
   return {
-    props: { links },
+    props: {
+      pageData,
+    },
   };
-};
+}
 
-export default function Home({ links }) {
-  const [aboutMeAPI, setAboutMeAPI] = useState([]);
+export default function Home({ pageData }) {
+  let content = pageData.main;
+  let head = pageData.head;
+  let locationIndex = 0;
 
-  const data = aboutJSON;
+  const areaServed = [
+    {
+      "@type": "GeoShape",
+      "@polygon": head.locations[locationIndex].coordinates,
+    },
+    head.locations[locationIndex].towns.map((item, idx) => ({
+      "@type": "Town",
+      name: item,
+    })),
+  ];
 
-  useEffect(() => {
-    setAboutMeAPI([...aboutMeAPI, data]);
-  }, []);
+  const businessAddress = {
+    "@type": "PostalAddress",
+    streetAddress: "19 Sandy Lane",
+    addressLocality: "Astley",
+    postalCode: "M29 7ED",
+    addressCountry: "United Kingdom",
+  };
 
   return (
-    <div>
-      <Head>
-        <title>Louby Lou - Home 💜</title>
-        <meta charSet="UTF-8" />
-        <meta
-          name="description"
-          content="Louby Lou's very own wonderful website! Find events, merch, services and enquire for your own Louby Lou show!"
+    <>
+      <NextSeo
+        title={`${head.title} ${head.locations[locationIndex].county}`}
+        description={`${head.metadata.content[0]} ${head.locations[locationIndex].county}. ${head.metadata.content[1]}`}
+        openGraph={{
+          title: `${head.title} ${head.locations[locationIndex].county}`,
+          description: `${head.metadata.content[0]} ${head.locations[locationIndex].county}. ${head.metadata.content[1]}`,
+          type: "website",
+          site_name: `${head.title} ${head.locations[locationIndex].county}`,
+        }}
+        additionalMetaTags={[
+          {
+            name: "areaServed",
+            content: JSON.stringify(areaServed),
+          },
+          {
+            name: "business:contact_data",
+            content: JSON.stringify(businessAddress),
+          },
+          {
+            name: "google-site-verification",
+            content: "rUu4vHUuVlrNlBduIw0hsXgIgOcqkLdGcBlTs-ZabjI",
+          },
+        ]}
+        favicon={head.favicon}
+      />
+      <main>
+        <Navigation />
+        <Hero title={content.hero.title} src={content.hero.video.url} button />
+        <About title={content.about.title} body={content.about.body} />
+        <Decoration position={content.decoration.top.position} />
+        <DividerTitle
+          spacing={"large"}
+          title={content.dividerTitle.top.title}
+          text={content.dividerTitle.top.text}
         />
-        <meta
-          name="keywords"
-          content="Clown, Manchester, Louby, Lou, Louby Lou, Entertainer, North West, Manchester, Greater Manchester"
-        />
-        <meta name="author" content="Zorilla" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
-      <Navbar
-        button={true}
-        title={"Louby Lou"}
-        altText={"Making smiles for miles since 1995"}
-        links={links}
-      />
-      <Scroller />
-      <Hero
-        src="/videos/Pink_n_purple_video.webm"
-        poster="/images/posters/Pink_n_purple_poster.jpg"
-        type="webm"
-      />
-      <Card
-        title={aboutMeAPI[0]?.data.attributes.LeaveBlank}
-        desc={aboutMeAPI[0]?.data.attributes.aboutMeDetails}
-        src={`${aboutMeAPI[0]?.data.attributes.aboutImageURL}`}
-        left={true}
-      />
-      {/* <Services /> */}
-      <Partners />
-      {/* <Reviews /> */}
-      <Contact />
-    </div>
+        {content.cards.map((item, idx) => (
+          <Card
+            title={item.title}
+            desc={item.description}
+            pos={item.position}
+            img={item.image}
+            key={idx}
+            button
+            buttonType={item.buttonAction}
+            imageAlt={`${item.imageAlt}${head.locations[locationIndex].county}`}
+          />
+        ))}
+
+        <Decoration position={content.decoration.bottom.position} />
+
+        <Reviews data={content.reviews} />
+        <Socials />
+        <Companies />
+      </main>
+    </>
   );
 }

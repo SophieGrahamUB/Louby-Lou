@@ -1,38 +1,25 @@
+@import "/styles/global/variables";
+
 html,
 body {
-  scroll-behavior: smooth;
-  padding: 0;
+  min-width: 100vw;
+  overflow-x: hidden;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  ::-webkit-scrollbar {
-    background: transparent;
-    width: 0px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    border-radius: 15px;
-    width: 5px;
-    background: #d348d6;
-  }
+  padding: 0;
+  background-color: $background-dark;
+  font-family: $body-font;
 }
 
-.swiper-pagination-bullet-active {
-  background-color: #d348d6 !important;
-}
-
-.swiper-button-prev {
-  color: #d348d6 !important;
-}
-
-.swiper-button-next {
-  color: #d348d6 !important;
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 // * {
-//   outline: 1px solid red;
+//   border: 1px solid !important;
+//   border-color: red !important;
 // }
+
+* {
+  transition: 0.5s;
+}

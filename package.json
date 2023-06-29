@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "louby-lou-new",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,23 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.6.2",
-    "@shopify/shopify-api": "^7.0.0",
-    "@stripe/react-stripe-js": "^1.10.0",
-    "@stripe/stripe-js": "^1.35.0",
-    "graphql-request": "^6.0.0",
-    "next": "^13.4.0",
+    "@emailjs/browser": "^3.11.0",
+    "@stripe/react-stripe-js": "^2.1.0",
+    "@stripe/stripe-js": "^1.54.0",
+    "embla-carousel": "^8.0.0-rc07",
+    "embla-carousel-autoplay": "^8.0.0-rc07",
+    "embla-carousel-react": "^8.0.0-rc07",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.2",
+    "next": "13.4.2",
     "next-sanity": "^4.3.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.54.3",
+    "next-seo": "^6.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.62.1",
     "scss": "^0.2.4",
-    "shopify-buy": "^2.19.0",
+    "sharp": "^0.32.1",
     "stripe": "^10.0.0",
-    "swr": "^2.1.5"
-  },
-  "devDependencies": {
-    "eslint": "8.21.0",
-    "eslint-config-next": "12.2.4"
+    "vimeo": "^2.3.1"
   }
 }

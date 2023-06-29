@@ -1,0 +1,18 @@
+@import "../../../styles/global/variables";
+
+.body {
+  width: 100%;
+  font-family: $body-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $body-mobile;
+  color: white;
+
+  @media only screen and (min-width: $tablet) {
+    font-size: $body-mobile;
+  }
+
+  @media only screen and (min-width: $laptopL) {
+    font-size: 18px;
+  }
+}

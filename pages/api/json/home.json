@@ -1,0 +1,171 @@
+{
+  "head": {
+    "title": "Louby Lou - Female Clown and Children's Entertainer in ",
+    "metadata": {
+      "name": "description",
+      "content": [
+        "Louby Lou is a professional female clown and children's entertainer based in",
+        "Providing fun and exclusive entertainment for parties and events in Greater Manchester, Salford, Lancashire, Cheshire, Merseyside and surrounding areas. Hire Louby Lou for a memorable and child-friendly experience with activities like saxophone playing, dancing, and lots of giggles. DBS checked and experienced in creating a joyous atmosphere for children."
+      ]
+    },
+    "favicon": "/favicon.ico",
+    "locations": [
+      {
+        "county": "Greater Manchester",
+        "towns": [
+          "Hale",
+          "Bolton",
+          "Bury",
+          "Manchester",
+          "Oldham",
+          "Rochdale",
+          "Salford",
+          "Stockport",
+          "Tameside",
+          "Trafford",
+          "Wigan"
+        ],
+        "coordinates": "-2.2723132 53.6014698 -2.2681903 53.6185794 -2.3066702 53.6193939 -2.4633380 53.6063589 -2.5774033 53.5721229 -2.6529886 53.5696764 -2.7024627 53.5558102 -2.6819256 53.4978495 -2.6434458 53.4978495 -2.6022174 53.4847770 -2.5884746 53.4627080 -2.5651119 53.4569846 -2.5142635 53.4627080 -2.4799065 53.4708831 -2.4634152 53.4569846 -2.4647894 53.4447174 -2.4111925 53.4111690 -2.3081216 53.3882428 -2.2160448 53.3636652 -2.1253424 53.3595675 -2.0978568 53.3866047 -2.0827397 53.4209908 -2.0222714 53.4406275 -2.0030315 53.4847770 -1.9989086 53.5280643 -2.0346399 53.5965800 -2.0992310 53.6478940 -2.1981792 53.6348678 -2.2723132 53.6014698"
+      },
+      {
+        "county": "Lancashire",
+        "towns": [
+          "Blackburn",
+          "Blackpool",
+          "Burnley",
+          "Chorley",
+          "Clitheroe",
+          "Lancaster",
+          "Ormskirk",
+          "Preston",
+          "Bolton"
+        ],
+        "coordinates": "-2.8228041 54.1624340 -2.9245008 54.0561636 -2.8860210 53.9609336 -2.9932148 53.9447713 -3.0481860 53.8849163 -2.9602321 53.8233544 -3.0674259 53.7795579 -2.8832724 53.7275918 -3.0564317 53.5354106 -2.7788272 53.4978495 -2.7018675 53.5354106 -2.6578906 53.5810921 -2.5644395 53.6104328 -2.5589424 53.7633254 -2.4380058 53.7844265 -2.3335606 53.6169502 -2.1494071 53.6381247 -2.0559561 53.8719635 -2.2758408 54.0077688 -2.3500519 54.0416510 -2.4407544 54.0771172 -2.3665433 54.2090424 -2.5919251 54.1833339 -2.8228041 54.1624340"
+      },
+      {
+        "county": "Cheshire",
+        "towns": [
+          "Chester",
+          "Crewe",
+          "Northwitch",
+          "Lymm",
+          "Warrington",
+          "Wilmslow",
+          "Macclesfield",
+          "Runcorn",
+          "Helsby",
+          "Widnes",
+          "Pretsbury",
+          "Frodsham",
+          "Knutsford"
+        ],
+        "coordinates": "-2.6936218 53.4177171 -3.0949115 53.2816374 -2.8310498 52.9883373 -2.6221593 52.9899906 -2.5204626 52.9320857 -2.4270116 53.0280002 -2.1631499 53.1714729 -1.8278256 53.1862876 -1.8663055 53.3702206 -2.2208696 53.3390734 -2.5177140 53.4717005 -2.6936218 53.4177171"
+      },
+      {
+        "county": "Merseyside",
+        "towns": [
+          "Liverpool",
+          "Birkenhead",
+          "Crosby",
+          "Formby",
+          "Wallasey",
+          "Kirkby",
+          "Bootle",
+          "Runcorn",
+          "Newton-le-Willows",
+          "St Helens",
+          "Haydock",
+          "Albert Dock",
+          "Otterspool",
+          "Broadgreen"
+        ],
+        "coordinates": "-2.9602321 53.7080879 -3.1443856 53.5794615 -3.0426889 53.4406275 -3.2570765 53.4160802 -3.1114029 53.2914891 -2.7705815 53.3767750 -2.6771305 53.3964321 -2.5919251 53.4815083 -2.7953185 53.5288806 -2.9190037 53.5386752 -2.9932148 53.5827227 -2.8997638 53.6332392 -2.9602321 53.7080879"
+      }
+    ]
+  },
+
+  "main": {
+    "hero": {
+      "title": "Looking for giggles?",
+      "button": true,
+      "video": {
+        "url": "/videos/louby_lou_showreel-output"
+      }
+    },
+    "about": {
+      "title": "welcome everyone",
+      "body": [
+        "Heya! Louby Lou here, if it's laughter you're after, then you've come to the right place...",
+        "For over 25 years, I have been the performing as a clown and children's entertainer across Manchester, Lancashire, Merseyside, Cheshire and the rest of The North West. It's always a pleasure to see smiles and joy on the faces of the families I meet and spreading magic and joy is what life is all about.",
+        "For me, the best part of being a clown and performing as Louby Lou, is being able to see happy parents, giggling children and above all, sharing and creating memories that will last a lifetime! This is something I have been doing since the age of 6, developing my skills, travelling and performing in the entertainment business, following in my father's footsteps, Trumble The Clown.",
+        "Every show is different, whether its a private party, birthday celebration, corporate event or festival performance, but each gig has a base of good old-fashioned, traditional clowning and childrens entertainment. Over the years my style and shows have evolved, with the inclusion of puppetry, some Ibiza dance tunes, with a dash of saxophone and of course, plenty of magic! The perfect recipe for an amazing party atmosphere!",
+        "So if you'd like to hear more about me or experience some giggles for yourself, then please, get in touch, I can't wait to hear from you!"
+      ]
+    },
+    "decoration": {
+      "top": { "position": "right" },
+      "bottom": { "position": "left" }
+    },
+    "dividerTitle": {
+      "top": {
+        "title": "25 Years of Louby Lou Giggles, Fun & Magic",
+        "text": ["Fun for all, magic for many and parties to remember!"]
+      }
+    },
+    "cards": [
+      {
+        "title": "Check out my events",
+        "description": [
+          "There are Louby Lou events across the North West weekly! I perform at some amazing family friendly venues across the region, so why not see if there is one near you and come along and say hi!"
+        ],
+        "position": "left",
+        "image": "/images/pictures/louby_lou_events.webp",
+        "buttonAction": "events",
+        "imageAlt": "An image of Louby Lou, the clown, on top of a stage, performing to a large crowd of children. There's plenty of giggles on display, from both Louby Lou and the Children. This image was taken in "
+      },
+      {
+        "title": "It's party time",
+        "description": [
+          "If you are looking for a magical party, then look no further!",
+          "You can book Louby Lou for a range of events, such as birthday parties, school events, christenings, weddings, corporate events and much more!"
+        ],
+        "position": "right",
+        "image": "/images/pictures/louby_lou_party.webp",
+        "buttonAction": "services",
+        "imageAlt": "An image of Louby Lou, the clown, posing in front of a Louby Lou banner with a group of 10 children at a party. Each child is giggling and celebrating. The image really radiates excitment. This image was taken in "
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Amy M",
+        "review": "We booked Louby Lou to entertain the kids for an hour in the evening of our wedding. She went down a storm with adults and children, every minute was just fantastic!! Thank you so much Louby!! Can’t wait to book again.",
+        "stars": 5
+      },
+      {
+        "name": "Robert Wood",
+        "review": "Louby Lou performed for a large crowd of people at our annual event in Chorley ‘Picnic in the Park’. Our guests were thoroughly entertained with Louby Lou’s music, interviews, saxophone playing, dancing, bubbles and everything else! Louby Lou created special memories for the guests attending and made sure that everyone had a fun time. A pleasure to deal with and would highly recommend.",
+        "stars": 5
+      },
+      {
+        "name": "Nicola Fisher",
+        "review": "Louby Lou is absolutely amazing!!! All our guest adults and children of all ages enjoyed her down to earth, fun packed, funny!! and personable show!!",
+        "stars": 5
+      },
+      {
+        "name": "Emmy Demko",
+        "review": "Louby Lou is amazing! She came down to our football funday and bought such joy to all the children. Couldn’t recommend enough! And the Sax playing also brings the adults in! Close my eyes and we’re in Ibiza! Thank you so much!",
+        "stars": 5
+      },
+      {
+        "name": "Kay Warhurst",
+        "review": "Been to lots of Louby Lou events recently with our little girl! Absolutely amazing every time! Our near 3 year old loves to party with Louby Lou! Hey Yeah, Hey Yeah! 🎉💞",
+        "stars": 5
+      },
+      {
+        "name": "Helena",
+        "review": "Where to start! We celebrated our little girls 2nd birthday in the best possible way with Louby Lou. We can’t thank you enough Lucy, with memories that will last a lifetime. I wouldn’t hesitate to book for a celebration of any kind. From start to finish the kids and adults were entertained and had an amazing time, lots of singing, dancing, prizes and fun for everyone. Thank you again for the most wonderful day xxx",
+        "stars": 5
+      }
+    ]
+  }
+}

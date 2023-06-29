@@ -1,59 +1,18 @@
+import Navigation from "@/components/Navigation/Navigation";
+import DividerTitle from "@/components/typography/DividerTitle/DividerTitle";
 import React from "react";
-import Shop from "../components/Shop/Shop";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero/Hero";
-import Contact from "../components/Contact/Contact";
-import Scroller from "../components/Scroller/Scroller";
-import Partners from "../components/Partners/Partners";
-import Head from "next/head";
-import links from "./api/links.json";
-import Title from "../components/Title/Title";
 
-export const getStaticProps = async () => {
-  return {
-    props: { links },
-  };
-};
-
-const shop = ({ links }) => {
+const shop = () => {
   return (
-    <div>
-      <Head>
-        <title>Louby Lou - Shop 💜</title>
-        <meta charSet="UTF-8" />
-        <meta
-          name="description"
-          content="Louby Lou's very own wonderful website! Find events, merch, services and enquire for your own Louby Lou show!"
+    <>
+      <main>
+        <Navigation />
+        <DividerTitle
+          title={"this page is currently under development"}
+          text={[""]}
         />
-        <meta
-          name="keywords"
-          content="Clown, Manchester, Louby, Lou, Louby Lou, Entertainer, North West, Manchester, Greater Manchester"
-        />
-        <meta name="author" content="Zorilla" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
-      <Navbar
-        title={"Shop"}
-        altText={"Buy some giggles!"}
-        button={true}
-        links={links}
-      ></Navbar>
-      <Scroller />
-      <Hero
-        id={"Hero"}
-        src={"/videos/Pink_n_purple_video.mp4"}
-        type="mp4"
-        poster="/images/posters/Pink_n_purple_poster.jpg"
-      />
-      <Shop />
-      <Title
-        title={
-          "Some browsers may take longer to load than others, please remain patient!"
-        }
-      />
-      <Partners />
-      <Contact />
-    </div>
+      </main>
+    </>
   );
 };
 

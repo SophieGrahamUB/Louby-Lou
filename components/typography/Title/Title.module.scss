@@ -1,0 +1,20 @@
+@import "../../../styles/global/variables";
+
+.title {
+  font-family: $body-font;
+  font-style: normal;
+  font-weight: 800;
+  font-size: $title-small-mobile;
+  line-height: 102.4%;
+  color: $accent-dark;
+  text-transform: uppercase;
+  line-height: 0.8;
+
+  @media only screen and (min-width: $tablet) {
+    font-size: 44px;
+  }
+
+  @media only screen and (min-width: $laptopL) {
+    font-size: $title-small;
+  }
+}

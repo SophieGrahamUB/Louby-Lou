@@ -1,0 +1,40 @@
+@import "../../styles/global/variables";
+
+.container {
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: $accent-light;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  color: $background-dark;
+  width: 80%;
+  text-align: center;
+}
+
+.container,
+.companies__Container {
+  display: flex;
+}
+
+.companies__Container {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.companies__Image {
+  margin: 5px 5px 5px 5px;
+  object-fit: contain;
+  width: 125px;
+  height: 125px;
+
+  @media only screen and (min-width: $tablet) {
+    width: 150px;
+    height: 150px;
+  }
+}

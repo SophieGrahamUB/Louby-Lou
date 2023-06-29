@@ -1,15 +1,26 @@
 // Typography
 
+$title-large: 96px;
+$title-large-mobile: 44px;
+$title-small: 65px;
+$title-small-mobile: 46px;
+$button: 20px;
+$button-mobile: 18px;
+$body: 18px;
+$body-mobile: 16px;
+
 // Fonts
 
-$title-font: "Katy-Berry", sans-serif;
 $body-font: "Montserrat", sans-serif;
 
 // Border (for debugging UI)
 $border: 1px red solid;
 
 // Colors
-$pink-accent: #d348d6;
+$accent-light: #da96e0;
+$accent-dark: #cf21ec;
+$background-dark: #181318;
+$background-light: #281f28;
 
 // Breakpoints
 $mobile: 500px;
