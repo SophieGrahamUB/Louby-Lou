@@ -66,7 +66,7 @@ export default function Home({ pageData }) {
           },
           {
             name: "google-site-verification",
-            content: "rUu4vHUuVlrNlBduIw0hsXgIgOcqkLdGcBlTs-ZabjI",
+            content: "yv4vlUzpVXyt1f33Xp88TY7W_rjnsl4P4F9jHkOI2R0",
           },
         ]}
         favicon={head.favicon}
