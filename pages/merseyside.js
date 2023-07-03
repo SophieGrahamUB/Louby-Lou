@@ -70,6 +70,22 @@ export default function Home({ pageData }) {
           description: `${head.metadata.content[0]} ${head.locations[locationIndex].county}. ${head.metadata.content[1]}`,
           type: "website",
           site_name: `${head.title} ${head.locations[locationIndex].county}`,
+          review: [
+            content.reviews.map((item, idx) => ({
+              "@type": "Review",
+              reviewRating: {
+                "@type": "Rating",
+                ratingValue: item.stars,
+                bestRating: "5",
+              },
+              author: {
+                "@type": "Person",
+                name: item.name,
+              },
+              datePublished: "2023-06-27",
+              reviewBody: item.review,
+            })),
+          ],
         }}
         additionalMetaTags={[
           {
