@@ -5,6 +5,7 @@ import Navigation from "@/components/Navigation/Navigation";
 import Socials from "@/components/Socials/Socials";
 import DividerTitle from "@/components/typography/DividerTitle/DividerTitle";
 import Head from "next/head";
+import Script from "next/script";
 import React from "react";
 
 const about = () => {
@@ -19,6 +20,7 @@ const about = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon2.ico" />
       </Head>
+
       <main>
         <Navigation />
         <About
