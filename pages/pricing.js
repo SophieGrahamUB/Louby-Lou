@@ -27,7 +27,7 @@ const pricing = ({ pricingData }) => {
           content="Interested in Manchester, Lancashire, Cheshire and Merseyside's premium children's entertainer and clown for hire's exclusive parties? Check out her pricing options! "
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon2.ico" />
       </Head>
       <main>
         <Navigation />

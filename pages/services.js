@@ -83,7 +83,7 @@ const services = () => {
           )}no matter the occasion, Louby Lou can party with you!`}
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon2.ico" />
       </Head>
       <main>
         <Navigation />

@@ -16,7 +16,7 @@ const gallery = () => {
           content="Want a deeper dive into Manchester, Lancashire, Cheshire and Merseyside's premium children's entertainer and clown for hire? Take a look at Louby Lou's instagram images!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon2.ico" />
       </Head>
       <main>
         <Navigation />

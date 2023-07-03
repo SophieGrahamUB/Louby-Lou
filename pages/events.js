@@ -26,7 +26,7 @@ export default function events({ eventsData }) {
           content="Looking for exclusive, high-end events by Manchester, Lancashire, Cheshire and Merseyside's premium children's entertainer and clown for hire? Look no further."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon2.ico" />
       </Head>
       <main>
         <Navigation />

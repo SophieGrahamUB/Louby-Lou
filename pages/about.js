@@ -17,7 +17,7 @@ const about = () => {
           content="Get to know Louby Lou: Manchester, Lancashire, Cheshire and Merseyside's premium children's entertainer and clown for hire. Embark on a journey to get to know the amazing woman behind the exclusive world of Louby Lou."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon2.ico" />
       </Head>
       <main>
         <Navigation />
