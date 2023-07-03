@@ -10,6 +10,7 @@ import homeData from "./api/json/home.json";
 import Companies from "@/components/Companies/Companies";
 import Reviews from "@/components/Reviews/Reviews";
 import { NextSeo } from "next-seo";
+import Script from "next/script";
 
 export async function getServerSideProps() {
   const pageData = await homeData;
@@ -71,6 +72,15 @@ export default function Home({ pageData }) {
         ]}
         favicon={head.favicon}
       />
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-8ELL72CD8T"
+      ></Script>
+      <Script>{`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8ELL72CD8T');`}</Script>
       <main>
         <Navigation />
         <Hero title={content.hero.title} src={content.hero.video.url} button />

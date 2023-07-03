@@ -7,6 +7,7 @@ import pricingJSON from "./api/json/packages.json";
 import PricingContainer from "@/components/PricingContainer/PricingContainer";
 import About from "@/components/About/About";
 import Companies from "@/components/Companies/Companies";
+import Script from "next/script";
 
 export async function getStaticProps() {
   const pricingData = await pricingJSON;
@@ -29,6 +30,15 @@ const pricing = ({ pricingData }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon2.ico" />
       </Head>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-8ELL72CD8T"
+      ></Script>
+      <Script>{`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8ELL72CD8T');`}</Script>
       <main>
         <Navigation />
         <About

@@ -5,6 +5,7 @@ import Socials from "@/components/Socials/Socials";
 import DividerTitle from "@/components/typography/DividerTitle/DividerTitle";
 import Head from "next/head";
 import React from "react";
+import Script from "next/script";
 
 const gallery = () => {
   return (
@@ -18,6 +19,15 @@ const gallery = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon2.ico" />
       </Head>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-8ELL72CD8T"
+      ></Script>
+      <Script>{`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8ELL72CD8T');`}</Script>
       <main>
         <Navigation />
         <DividerTitle
