@@ -11,6 +11,7 @@ import Companies from "@/components/Companies/Companies";
 import Reviews from "@/components/Reviews/Reviews";
 import { NextSeo } from "next-seo";
 import Script from "next/script";
+import Head from "next/head";
 
 export async function getServerSideProps() {
   const pageData = await homeData;
@@ -47,6 +48,20 @@ export default function Home({ pageData }) {
 
   return (
     <>
+      <Head>
+        <Script type="application/ld+json">
+          {`{
+          "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Louby Lou",
+        "address": ${businessAddress},
+        "areaServed": ${areaServed},
+        "telephone": "07779 013806",
+        "url": "https://www.loubylou.co.uk",
+        "image": "https://www.loubylou.co.uk/images/pictures/louby_lou_events.webp"
+        }`}
+        </Script>
+      </Head>
       <NextSeo
         title={`${head.title} ${head.locations[locationIndex].county}`}
         description={`${head.metadata.content[0]} ${head.locations[locationIndex].county}. ${head.metadata.content[1]}`}
