@@ -70,6 +70,14 @@ export default function Home({ pageData }) {
           description: `${head.metadata.content[0]} ${head.locations[locationIndex].county}. ${head.metadata.content[1]}`,
           type: "website",
           site_name: `${head.title} ${head.locations[locationIndex].county}`,
+          images: [
+            {
+              url: "https://www.loubylou.co.uk/images/pictures/louby_lou_events.webp",
+              width: 800,
+              height: 600,
+              alt: "Og Image Alt",
+            },
+          ],
           review: content.reviews.map((item, idx) => ({
             "@type": "Review",
             reviewRating: {
