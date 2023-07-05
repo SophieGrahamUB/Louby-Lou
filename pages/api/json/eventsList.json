@@ -1,16 +1,6 @@
 {
   "events": [
     {
-      "id": "Delph-05-07-23",
-      "name": "The Delph",
-      "date": "05/07/23 - 10:00 AM",
-      "price": [{ "adult": 0 }, { "child": 8 }],
-      "length": 1.5,
-      "postCode": "Worsley Rd, Worsley, M28 2NL",
-      "imgURL": "/images/events/the_delph_louby_lou.webp",
-      "description": "Join us for Parents & Tots at The Delph Restaurant & Cocktail Bar! ✨   Mark your calendars for Wednesday 5th July, from 10am-11:30am. Bring your little ones for loads of giggles, magical snow, and Ibiza style saxophone tunes! 🎈🎷   Parents, get ready to have fun too!"
-    },
-    {
       "id": "Point-20-07-23",
       "name": "The Point",
       "date": "20/07/23 - 05:00 PM",
