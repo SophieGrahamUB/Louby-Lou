@@ -21,14 +21,17 @@ const Footer = () => {
 
           <div className={styles.details__Container}>
             <Body text={["Details"]} />
-            <Body
-              text={["Mobile: 07779013806", "Email: lucy@loubylou.co.uk"]}
-            />
+            <div>
+              <p>Email:</p>{" "}
+              <a href="mailto:name@rapidtables.com">lucy@loubylou.co.uk</a>
+            </div>
+            <div>
+              <p>Number:</p> <a href="tel:07779013806">07779013806</a>
+            </div>
 
             <Link href="https://app.enzuzo.com/policies/privacy/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJDdXN0b21lcklEIjoxMTU3NiwiQ3VzdG9tZXJOYW1lIjoiY3VzdC11STFEVTE4cyIsIkN1c3RvbWVyTG9nb1VSTCI6IiIsIlJvbGVzIjpbInJlZmVycmFsIl0sIlByb2R1Y3QiOiJlbnRlcnByaXNlIiwiaXNzIjoiRW56dXpvIEluYy4iLCJuYmYiOjE2NTcwODI0OTZ9.XZ4BloXpVAugLAEm9pRDSDanFPK216zdzSBBBf1pnO4">
               <Body text={["Privacy"]} />
             </Link>
-
             <Link
               href={
                 "https://app.enzuzo.com/policies/tos/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJDdXN0b21lcklEIjoxMTU3NiwiQ3VzdG9tZXJOYW1lIjoiY3VzdC11STFEVTE4cyIsIkN1c3RvbWVyTG9nb1VSTCI6IiIsIlJvbGVzIjpbInJlZmVycmFsIl0sIlByb2R1Y3QiOiJlbnRlcnByaXNlIiwiaXNzIjoiRW56dXpvIEluYy4iLCJuYmYiOjE2NTcwODI5Mzh9.qi-TmCteHm9P8yG2UGwHHAZ3qZ2P0bWqtDOFI7DYbB4"
