@@ -1,0 +1,69 @@
+@import "../../styles/global/variables";
+
+.location__Dialog p {
+  color: #858585;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.location__Dialog {
+  background-color: $background-light;
+  border: none;
+  border-radius: 5px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  :nth-child(2) {
+    margin-top: -20px;
+  }
+  animation: fadeInAnimation ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0px, -50px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.location__Dialog select {
+  margin: auto;
+  -webkit-appearance: none;
+  font-family: $body-font;
+  background-color: $background-dark;
+  border: none;
+  border-radius: 4px;
+  color: $accent-dark;
+  line-height: 102.4%;
+  letter-spacing: -0.035em;
+  font-weight: 500;
+  font-size: 25px;
+  height: 40px;
+  width: 200px;
+  margin-top: 30px;
+  appearance: menulist;
+}
+
+.location__Dialog::backdrop {
+  opacity: 90%;
+  background-color: black;
+}
+
+.location__Dialog button {
+  margin-top: 50px;
+  font-family: $body-font;
+  border-radius: 9px;
+  border: none;
+  font-weight: 800;
+  font-size: 16px;
+  width: 176.26px;
+  height: 36.05px;
+  background: $accent-dark;
+  color: $background-dark;
+}

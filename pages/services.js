@@ -5,8 +5,11 @@ import Navigation from "@/components/Navigation/Navigation";
 import Socials from "@/components/Socials/Socials";
 import DividerTitle from "@/components/typography/DividerTitle/DividerTitle";
 import Head from "next/head";
-import React from "react";
+import React, { useEffect } from "react";
 import Script from "next/script";
+import Link from "next/link";
+import location from "./api/json/locations.json";
+import Locations from "@/components/Locations/Locations";
 
 const services = () => {
   function isInt(n) {
@@ -97,11 +100,15 @@ const services = () => {
   gtag('config', 'G-8ELL72CD8T');`}</Script>
       <main>
         <Navigation />
+        <Locations location={location} />
         <DividerTitle
           title={"What can Louby Lou do for you?"}
           text={["There's always a little something for everyone!"]}
           spacing={"large"}
         />
+        <Link href={"/services/location/Chester"}>
+          Click me to go to Chester
+        </Link>
         <Decoration position={"right"} />
         {array.map((item, idx) => (
           <Card
