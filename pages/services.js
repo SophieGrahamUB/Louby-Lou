@@ -106,9 +106,6 @@ const services = () => {
           text={["There's always a little something for everyone!"]}
           spacing={"large"}
         />
-        <Link href={"/services/location/Chester"}>
-          Click me to go to Chester
-        </Link>
         <Decoration position={"right"} />
         {array.map((item, idx) => (
           <Card
