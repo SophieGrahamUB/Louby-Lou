@@ -1,6 +1,36 @@
 [
   {
     "params": {
+      "location": "Greater Manchester"
+    }
+  },
+  {
+    "params": {
+      "location": "Lancashire"
+    }
+  },
+  {
+    "params": {
+      "location": "Cheshire"
+    }
+  },
+  {
+    "params": {
+      "location": "Merseyside"
+    }
+  },
+  {
+    "params": {
+      "location": "Yorkshire"
+    }
+  },
+  {
+    "params": {
+      "location": "The United Kingdom"
+    }
+  },
+  {
+    "params": {
       "location": "Hale"
     }
   },
