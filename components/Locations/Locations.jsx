@@ -27,6 +27,7 @@ const Locations = ({ location }) => {
         </p>
 
         <select
+          aria-label="Location drop down menu"
           id="locationSelect"
           onChange={(e) => handleClick(e)}
           onClick={(e) => handleClick(e)}
