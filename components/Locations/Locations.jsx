@@ -26,7 +26,11 @@ const Locations = ({ location }) => {
           cookies.
         </p>
 
-        <select id="locationSelect" onClick={(e) => handleClick(e)}>
+        <select
+          id="locationSelect"
+          onChange={(e) => handleClick(e)}
+          onClick={(e) => handleClick(e)}
+        >
           {location.map((item, idx) => (
             <option key={idx} value={item.params.location}>
               {item.params.location}
