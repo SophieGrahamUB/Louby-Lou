@@ -5,7 +5,8 @@ import Body from "../typography/Body/Body";
 import Link from "next/link";
 
 const Locations = ({ location }) => {
-  const [selectedLocation, setSelectedLocation] = useState("");
+  const [selectedLocation, setSelectedLocation] =
+    useState("Greater Manchester");
 
   useEffect(() => {
     const dialog = document.getElementById("location");
