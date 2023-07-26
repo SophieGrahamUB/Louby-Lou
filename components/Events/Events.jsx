@@ -260,4 +260,20 @@ const Events = ({ position, data }) => {
   );
 };
 
+/* 
+{
+  "events": [
+    {
+      "id": "Point-20-07-23",
+      "name": "The Point",
+      "date": "20/07/23 - 05:00 PM",
+      "price": [{ "adult": 0 }, { "child": 8 }],
+      "length": 1.5,
+      "postCode": "Ann Ln, Tyldesley, Astley, M29 7SG",
+      "imgURL": "/images/events/the_point_louby_lou.webp",
+      "description": "🎉 Kids Bingo is BACK and better than ever! 🎉   Join Louby Lou at @thepointastley on Thursday 20th July, for an unforgettable disco, bingo extravaganza with crazy prizes, music, and so much more!! 🎶   Bring your family and friends along, because we're about to create memories that will last a lifetime. 🪄🪄"
+    }
+  ]
+} */
+
 export default Events;
