@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "Point-20-07-23",
-      "name": "The Point",
-      "date": "20/07/23 - 05:00 PM",
-      "price": [{ "adult": 0 }, { "child": 8 }],
-      "length": 1.5,
-      "postCode": "Ann Ln, Tyldesley, Astley, M29 7SG",
-      "imgURL": "/images/events/the_point_louby_lou.webp",
-      "description": "🎉 Kids Bingo is BACK and better than ever! 🎉   Join Louby Lou at @thepointastley on Thursday 20th July, for an unforgettable disco, bingo extravaganza with crazy prizes, music, and so much more!! 🎶   Bring your family and friends along, because we're about to create memories that will last a lifetime. 🪄🪄"
+      "id": "ThymeDeli-09-08-23",
+      "name": "Thyme Deli",
+      "date": "09/08/23 - 12:00 PM",
+      "price": [{ "adult": 0 }, { "child": 15.95 }],
+      "length": 2,
+      "postCode": "4-6 Winter Hey Ln, Horwich, Bolton BL6 7AA",
+      "imgURL": "/images/events/thyme_deli_louby_lou.webp",
+      "description": "🌞🎈 Summer Afternoon Tea with Louby Lou at Thyme Deli Horwich! 🎈🌞🌸✨ Join us for a delightful afternoon filled with laughter, magic, and scrumptious treats at Thyme Deli Horwich! It's the perfect way to enjoy a Summer's day with your little ones and experience the enchantment of Louby Lou's show! 🤩🎉🏰🍽️ Step into a world of wonder on Wednesday 9th July at 12 pm, as we gather for an unforgettable event that will last until 2 pm. 🗓️⏰🍄🌳 The charming Thyme Deli Horwich will be our magical setting, providing a delightful experience for children aged 2 years and above. 🌈💫🍔🍰 Each child's ticket, priced at £15.95, includes a scrumptious afternoon tea with a mouthwatering sandwich, crispy crisps, delectable cake, and a refreshing drink! 😋🍵👩‍👧‍👦 For adults, food and drinks will be available to purchase separately, ensuring everyone can indulge in their favorite treats while enjoying the show! 🥪🍹🤡🎈 Get ready to be captivated by Louby Lou's magical performance, filled with laughter, interactive games, and the joy of imagination! It's a Summer afternoon you won't want to miss! 🌞🤗 🎉🎈 Secure your spot now and create beautiful memories that will last a lifetime. Limited tickets available, so don't wait too long! 🎟️🏃"
     }
   ]
 }
