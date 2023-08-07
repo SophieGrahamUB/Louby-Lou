@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import Navigation from "@/components/Navigation/Navigation";
 import Socials from "@/components/Socials/Socials";
@@ -7,17 +7,35 @@ import Events from "@/components/Events/Events";
 import events__Data from "./api/json/eventsList.json";
 import Companies from "@/components/Companies/Companies";
 import Script from "next/script";
+import { createClient } from "next-sanity";
+
+const client = createClient({
+  projectId: "qavy5cow",
+  dataset: "production",
+  apiVersion: "2023-08-01",
+  useCdn: false,
+});
 
 export async function getServerSideProps() {
   const eventsData = await events__Data;
+  const eventSanityData = await client.fetch(`*[_type == "events"]`);
+  const eventSanityImage = await client.fetch(
+    `*[_type == "sanity.imageAsset"]`
+  );
   return {
     props: {
       eventsData,
+      eventSanityData,
+      eventSanityImage,
     },
   };
 }
 
-export default function events({ eventsData }) {
+export default function events({
+  eventsData,
+  eventSanityData,
+  eventSanityImage,
+}) {
   return (
     <>
       <Head>
@@ -49,8 +67,17 @@ export default function events({ eventsData }) {
           ]}
           spacer
         />
-        {eventsData.events.map((item, idx) => (
+        {/* {eventsData.events.map((item, idx) => (
           <Events key={idx} position={Number.isInteger(idx / 2)} data={item} />
+        ))} */}
+        {eventSanityData.map((item, idx) => (
+          <Events
+            key={idx}
+            index={idx}
+            imageData={eventSanityImage}
+            position={Number.isInteger(idx / 2)}
+            data={item}
+          />
         ))}
 
         <Socials />

@@ -2,17 +2,18 @@ import React, { useEffect, useState } from "react";
 import styles from "./Events.module.scss";
 import Image from "next/image";
 
-const Events = ({ position, data }) => {
+const Events = ({ position, data, index, imageData }) => {
   const [childCount, setChildCount] = useState(0);
   const [adultCount, setAdultCount] = useState(0);
   const [total, setTotal] = useState(0);
   const [names, setNames] = useState([]);
   const [lineItems, setLineItems] = useState({});
+  const [image, setImage] = useState(imageData);
 
   let stripeData = [
     {
       amount: total * 100,
-      name: data.name + " " + data.date,
+      name: data.event__Name + " " + data.date,
       currency: "GBP",
       quantity: 1,
       description: `${adultCount}x Adults, ${childCount}x Children (${names.join(
@@ -22,9 +23,7 @@ const Events = ({ position, data }) => {
   ];
 
   useEffect(() => {
-    setTotal(
-      childCount * data.price[1].child + adultCount * data.price[0].adult
-    );
+    setTotal(childCount * data.price[0] + adultCount * data.price[1]);
   }, [childCount, adultCount]);
 
   useEffect(() => {
@@ -50,13 +49,13 @@ const Events = ({ position, data }) => {
 
   return (
     <div className={styles.container}>
-      <dialog className={styles.event__Description} id={data.id}>
-        <h1>{data.name}</h1>
+      <dialog className={styles.event__Description} id={index}>
+        <h1>{data.event__Name}</h1>
         <div>
           <p>{data.description}</p>
           <div
             onClick={() => {
-              document.getElementById(data.id).close();
+              document.getElementById(index).close();
             }}
           >
             <h1>X</h1>
@@ -72,20 +71,22 @@ const Events = ({ position, data }) => {
       >
         <div className={styles.image__Container}>
           <Image
-            src={data.imgURL}
+            src={
+              image.filter((item) => item._id === data.imgURL.asset._ref)[0].url
+            }
             width={500}
             height={500}
             className={styles.event__Image}
-            alt={`Image from ${data.name} at ${data.postCode}`}
+            alt={`Image from ${data.event__Name} at ${data.postCode}`}
           />
         </div>
         <div className={styles.event__Details}>
           <div className={styles.details__Container}>
             <div className={styles.title__Container}>
-              <h1>{data.name}</h1>
+              <h1>{data.event__Name}</h1>
               <div
                 onClick={() => {
-                  document.getElementById(data.id).showModal();
+                  document.getElementById(index).showModal();
                 }}
               >
                 <svg
@@ -156,7 +157,7 @@ const Events = ({ position, data }) => {
           </div>
           <div className={styles.pricing__Container}>
             <div className={styles.pricing__Child}>
-              <h1>£{data.price[1].child}</h1> <p>/ Child</p>
+              <h1>£{data.price[0]}</h1> <p>/ Child</p>
               <div className={styles.counter}>
                 <button
                   onClick={() => {
@@ -176,7 +177,7 @@ const Events = ({ position, data }) => {
               </div>
             </div>
             <div className={styles.pricing__Adult}>
-              <h1>£{data.price[0].adult}</h1> <p>/ Adult</p>
+              <h1>£{data.price[1]}</h1> <p>/ Adult</p>
               <div className={styles.counter}>
                 <button
                   onClick={() => {
