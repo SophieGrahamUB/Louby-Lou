@@ -12,6 +12,8 @@
     "locations": [
       {
         "county": "Greater Manchester",
+        "image": "/images/locations/Greater-Manchester.webp",
+        "desc": ["Located in ", "Then Louby Lou has something for you!"],
         "towns": [
           "Hale",
           "Bolton",
@@ -29,6 +31,8 @@
       },
       {
         "county": "Lancashire",
+        "image": "/images/locations/Lancashire.webp",
+        "desc": ["Located in ", "Then Louby Lou has something for you!"],
         "towns": [
           "Blackburn",
           "Blackpool",
@@ -44,6 +48,8 @@
       },
       {
         "county": "Cheshire",
+        "image": "/images/locations/Cheshire.webp",
+        "desc": ["Located in ", "Then Louby Lou has something for you!"],
         "towns": [
           "Chester",
           "Crewe",
@@ -63,6 +69,8 @@
       },
       {
         "county": "Merseyside",
+        "image": "/images/locations/Merseyside.webp",
+        "desc": ["Located in ", "Then Louby Lou has something for you!"],
         "towns": [
           "Liverpool",
           "Birkenhead",

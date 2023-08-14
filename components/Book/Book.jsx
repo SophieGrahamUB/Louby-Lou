@@ -3,7 +3,7 @@ import styles from "./Book.module.scss";
 import Link from "next/link";
 import Contact from "../Contact/Contact";
 
-const Book = ({ button, type }) => {
+const Book = ({ button, type, location }) => {
   const handleOpen = (e) => {
     document.getElementById("e").showModal();
   };
@@ -13,6 +13,31 @@ const Book = ({ button, type }) => {
   };
 
   switch (type) {
+    case "county__link":
+      return (
+        <Link className={styles.link} href={`/services/location/${location}`}>
+          <button
+            className={button === true ? styles.button : styles.noDisplay}
+          >
+            See More
+          </button>
+        </Link>
+      );
+
+    case "town__link":
+      return (
+        <Link
+          className={styles.link}
+          href={`/services/location/town/${location}`}
+        >
+          <button
+            className={button === true ? styles.button : styles.noDisplay}
+          >
+            See More
+          </button>
+        </Link>
+      );
+
     case "events":
       return (
         <Link className={styles.link} href={"/events"}>

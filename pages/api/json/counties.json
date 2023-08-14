@@ -1,0 +1,22 @@
+[
+  {
+    "params": {
+      "location": "Greater Manchester"
+    }
+  },
+  {
+    "params": {
+      "location": "Lancashire"
+    }
+  },
+  {
+    "params": {
+      "location": "Merseyside"
+    }
+  },
+  {
+    "params": {
+      "location": "Cheshire"
+    }
+  }
+]
