@@ -33,7 +33,7 @@ const Navigation = () => {
         ))}
       </ul>
       <Burger />
-      <Link className={styles.button__Link__Container} href={links[3].target}>
+      <Link className={styles.button__Link__Container} href={links[4].target}>
         <button className={styles.button}>Book Now</button>
       </Link>
     </div>
