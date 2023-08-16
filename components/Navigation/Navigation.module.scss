@@ -62,29 +62,6 @@
   }
 }
 
-.button__Link__Container {
-  height: 80px;
-  width: 30%;
-  @media only screen and (min-width: $tablet) {
-    max-width: 10%;
-  }
-}
-
-.button {
-  height: 100%;
-  width: 100%;
-  background-color: $accent-light;
-  color: $background-dark;
-  font-size: $button-mobile;
-  border: none;
-  cursor: pointer;
-  @media only screen and (min-width: $tablet) {
-    max-width: 100%;
-    font-size: $button;
-  }
-}
-
-.button,
 .links {
   font-family: $body-font;
   font-weight: bold;

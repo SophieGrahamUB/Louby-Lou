@@ -74,3 +74,19 @@
     margin-left: 95%;
   }
 }
+
+.button__Navigation {
+  height: 80px;
+  width: 30%;
+  background-color: $accent-light;
+  color: $background-dark;
+  font-size: $button-mobile;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  @media only screen and (min-width: $tablet) {
+    max-width: 10%;
+    font-size: $button;
+    font-weight: bold;
+  }
+}

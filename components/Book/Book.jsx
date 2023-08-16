@@ -97,6 +97,35 @@ const Book = ({ button, type, location }) => {
         </>
       );
       break;
+
+    case "navigation":
+      return (
+        <>
+          <button
+            className={
+              button === true ? styles.button__Navigation : styles.noDisplay
+            }
+            onClick={(e) => {
+              // e.showModal();
+              handleOpen(e);
+            }}
+          >
+            Enquire Now
+          </button>
+          <dialog id="e" className={styles.enquire__Dialog}>
+            <button
+              className={styles.enquire__Close}
+              onClick={(e) => {
+                handleClose(e);
+              }}
+            >
+              x
+            </button>
+            <Contact />
+          </dialog>
+        </>
+      );
+      break;
   }
 };
 

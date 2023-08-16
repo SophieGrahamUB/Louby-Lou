@@ -3,6 +3,7 @@ import styles from "./Navigation.module.scss";
 import Image from "next/image";
 import Burger from "../Burger/Burger";
 import Link from "next/link";
+import Book from "../Book/Book";
 
 const Navigation = () => {
   let links = [
@@ -33,9 +34,8 @@ const Navigation = () => {
         ))}
       </ul>
       <Burger />
-      <Link className={styles.button__Link__Container} href={links[4].target}>
-        <button className={styles.button}>Book Now</button>
-      </Link>
+
+      <Book type={"navigation"} button />
     </div>
   );
 };
