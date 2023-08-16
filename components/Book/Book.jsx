@@ -106,7 +106,6 @@ const Book = ({ button, type, location }) => {
               button === true ? styles.button__Navigation : styles.noDisplay
             }
             onClick={(e) => {
-              // e.showModal();
               handleOpen(e);
             }}
           >
