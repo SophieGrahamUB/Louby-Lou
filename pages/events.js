@@ -9,9 +9,10 @@ import Companies from "@/components/Companies/Companies";
 import Script from "next/script";
 import { createClient } from "next-sanity";
 
+// Create a client instance to use on the page:
 const client = createClient({
-  projectId: "qavy5cow",
-  dataset: "production",
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
   apiVersion: "2023-08-01",
   useCdn: false,
 });
