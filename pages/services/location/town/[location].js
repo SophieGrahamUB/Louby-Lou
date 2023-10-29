@@ -40,13 +40,13 @@ const location = ({ location, pageData }) => {
   (as an odd number returns a float) 
   It then returns a left or right string to be used in a switch case 
   */
-  function isInt(n) {
+  const isInt = (n) => {
     if (Number.isInteger(n) === true) {
       return "left";
     } else {
       return "right";
     }
-  }
+  };
 
   let head = pageData.head;
 
