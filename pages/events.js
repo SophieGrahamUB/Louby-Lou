@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Head from "next/head";
 import Navigation from "@/components/Navigation/Navigation";
 import Socials from "@/components/Socials/Socials";
 import About from "@/components/About/About";
 import Events from "@/components/Events/Events";
-import events__Data from "./api/json/eventsList.json";
 import Companies from "@/components/Companies/Companies";
 import Script from "next/script";
 import { createClient } from "next-sanity";
@@ -18,25 +17,19 @@ const client = createClient({
 });
 
 export async function getServerSideProps() {
-  const eventsData = await events__Data;
   const eventSanityData = await client.fetch(`*[_type == "events"]`);
   const eventSanityImage = await client.fetch(
     `*[_type == "sanity.imageAsset"]`
   );
   return {
     props: {
-      eventsData,
       eventSanityData,
       eventSanityImage,
     },
   };
 }
 
-export default function events({
-  eventsData,
-  eventSanityData,
-  eventSanityImage,
-}) {
+export default function events({ eventSanityData, eventSanityImage }) {
   return (
     <>
       <Head>
