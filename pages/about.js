@@ -33,7 +33,7 @@ const about = () => {
         <Navigation />
         <About
           title={"GET TO KNOW LOUBY LOU"}
-          body={["Let's take you on a journey through Louby Lou's past!"]}
+          body={["Let's take you on a great journey through Louby Lou's past!"]}
           spacer
         />
         <Card
