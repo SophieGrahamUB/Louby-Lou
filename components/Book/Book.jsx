@@ -101,11 +101,11 @@ const Book = ({ button, type, location }) => {
     case "navigation":
       return (
         <>
-          
+          <a href="mailto:lucy@loubylou.co.uk">
           <button>
-            <a href="mailto:lucy@loubylou.co.uk">Enquire Now</a>
+            Enquire Now
           </button>
-          
+          </a>
           <dialog id="e" className={styles.enquire__Dialog}>
             <button
               className={styles.enquire__Close}
