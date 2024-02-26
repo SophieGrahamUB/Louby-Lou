@@ -1,5 +1,17 @@
 @import "../../styles/global/variables";
-
+.new-nav-enquire{
+    height: 30px;
+  outline: none;
+  border: none;
+  font-family: $body-font;
+  font-size: $button-mobile;
+  font-weight: bold;
+  color: $background-dark;
+  min-width: 50px;
+  background-color: $accent-light;
+  margin-right: 5px;
+  cursor: pointer;
+}
 .button {
   height: 30px;
   outline: none;
@@ -75,7 +87,7 @@
   }
 }
 
- a.button__Navigation {
+ .button__Navigation {
   height: 80px;
   width: 30%;
   background-color: $accent-light;
