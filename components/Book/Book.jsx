@@ -101,16 +101,11 @@ const Book = ({ button, type, location }) => {
     case "navigation":
       return (
         <>
-          <button
-            className={
-              button === true ? styles.button__Navigation : styles.noDisplay
-            }
-            onClick={(e) => {
-              handleOpen(e);
-            }}
-          >
+          <a href="mailto:lucy@loubylou.co.uk">
+          <button>
             Enquire Now
           </button>
+          </a>
           <dialog id="e" className={styles.enquire__Dialog}>
             <button
               className={styles.enquire__Close}
