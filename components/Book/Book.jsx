@@ -101,7 +101,7 @@ const Book = ({ button, type, location }) => {
     case "navigation":
       return (
         <>
-          <a href="mailto:lucy@loubylou.co.uk" class="new-nav-enquire">
+          <a href="mailto:lucy@loubylou.co.uk" className={styles.button__Navigation}>
           <button>
             Enquire Now
           </button>
