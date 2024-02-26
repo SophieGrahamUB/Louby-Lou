@@ -89,7 +89,7 @@
 
  .button__Navigation {
   height: 80px;
-  width: 30%;
+  width: 100%;
   background-color: $accent-light;
   color: $background-dark;
   font-size: $button-mobile;
@@ -97,7 +97,7 @@
   cursor: pointer;
   font-weight: bold;
   @media only screen and (min-width: $tablet) {
-    max-width: 10%;
+    max-width: 100%;
     font-size: $button;
     font-weight: bold;
   }
